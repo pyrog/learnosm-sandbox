@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<p>
+    Catégorie : {% for c in page.categories %} <a href="/categories/{{c}}" >{{ c | prepend: "#" }}</a>{% endfor %}
+</p>
+<article class="post-content">
+    {{ content }}
+</article>
