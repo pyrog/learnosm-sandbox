@@ -1,7 +1,19 @@
 # languages
--   code: fr
-    name: Français
+-   code: bi
+    name: Bahasa Indonesia
+-   code: de
+    name: Deutsch
 -   code: en
     name: English
--   code: de
-    name: Deutch
+-   code: es
+    name: Español
+-   code: fr
+    name: Français
+-   code: hr
+    name: Hrvatski
+-   code: it
+    name: Italiano
+-   code: pt
+    name: Português
+-   code: jp
+    name: 日本語

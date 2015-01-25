@@ -1,13 +1,7 @@
 ---
 layout: doc
-title: Field Papers
-permalink: /en/beginner/field-papers/
-lang: en
-category: beginner
+title: Surveying with Field Papers
 ---
-
-Surveying with Field Papers
-=============================
 
 In this chapter we will see how we can record the coordinates of places
 without a GPS. We will use a tool called [Field Papers](http://fieldpapers.org/), 
@@ -26,7 +20,7 @@ website. Print out a map of this area. You can choose to print the
 current map of the area on OpenStreetMap, or you can choose to print
 aerial imagery, if it is available in your area.
 
-![FieldPapers homepage][]
+![FieldPapers homepage]({{site.baseurl}}/images/homepage.png)
 
 2. Use your printed map to survey the area. Add more places by
 drawing them on the map. Draw lines for roads, shapes for buildings, and
@@ -34,7 +28,7 @@ so forth. Write notes about each location directly on the map, or write
 numbers on the map that relate to numbers in your notebook, where you
 can write more detailed information about each object.
 
-![Example fieldpaper print][]
+![Example fieldpaper print]({{site.baseurl}}/images/fieldp.png)
 
 3. Scan your paper into the computer. If you don't have a
 scanner, you can take a photograph of the paper, if your camera is able
@@ -44,7 +38,7 @@ website.
 4. In JOSM, load the Field Papers.  Use the objects you draw as
 a reference to add them digitally into OpenStreetMap.
 
-![Fieldpaper scan as a JOSM background][]
+![Fieldpaper scan as a JOSM background]({{site.baseurl}}/images/fieldpaperjosm.png)
 
 How does Field Papers work?
 -----------------------------
@@ -53,7 +47,7 @@ If you follow the Field Papers process described above, you will be
 collecting accurate geographic coordinates of places with nothing more
 than paper. How is this possible?
 
-![QR code][]
+![QR code]({{site.baseurl}}/images/paper_qrc.png)
 
 When you print a Field Paper, the paper comes with a square barcode on
 the bottom of the page. This bar code allows Field Papers to determine
@@ -72,16 +66,16 @@ Create and Print
     [fieldpapers.org](http://fieldpapers.org)
 -   The website should look something like this:
 
-![FieldPapers homepage][]
+![FieldPapers homepage]({{site.baseurl}}/images/homepage.png)
 
 
 -   Click **Make yourself an Atlas** to select the area you want to print out.
 
-![Create a new atlas][]
+![Create a new atlas]({{site.baseurl}}/images/makeatlas.png)
 	
 -   You will be directed to this page:
 	
-![Atlas location][]
+![Atlas location]({{site.baseurl}}/images/makeyourselfanatlas.png)
 	
 -	Type the name of your area of interest in the space provided. Then
     click "Start there".
@@ -93,20 +87,20 @@ Create and Print
     Left-clicking on the (+) and (–) buttons in the upper left corner will
     also zoom in and out.
 	
-![Zoom in and out][]
+![Zoom in and out]({{site.baseurl}}/images/zoominout.png)
 	
 -   Just above the map are some additional options. The first option is
     to select the orientation of the paper you want to use for printing the
 	Field Paper. You may choose either portrait or landscape.
 	
-![Choose map orientation][]
+![Choose map orientation]({{site.baseurl}}/images/choosetile.png)
 	
 -   The next option lets you select the kind of data you want to use
     for your Field Paper. Here you can select from different options
 	that will change how the map looks. For now, we will select
 	**Black and White**.
 
-![Choose map tile - black & white][]
+![Choose map tile - black & white]({{site.baseurl}}/images/blackandwhite.png)
 	
 -   You want to make sure that the window shows the area that you want to
     map. You can use the controls in the map window to resize the pages of
@@ -119,18 +113,18 @@ Create and Print
     paper look good, you are ready. Click the button labelled "Next",
     next to the dropdown box.
 	
-![labelnext][]
+![labelnext]({{site.baseurl}}/images/labelnext.png)
 	
 -	Provide a name for the paper. If you like, you can add text which will appear
     on each paper that is printed.
 
-![Provide a name][]
+![Provide a name]({{site.baseurl}}/images/name.png)
 	
 -	The next option lets you select a layout. It comes with three options.
 	You may add a UTM grid overlay to each map if you want to. In most cases,
     you can select "Maps Only," which is already selected by default.
 	
-![Layout][]
+![Layout]({{site.baseurl}}/images/layout.png)
 	
 -   Click "Finished!"
 -   You will see that your new print is being
@@ -138,12 +132,12 @@ Create and Print
     page. It usually only take a few minutes for a print to be ready, depending
     on how many pages you are creating.
 
-![Preparing your atlas][]
+![Preparing your atlas]({{site.baseurl}}/images/preparingyouratlas.png)
 
 -   When your print is ready, click "Download map PDF for print". The
     Field Paper should begin downloading.
 	
-![Download the pdf][]
+![Download the pdf]({{site.baseurl}}/images/downloadpdf.png)
 	
 -   When the download is finished, open the PDF file. Connect your
     computer to a printer and print the page. If everything goes well,
@@ -178,7 +172,7 @@ Scan and Upload
     example of a scanned/photographed image:
 
 
-![FP screenshot][]
+![FP screenshot]({{site.baseurl}}/images/scrnsht.png)
 
 
 -   Once you have your Field Paper scanned and saved on the computer,
@@ -186,21 +180,20 @@ Scan and Upload
     before.
 -   Click on the "Upload" tab.
 
-![Upload][]
+![Upload]({{site.baseurl}}/images/upload.png)
 	
 -   Click "Choose File" and navigate to the file where you
     scanned/photographed your Field Papers.
 	
 
-![uploadfp][]
-
+![uploadfp]({{site.baseurl}}/images/uploadfp.png)
 	
 -   Click "Upload"
 -   It may take a few minutes for your paper to upload, depending on the
     speed of your internet connection. When the upload finishes, you will
 	see something like this:
 
-![Upload 2][]
+![Upload 2]({{site.baseurl}}/images/asd.png)
 
 Add the Field Papers Plugin
 ---------------------------
@@ -217,7 +210,7 @@ Add the Field Papers Plugin
 -   Click on the Plugins tab.
 -   Find the Field Papers plugin and check the box next to it. Click OK.
 
-![FieldPapers JOSM plugin][]
+![FieldPapers JOSM plugin]({{site.baseurl}}/images/plugin.png)
 
 -   Restart JOSM.
 
@@ -233,7 +226,7 @@ Open in JOSM
 -   Find your paper from the list, and click on it. You should see
     something like this:
 
-![Scanned paper][]
+![Scanned paper]({{site.baseurl}}/images/watchsnapshot.png)
 
 -   To load the paper into JOSM, we need to copy the snapshot ID of the Field
     Papers you have scanned. In the URL bar at the top of your internet
@@ -241,32 +234,32 @@ Open in JOSM
     The text should look similar to this:
     [http://fieldpapers.org/snapshot.php?id=zqw8m33x#16/14.6582/121.1098](http://fieldpapers.org/snapshot.php?id=zqw8m33x#16/14.6582/121.1098)
 	
-![Fieldpaper ID][]
+![Fieldpaper ID]({{site.baseurl}}/images/fieldpaperid.png)
 	
 -   On the top menu of JOSM, Click "Field Papers". Then click "Scanned
     Map..."
 	
-![Scanned map][]
+![Scanned map]({{site.baseurl}}/images/scannedmap.png)
 	
 -   Press CTRL+V on your keyboard to paste the text that you copied from
     the Field Papers website.
 	
-![Snapshot][]
+![Snapshot]({{site.baseurl}}/images/fsnapshot.png)
 	
 -   Click OK.
 -   If all went well, you should see your Field Paper load into JOSM.
     In the next chapter, we will see how to add the places that you
     mapped into OpenStreetMap.
 
-![Fieldpaper scan as a JOSM background][]
+![Fieldpaper scan as a JOSM background]({{site.baseurl}}/images/fieldpaperjosm.png)
 
 You can also use your scanned Field Papers in other OSM online editors 
 such as iD or Potlatch2 by clicking the "Edit in iD" or "Edit in Potlatch"
 links in the scanned Field Papers page. 
 
-![Edit in iD or P2][]
+![Edit in iD or P2]({{site.baseurl}}/images/editinidorpot.png)
 
-![Snapshot layer in iD][]
+![Snapshot layer in iD]({{site.baseurl}}/images/id.png)
 	
 Repeat!
 -------
@@ -287,34 +280,7 @@ scan a Field Paper, and how you can use them to improve OpenStreetMap.
 Moving Forward
 --------------
 
-Click on the link for further reading on:  
+Click on the link for further reading on:
 
-*  [Surveying with GPS](/en/beginner/using-gps/)  
-*  [Editing Field Data](/en/beginner/editing-with-josm/) 
-
-[FieldPapers homepage]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image00_homepage.png
-[Example fieldpaper print]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image01_fieldp.png
-[Fieldpaper scan as a JOSM background]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image02_fieldpaperjosm.png
-[QR code]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image03_paper_qrc.png
-[Create a new atlas]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image04_makeatlas.png
-[Atlas location]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image05_makeyourselfanatlas.png
-[Zoom in and out]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image06_zoominout.png
-[Choose map orientation]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image07_choosetile.png
-[Choose map tile - black & white]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image08_blackandwhite.png
-[zoom]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image09_zoom.png
-[labelnext]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image10_labelnext.png
-[Provide a name]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image11_name.png
-[Layout]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image12_layout.png
-[Preparing your atlas]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image13_preparingyouratlas.png
-[Download the pdf]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image14_downloadpdf.png
-[FP screenshot]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image15_scrnsht.png
-[Upload]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image16_upload.png
-[uploadfp]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image17_uploadfp.png
-[Upload 2]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image18_asd.png
-[FieldPapers JOSM plugin]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image19_plugin.png
-[Scanned paper]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image20_watchsnapshot.png
-[Fieldpaper ID]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image21_fieldpaperid.png
-[Scanned map]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image22_scannedmap.png
-[Snapshot]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image23_fsnapshot.png
-[Edit in iD or P2]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image24_editinidorpot.png
-[Snapshot layer in iD]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image25_id.png
+*  [Surveying with GPS](/en/beginner/using-gps/)
+*  [Editing Field Data](/en/beginner/editing-with-josm/)

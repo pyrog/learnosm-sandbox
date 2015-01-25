@@ -1,13 +1,7 @@
 ---
 layout: doc
 title: Further Reading
-permalink: /en/beginner/moving-forward/
-lang: en
-category: beginner
 ---
-
-Further Reading
-===============
 
 If you have made it this far, congratulations! You should have a good
 understanding now of how to make maps with OpenStreetMap. What else can
@@ -22,7 +16,7 @@ There is a lot of information about OpenStreetMap available at
 find information about other projects that are related to OpenStreetMap,
 and documents and tutorials that can help you learn more about OSM.
 
-![Wiki][]
+![Wiki]({{site.baseurl}}/images/osm-wiki.png)
 
 <!-- also more info on this site once it is prepared -->
 
@@ -39,7 +33,7 @@ OpenStreetMap.
     browser and go to
     [lists.openstreetmap.org](http://lists.openstreetmap.org/).
 
-![Mailing list][]
+![Mailing list]({{site.baseurl}}/images/osm-mailing-lists.png)
 
 -   Scroll down the page to find the list associated with your country.
     The country lists are named "Talk-lg", where lg represents the
@@ -74,7 +68,7 @@ is a simple tool for printing a map of any area you choose. It will
 automatically create the map, along with a grid over the map, and an
 index of locations that are included in the area.
 
-![MapOSMatic][]
+![MapOSMatic]({{site.baseurl}}/images/maposmatic-homepage.png)
 -->
 
 
@@ -85,8 +79,3 @@ These are some of the ways that you can use and stay connected with the
 OpenStreetMap community and learn more. We hope you'll continue
 exploring and learning more about OSM, and contribute to the project.
 Happy Mapping!
-
-
-[MapOSMatic]: /images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image00_maposmatic-homepage.png
-[Wiki]: /images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image01_osm-wiki.png
-[Mailing list]: /images/en/beginner/08_moving-forward/en_beg_08_moving-forward_image02_osm-mailing-lists.png

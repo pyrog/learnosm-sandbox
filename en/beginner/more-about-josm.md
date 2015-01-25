@@ -1,13 +1,8 @@
 ---
 layout: doc
 title: The JOSM Editing Process
-permalink: /en/beginner/more-about-josm/
-lang: en
-category: beginner
 ---
 
-The JOSM Editing Process
-========================
 In the previous section you
 installed JOSM and began drawing your first points, lines, and shapes.
 You added presets to these objects in order to attach information about
@@ -40,13 +35,13 @@ to make changes to the map, because the map is often being updated by other user
     this window more simply by clicking on the download button, shown
     here:
 
-![JOSM Download Button][]
+![JOSM Download Button]({{site.baseurl}}/images/download-button.png)
 
 -  When the download window opens, you should see a map with a pink box
     drawn on it. If you don’t see the map, click on the tab marked
     “Slippy map”.
 
-![JOSM Download Dialog][]
+![JOSM Download Dialog]({{site.baseurl}}/images/download-dialog.png)
 
 -  The pink box represents the area of the map that we would like to
     download for editing. Use your mouse to pan and zoom it to an area
@@ -55,9 +50,9 @@ to make changes to the map, because the map is often being updated by other user
     lets you drag the map, and your scroll wheel allows you to zoom in and
     out.
 
->	Sometimes if you are working on a notebook computer it can be difficult
->	to scroll in and out. Working in JOSM is much easier if you have a mouse,
->	but most modern notebooks allow you to scroll using the touchpad.
+> Sometimes if you are working on a notebook computer it can be difficult
+to scroll in and out. Working in JOSM is much easier if you have a mouse,
+but most modern notebooks allow you to scroll using the touchpad.
 
 -	Draw a box around the area that you want to download. To draw a new box, click on the
     map, hold your left mouse button down, and drag your mouse to create
@@ -80,10 +75,8 @@ contributing to the map.
 >   If you don't see Bing Sat on the Imagery menu, you may need to activate
 >   it in the JOSM preferences. Go to Edit -> Preferences and click on the icon
 >   that says “WMS TMS”. You may need to click on the down arrow to find it.
->
->	![JOSM Preferences up down][]
->	![JOSM Preferences WMS TMS][]
->
+> ![JOSM Preferences up down]({{site.baseurl}}/images/preferences-up-down.png)
+> ![JOSM Preferences WMS TMS]({{site.baseurl}}/images/preferences-wms-tms.png)
 >   Click on “Bing Sat”. Then Click “Activate”.
 
 
@@ -91,7 +84,7 @@ contributing to the map.
 Now that we've downloaded OpenStreetMap data and added the Bing satellite imagery,
 let's take another look at the interface of JOSM.
 
-![JOSM layout][]
+![JOSM layout]({{site.baseurl}}/images/josm-layout.png)
 
 The main window you are already familiar with - this is the map window, and 
 it is where most of the action takes place. Here you will view, edit, and
@@ -132,17 +125,16 @@ have seen previously - points, lines, and shapes that represent real-life locati
     should be. This can be used to correct the location of items that
     have been put in the wrong place.
 
-![JOSM select tool][]
+![JOSM select tool]({{site.baseurl}}/images/select-tool.png)
 
 -  Use the **draw tool** to draw new points, lines, and shapes.
     Describe these objects by selecting from the Presets menu, as you
     did in the previous section. 
 
->	Never edit the map outside of the area you have downloaded. You
->	can see the rectangular area you have downloaded has a solid background,
->	while the area you have not downloaded has diagonal pinstriped lines.
->
->	![JOSM area downloaded][]
+> Never edit the map outside of the area you have downloaded. You
+can see the rectangular area you have downloaded has a solid background,
+while the area you have not downloaded has diagonal pinstriped lines.
+![JOSM area downloaded]({{site.baseurl}}/images/area-downloaded.png)
 
 Save Changes
 --------------
@@ -154,14 +146,14 @@ be connected to the internet.
     will open up the upload window. You can access this window more
     simply by clicking on the upload button, shown here:
 
-![JOSM Upload Button][]
+![JOSM Upload Button]({{site.baseurl}}/images/upload-button.png)
 
 -  The window that appears shows a list of the objects that you are
     adding and the objects you are modifying or deleting. In the box at
     the bottom you are asked to provide a comment about the changes that
     you are making. Type in here a description of your edits.
 
-![JOSM Upload Dialog][]
+![JOSM Upload Dialog]({{site.baseurl}}/images/upload-dialog.png)
 
 -  Click “Upload Changes”.
 
@@ -171,15 +163,15 @@ be connected to the internet.
     this window, your username and password will be saved and you won’t
     need to enter them again in the future. Click “Authenticate”.
 
-![JOSM Authenticate][]
+![JOSM Authenticate]({{site.baseurl}}/images/authenticate.png)
 
 -	You will need to wait a few seconds for your changes to be uploaded,
     and then you are done! You have edited the map on OpenStreetMap.
 
->	When you are editing, always be sure to upload your changes before you
->	close JOSM. Even if you still have more editing to do, upload your changes,
->	and then go through the process again later when you have time to edit. You
->	don't want to lose your work!
+> When you are editing, always be sure to upload your changes before you
+close JOSM. Even if you still have more editing to do, upload your changes,
+and then go through the process again later when you have time to edit. You
+don't want to lose your work!
 
 See your changes on the map
 ---------------------------
@@ -212,16 +204,4 @@ Click on the link for further reading on:
  
 *  [Surveying with GPS](/en/beginner/using-gps/)  
 *  [Field Papers](/en/beginner/field-papers/)
-*  [Editing Field Data](/en/beginner/editing-with-josm/) 
-
-
-[JOSM Download Button]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image00_download-button.png
-[JOSM Download Dialog]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image01_download-dialog.png
-[JOSM Preferences up down]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image02_preferences-up-down.png
-[JOSM Preferences WMS TMS]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image03_preferences-wms-tms.png
-[JOSM layout]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image04_layout.png
-[JOSM select tool]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image05_select-tool.png
-[JOSM area downloaded]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image06_area-downloaded.png
-[JOSM Upload Button]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image07_upload-button.png
-[JOSM Upload Dialog]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image08_upload-dialog.png
-[JOSM Authenticate]: /images/en/beginner/04_more-about-josm/eng_beg_04_more-about-josm_image09_authenticate.png
+*  [Editing Field Data](/en/beginner/editing-with-josm/)

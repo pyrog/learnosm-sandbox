@@ -1,20 +1,14 @@
 ---
 layout: doc
-title: OpenStreetMap.org
-permalink: /en/beginner/start-osm/
-lang: en
-category: beginner
+title: Getting started on OpenStreetMap.org
 ---
-
-Getting started on OpenStreetMap.org
-====================================
 
 In this section we will learn step by step how to navigate the
 OpenStreetMap website, view maps, and sign up for a user
 account. After you have your own username and password, you will be able
 to contribute your first points to the map.
 
-![website][]
+![website]({{site.baseurl}}/images/website.png)
 
 Visit the OpenStreetMap Website
 -------------------------------
@@ -28,7 +22,8 @@ Visit the OpenStreetMap Website
 -   When the page has finished loading, you should see something like
     this:
 
-    ![OpenStreetMap website with some main functions listed][]
+    ![OpenStreetMap website with some main functions listed]({{site.baseurl}}/images/osm-website-main-functions.png)
+
 
 Navigate the Map
 ----------------
@@ -37,7 +32,7 @@ Navigate the Map
     on it with your left mouse button, holding the button down, and
     dragging your mouse around (see figure below).
 
-    ![Mouse navigation][]
+    ![Mouse navigation]({{site.baseurl}}/images/mouse-navigation.png)
 
 -   If you have a mouse with a scroll-wheel, zoom in and out on the map
     by turning the wheel. If you don’t have a scroll-wheel, use the +
@@ -50,8 +45,8 @@ Navigate the Map
     location that looks like the one you want. The map will
     automatically move to the location you chose.
 
-    ![Search][]
-   
+    ![Search]({{site.baseurl}}/images/search.png)
+ 
 
 View Different Map Styles
 ------------------------
@@ -63,7 +58,7 @@ available on the OSM website.
 
 -   Click on the Layers button on the right side of the map window.
 
-    ![Layers button][]
+    ![Layers button]({{site.baseurl}}/images/layers.png)
 
 -   Click on the different style options for the map. Notice how the map
     changes with each one. The transport map, for example, emphasizes
@@ -71,7 +66,7 @@ available on the OSM website.
     routes. All of the data to make this possible is contained in the OSM
     database.
 
-    ![Transport map][]
+    ![Transport map]({{site.baseurl}}/images/transport-map.png)
 
 Create an OpenStreetMap Account
 -------------------------------
@@ -83,8 +78,8 @@ Create an OpenStreetMap Account
     right corner of the page.
 -   You should see a new page that looks like this:
 
-    ![Registering an OpenStreetMap account][]
-
+    ![Registering an OpenStreetMap account]({{site.baseurl}}/images/registering-account.png)
+    
 -   There are five boxes on this page that you need to fill in to
     register an account with OSM.
 -   Enter your email address in the first two boxes. You should enter
@@ -118,8 +113,8 @@ Create an OpenStreetMap Account
     look like the image below. Click on the link that is identified
     below:
 
-    ![Confirming your OpenStreetMap account][]
-
+    ![Confirming your OpenStreetMap account]({{site.baseurl}}/images/confirming-account.png)
+    
 -   A new tab or window will open. If everything went well, you should
     have an OSM account!
 -   On the OpenStreetMap page, click “log in” in the top right corner.
@@ -141,17 +136,15 @@ Adding Your First Points
     drop down.
 -   Click “Edit with iD (in-browser editor)”.
 
-    ![Click edit][]
-
+    ![Click edit]({{site.baseurl}}/images/click-edit.png)
 -   The online editor, named iD, should open. It will look something like this.
 
-    ![iD editor][]
-
+    ![iD editor]({{site.baseurl}}/images/id-editor.png)
 -   You can add a point to the map by clicking on the button named "Point" at
     the top the window. Then click on the map where you would like to add a new
     point.
 
-    ![Point button][]    
+    ![Point button]({{site.baseurl}}/images/point-button.png) 
 
 -   Select from the menu on the left what type of location it is that you are
     adding to the map. You can then fill in the appropriate form with the location's
@@ -160,7 +153,7 @@ Adding Your First Points
     first edit, you may prefer to play around with the editor. Don't save your changes
     unless you are sure they are correct.
 
-    ![Save button][]    
+    ![Save button]({{site.baseurl}}/images/save-button.png)
 
 -   If you do click Save, you will be asked to provide a description of your changes.
     Then you can click "Save" once more, and your additions will be saved to the
@@ -191,17 +184,3 @@ Click on the link for further reading on:
 *  [Getting started with the iD editor](/en/editing/id-editor/)   
 *  [Getting started with the JOSM editor](/en/beginner/start-josm/) 
 *  [To continue with the Remote, Armchair or Mapathon section of LearnOSM](/en/coordination/remote/)  
-
-
-[website]: /images/en/beginner/02_start-osm/en_beg_02_start-osm_image00_website.png
-[OpenStreetMap website with some main functions listed]: /images/en/beginner/02_start-osm/en_beg_02_start-osm_image01_osm-website-main-functions.png
-[Mouse navigation]: /images/en/beginner/02_start-osm/en_beg_02_start-osm_image02_mouse-navigation.png
-[Search]: /images/en/beginner/02_start-osm/en_beg_02_start-osm_image03_search.png
-[Layers button]: /images/en/beginner/02_start-osm/en_beg_02_start-osm_image04_layers.png
-[Transport map]: /images/en/beginner/02_start-osm/en_beg_02_start-osm_image05_transport-map.png
-[Registering an OpenStreetMap account]: /images/en/beginner/02_start-osm/en_beg_02_start-osm_image06_registering-account.png
-[Confirming your OpenStreetMap account]: /images/en/beginner/02_start-osm/en_beg_02_start-osm_image07_confirming-account.png
-[Click edit]: /images/en/beginner/02_start-osm/en_beg_02_start-osm_image08_click-edit.png
-[iD editor]: /images/en/beginner/02_start-osm/en_beg_02_start-osm_image09_id-editor.png
-[Point button]: /images/en/beginner/02_start-osm/en_beg_02_start-osm_image10_point-button.png
-[Save button]: /images/en/beginner/02_start-osm/en_beg_02_start-osm_image11_save-button.png

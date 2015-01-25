@@ -26,7 +26,7 @@ information? Spend a few minutes making your map, and when you’re
 finished, think about why the information you included is important, and
 who it might be important to.
 
-![Example of a hand-drawn map][]
+![Example of a hand-drawn map]({{site.baseurl}}/images/hand-drawn-map.png)
 
 If your town is like most, you may have drawn some lines to represent
 roads, possibly a river or stream. Perhaps you added important buildings
@@ -35,7 +35,7 @@ you probably used symbols – a line to symbolize a road, a square to
 symbolize a building, and so on. Your map is a representation of what is
 on the ground.
 
-![Examples of symbols][]
+![Examples of symbols]({{site.baseurl}}/images/examples-of-symbols.png)
 
 Your map is informative. You might use a map like this to explain to
 someone where different places are, where problems are in your
@@ -47,7 +47,7 @@ is merely on paper, it is difficult to get that information to others.
 This is why making your map on a computer, in such a way that anyone can
 access it, can be much more valuable. 
 
-![Mapping on Computer][]
+![Mapping on Computer]({{site.baseurl}}/images/mapping-on-computer.png)
 
 OpenStreetMap is a tool for creating and sharing map information. 
 Anyone can contribute to OSM, and thousands of people add to the project 
@@ -58,7 +58,7 @@ fields, and anything else, and we still represent schools and hospitals
 with symbols. The important thing is that OSM maps are saved on the 
 internet, and anyone can access them at any time, totally free.
 
-![Digital maps with OpenStreetMap][]
+![Digital maps with OpenStreetMap]({{site.baseurl}}/images/digital-maps-with-osm.png)
 
 We hope that you will find OpenStreetMap useful and interesting in your
 work. By following this guide, you should be able to quickly start
@@ -71,10 +71,4 @@ Click on the link for further reading on:
 
 *  [Getting started on OpenStreetMap.org](/en/beginner/start-osm/) 
 *  [Getting started with the iD editor](/en/editing/id-editor/)   
-*  [Getting started with the JOSM editor](/en/beginner/start-josm/)  
-
-
-[Example of a hand-drawn map]: /images/en/beginner/01_introduction/en_beg_01_introduction_image01_hand-drawn-map.png
-[Examples of symbols]: /images/en/beginner/01_introduction/en_beg_01_introduction_image02_examples-of-symbols.png
-[Mapping on Computer]: /images/en/beginner/01_introduction/en_beg_01_introduction_image03_mapping-on-computer.png
-[Digital maps with OpenStreetMap]: /images/en/beginner/01_introduction/en_beg_01_introduction_image04_digital-maps-with-osm.png
+*  [Getting started with the JOSM editor](/en/beginner/start-josm/)
