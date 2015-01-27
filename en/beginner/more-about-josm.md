@@ -13,8 +13,7 @@ This was good practice, and now we are ready to edit OpenStreetMap.
 In this section we will take a closer look at the interface of JOSM, and see
 how we can use it to edit the map on OpenStreetMap.
 
-The Cycle of Editing
----------------------
+## The Cycle of Editing
 Editing OpenStreetMap with JOSM is similar to editing with the iD editor we
 saw previously. But because JOSM is a desktop application, it works a little
 bit differently. The process of editing and adding to OpenStreetMap with
@@ -24,8 +23,7 @@ JOSM will always be as follows:
 2. **Edit** it using Satellite Imagery, GPS, Field Papers, and notes as a guide
 3. **Save** changes to OpenStreetMap
 
-Downloading OSM Data
---------------------
+## Downloading OSM Data
 The first editing step is to download the data for the area of the world that
 we want to improve. Remember that you need to do this every time that you want
 to make changes to the map, because the map is often being updated by other users.
@@ -106,8 +104,7 @@ zoom in, delete an object, draw a shape, or create a line that is parallel
 to another line.
 
 
-Edit
-----
+## Edit
 So we have completed step one of the editing process - Downloading. We have
 prepared JOSM with satellite imagery as a reference. The next step is to edit
 the map and add new items.
@@ -136,8 +133,7 @@ can see the rectangular area you have downloaded has a solid background,
 while the area you have not downloaded has diagonal pinstriped lines.
 ![JOSM area downloaded]({{site.baseurl}}/images/area-downloaded.png)
 
-Save Changes
---------------
+## Save Changes
 The third and final step to complete our edits is to upload the changes we have
 made to the OpenStreetMap database. To save the changes, we must
 be connected to the internet.
@@ -173,8 +169,7 @@ close JOSM. Even if you still have more editing to do, upload your changes,
 and then go through the process again later when you have time to edit. You
 don't want to lose your work!
 
-See your changes on the map
----------------------------
+## See your changes on the map
 -  Open your internet browser and go to [http://openstreetmap.org/](http://openstreetmap.org/)
 -  Move the map to the area that you edited.
 -  You should see your changes now appearing on the map! If you don’t,
@@ -186,8 +181,7 @@ See your changes on the map
     general rule is, if your point has an icon in JOSM, then it should
     be seen on the main map at the OpenStreetMap website.
 
-Summary
--------
+## Summary
 Now that you’ve seen how to add to OpenStreetMap, what’s next? Well, editing
 is great, but it's not the only aspect of making maps. Of course you also
 need to learn how to go outside and collect information about places on the
@@ -197,8 +191,7 @@ In the next sections we will learn about two methods - GPS and Field Papers,
 which are used to collect geographic data. The information from both of these
 can then be imported into JOSM, and used to edit the map.
 
-Moving Forward
---------------
+## Moving Forward
 
 Click on the link for further reading on:  
  

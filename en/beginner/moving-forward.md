@@ -8,8 +8,7 @@ understanding now of how to make maps with OpenStreetMap. What else can
 you do with OSM? How can you learn more? How can you stay connected to
 the community of mappers?
 
-Learn More
-----------
+## Learn More
 
 There is a lot of information about OpenStreetMap available at
 [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Here you can
@@ -20,8 +19,7 @@ and documents and tutorials that can help you learn more about OSM.
 
 <!-- also more info on this site once it is prepared -->
 
-Mailing List
-------------
+## Mailing List
 
 The best way to get connected to the OpenStreetMap user community is to
 join your local mailing list. Many people sign up, using their email
@@ -59,8 +57,7 @@ OpenStreetMap.
     emails when other members send a message to the list.
 
 <!-- maybe expand and put this back later
-MapOSMatic
-----------
+## MapOSMatic
 
 One such project is called MapOSMatic, which you can access through your
 internet browser at [maposmatic.org](http://www.maposmatic.org/). This
@@ -72,8 +69,7 @@ index of locations that are included in the area.
 -->
 
 
-Summary
--------
+## Summary
 
 These are some of the ways that you can use and stay connected with the
 OpenStreetMap community and learn more. We hope you'll continue

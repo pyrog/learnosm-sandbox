@@ -1,14 +1,8 @@
 ---
 layout: doc
-title: Greffons JOSM
-permalink: /fr/beginner/josm-plugins/
-lang: fr
-category: beginner
+title: Préférences et greffons JOSM
 otherguides: "Les autres niveaux"
 ---
-
-Préférences et greffons JOSM
-============================
 
 À mesure que vous progressez dans votre technique d'édition des données,
 vous aurez envie d'ajouter des fonctionnalités à JOSM pour augmenter votre
@@ -43,8 +37,7 @@ Nous vous recommandons également ces greffons, qui sont abordés dans d'autres 
 - Buildings\_tool
 - Utilsplugin2
 
-Mirrored Download
------------------
+## Mirrored Download
 
 ![]({{site.baseurl}}/images/plugins_html_m2c477766_en.png)
 
@@ -61,8 +54,7 @@ menu Fichier «Télécharger depuis un miroir OSM…»
 Ensuite, le téléchargement se passe exactement de la même manière que ce que 
 vous avez déjà vu, mais avec un peu de chance, il sera beaucoup plus rapide !
 
-Direct Upload
--------------
+## Direct Upload
 
 ![]({{site.baseurl}}/images/plugins_html_m37f530e4_en.png)
 
@@ -93,8 +85,7 @@ compte OSM, vous devez le faire maintenant.
 ce greffon et les envois de traces GPS dans les [Annexes]{{site.baseurl}}/learnosm/fr/).
 
 
-edit gpx
---------
+## edit gpx
 
 ![]({{site.baseurl}}/images/plugins_html_m1d1170b2_en.png)
 
@@ -123,8 +114,7 @@ rectangle) à supprimer. Le surlignage jaune doit disparaître.
 5. Vous pouvez maintenant enregistrer le calque GPX normal comme fichier, ou l'envoyer 
 au serveur OSM (par exemple avec le greffon [DirectUpload](http://josm.openstreetmap.de/wiki/Plugins)).
 
-Print
------
+## Print
 
 ![]({{site.baseurl}}/images/plugins_html_m66e7a0a9_en.png)
 
@@ -146,8 +136,7 @@ en ajustant le nombre de «ppi» (points par pouces).
 Quand vous êtes satisfait de vos réglages, cliquez sur le bouton «Imprimez».
 
 
-Résumé
-------
+## Résumé
 
 Voilà quelques greffons parmi les plus utiles disponibles dans JOSM, mais 
 n'hésitez pas à en tester d'autres. Comme vous l'avez déjà vu, le menu 
@@ -159,11 +148,9 @@ une page web avec tous les détails si vous cliquez sur le lien «plus d'infos�
 
 Bonne chance !
 
-Annexe
-------
+## Annexe
 
-Détails sur DirectUpload
-------------------------
+## Détails sur DirectUpload
 
 ![]({{site.baseurl}}/images/plugins_html_m7e14a056_en.png)
 
@@ -216,8 +203,7 @@ privé, public, traçable, identifiable.
 
 ![]({{site.baseurl}}/images/plugins_html_2009cd0_en.png)
 
-Envoyer les traces GPS en ligne
--------------------------------
+## Envoyer les traces GPS en ligne
 
 1. Allez à l'adresse [http://www.openstreetmap.org/](http://www.openstreetmap.org/) 
 et connectez-vous.

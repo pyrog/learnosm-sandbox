@@ -1,15 +1,9 @@
 ---
 layout: doc
 title: Premiers pas avec JOSM
-permalink: "/fr/beginner/start-josm/"
-lang: fr
-category: beginner
 otherguides: Les autres niveaux
 published: true
 ---
-
-Premiers pas avec JOSM
-======================
 
 Dans ce chapitre, nous allons voir pas à pas comment télécharger et installer
 JOSM, l'éditeur d'OpenStreetMap en Java. Nous allons aussi changer quelques
@@ -20,8 +14,7 @@ carte de votre ville ou village dans le chapitre 1 ? A la fin de ce chapitre,
 nous allons de nouveau en tracer la carte, mais cette fois sur l'ordinateur.
 Vous aurez alors une bonne vue d'ensemble de la création de carte avec JOSM.
 
-Télécharger JOSM
-----------------
+## Télécharger JOSM
 
 > Si vous avez une copie de JOSM sur un CD ou une clé USB, vous pouvez
 > directement passer à la section 2, «Installer JOSM».
@@ -43,8 +36,7 @@ Télécharger JOSM
     procédure pour Windows, mais les instructions sont les mêmes pour les autres
     systèmes d'exploitation.
 
-Installer JOSM
---------------
+## Installer JOSM
 
 -   Si Java n'est pas installé sur votre ordinateur, l'installation va échouer.
     Si c'est le cas, essayez de télécharger et installer Java. Vous pouvez le
@@ -65,8 +57,7 @@ Installer JOSM
 
     ![]({{site.baseurl}}/images/start_josm_image08_en.png)
 
-Changer les paramètres de JOSM
-------------------------------
+## Changer les paramètres de JOSM
 
 Avant de commencer à l'utiliser, on va changer quelques paramètres qui vont
 rendre son utilisation plus facile. Pour cela, cliquez sur «Modifier» dans la
@@ -135,8 +126,7 @@ langue, vous pouvez l'activer via les préférences.
 -   Vous pouvez relancer JOSM via le menu «Démarrer», dans le coin en bas à
     gauche de votre écran. Localisez JOSM et cliquez dessus pour le lancer.
 
-Les bases du tracé avec JOSM
-----------------------------
+## Les bases du tracé avec JOSM
 
 -   Commençons par télécharger une carte OSM de test que nous allons
     utiliser pour apprendre les rudiments de JOSM. Notez que ceci n'est pas une
@@ -276,8 +266,7 @@ de même si nos polygones sont des champs, des bâtiments, ou autre chose.
     polygone devrait changer de couleur ou afficher un symbole. C'est parce que
     vous avez maintenant défini de quoi il s'agit.
 
-Tracer votre carte
-------------------
+## Tracer votre carte
 
 C'est le moment de tracer une carte pour mettre en pratique ce que l'on vient
 d'apprendre. Vous pouvez par exemple tracer la carte que vous aviez dessiné dans
@@ -290,8 +279,7 @@ le chapitre 1.
 -   Quand vous aurez fini, vous devriez avoir une carte similaire à celle que
     nous avons chargée avec le fichier «sample.osm».
 
-En résumé
----------
+## En résumé
 
 Excellent ! Si tout s'est bien passé, vous avez appris comment installer JOSM
 sur votre ordinateur, et vous connaissez maintenant les outils de base pour

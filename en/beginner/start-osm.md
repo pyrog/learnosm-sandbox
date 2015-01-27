@@ -10,8 +10,7 @@ to contribute your first points to the map.
 
 ![website]({{site.baseurl}}/images/website.png)
 
-Visit the OpenStreetMap Website
--------------------------------
+## Visit the OpenStreetMap Website
 
 -   Before you begin, be sure your computer is connected to the internet.
     (If you are reading this online, then you must be connected!)
@@ -25,8 +24,7 @@ Visit the OpenStreetMap Website
     ![OpenStreetMap website with some main functions listed]({{site.baseurl}}/images/osm-website-main-functions.png)
 
 
-Navigate the Map
-----------------
+## Navigate the Map
 
 -   The main thing you should see is the map. Move the map by clicking
     on it with your left mouse button, holding the button down, and
@@ -48,8 +46,7 @@ Navigate the Map
     ![Search]({{site.baseurl}}/images/search.png)
  
 
-View Different Map Styles
-------------------------
+## View Different Map Styles
 
 OpenStreetMap contains geographic data from all over the world. Although
 it is a single database, the data can be interpreted and styled in
@@ -68,8 +65,7 @@ available on the OSM website.
 
     ![Transport map]({{site.baseurl}}/images/transport-map.png)
 
-Create an OpenStreetMap Account
--------------------------------
+## Create an OpenStreetMap Account
 
 -   Now that you have seen what the main website looks like, you can
     register for a username and password and make your first additions
@@ -122,8 +118,7 @@ Create an OpenStreetMap Account
     should now be logged in. You should see your username in the upper
     right corner of the page.
 
-Adding Your First Points
-------------------------
+## Adding Your First Points
 
 -   Now that you are logged in with your username on the OpenStreetMap
     website, you can use the iD editor to add your first point to
@@ -166,8 +161,7 @@ we will be looking at JOSM, a standalone application that offers many more featu
 to continue playing with iD. Once you have more experience contributing to OSM, you can choose
 which editor you like using the best.
 
-Summary
--------
+## Summary
 
 Congratulations! If all went well you now have an OpenStreetMap username
 and password, you know how to navigate the OSM website, and you have
@@ -176,8 +170,7 @@ your first understanding of how to add points to the map.
 In the next chapter, we will install a desktop editor for OpenStreetMap,
 called JOSM, and learn better how to draw digital maps.
 
-Moving Forward
---------------
+## Moving Forward
 
 Click on the link for further reading on:  
 

@@ -18,8 +18,7 @@ the same thing, so if you are working with a different one, don’t worry
 
 <!-- link here to other GPS tutorials when they are ready -->
 
-What is a GPS?
---------------
+## What is a GPS?
 A GPS is like a mobile phone, except that instead of receiving radio
 signals from telephone companies, it receives signals from satellites
 that are going around the Earth. By receiving these signals from the
@@ -37,8 +36,7 @@ Lombok, Indonesia.
 
 ![Garmin eTrex Vista HCx]({{site.baseurl}}/images/garmin-etrex.png)
 
-Turn on the GPS
----------------
+## Turn on the GPS
 
 Before you turn on your GPS, go outside where you have a clear view of
 the sky. Because the GPS determines your location by receiving signals
@@ -56,8 +54,7 @@ and you will see the main menu.
 
 ![GPS main menu]({{site.baseurl}}/images/main.png)
 
-Navigate the GPS
-----------------
+## Navigate the GPS
 
 -   The GPS has different screens and menus that allow you to do
     different things. To switch between screens, press the button marked
@@ -89,8 +86,7 @@ Navigate the GPS
     Otherwise, the map may look quite blank. Zoom in and out by pressing
     the up and down arrow buttons on the left side of the GPS.
 
-Tracks and Waypoints
---------------------
+## Tracks and Waypoints
 
 Your GPS records two kinds of information that are useful for creating
 maps or saving the coordinates of a place. First, it allows you to save
@@ -122,8 +118,7 @@ shape of a field.
 
 ![GPS path]({{site.baseurl}}/images/google-earth.png)
 
-Save Your Location
------------------------------------
+## Save Your Location
 
 -   To save your current location as a waypoint, click the “X” button
     until your reach the Main Menu. Using the joystick, move it so that
@@ -158,8 +153,7 @@ Save Your Location
 -   Press the “X” button to go to the map page. You should now see your
     point on the map.
 
-Turn on the Track Log
----------------------
+## Turn on the Track Log
 
 -   Now that we have learned how to save points, let’s learn how to turn
     the track log on and off. When the track log is turned on, it will
@@ -189,8 +183,7 @@ Turn on the Track Log
 -   Press the “X” button to go to the map page. As you move you will see
     your track shown as a series of dots.
 
-Copy Waypoints and Tracks to the Computer
------------------------------------------
+## Copy Waypoints and Tracks to the Computer
 When you are finished mapping with the GPS you will want to copy the
 points and tracks to your computer so that you can open them in JOSM.
 
@@ -271,8 +264,7 @@ additional features.
 
 ![GPS Files Open in JOSM]({{site.baseurl}}/images/open-josm.png)
 
-Summary
--------
+## Summary
 
 Congratulations! You should now have an understanding of how to use the
 GPS. If you haven’t already, practice saving points of some important
@@ -285,8 +277,7 @@ places to OpenStreetMap.
 The next chapter is about a different survey method, known as Field Papers.
 These allow you to make maps without the need for a GPS!
 
-Moving Forward
---------------
+## Moving Forward
 
 Click on the link for further reading on:
 

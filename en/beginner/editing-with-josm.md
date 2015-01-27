@@ -10,8 +10,7 @@ we can use JOSM to edit the points, lines, and shapes that make up our map.
 In this chapter we'll return once again to JOSM and look at a couple of new
 concepts which we have not covered thus far.
 
-JOSM Layers
------------
+## JOSM Layers
 If you've followed along so far, you may have noticed that we can add all sorts
 of different things into JOSM. We can download OSM data, add Bing satellite imagery,
 load GPS tracks and waypoints, and add Field Papers - all of which are displayed
@@ -68,8 +67,7 @@ are often called "base layers." The OSM data layer is the layer that you actuall
 ![Layers activate]({{site.baseurl}}/images/layers-panel-activate.png)
 
 
-Using GPS Data and Field Papers
--------------------------------
+## Using GPS Data and Field Papers
 In the previous chapters we saw how to collect data with a GPS
 and Field Papers, and how to load it into JOSM as a layer.
 
@@ -92,8 +90,7 @@ notes, or a combination of them all.
 
 ![GPS in JOSM]({{site.baseurl}}/images/gps-layer.png)
 
-Tags
-----
+## Tags
 When you draw a point, line, or shape, it has a location, but no
 information about what it is. In other words, we know **where** it
 is, but not **what** it is. Before now, we have been using items
@@ -143,8 +140,7 @@ to them.
 
 ![Nodes mistake]({{site.baseurl}}/images/nodes-selected-mistake.png)
 
-Saving OSM files
-----------------
+## Saving OSM files
 When you are editing in JOSM, it is always a good idea to download, edit, and
 upload changes in a reasonably short period of time. You do not want to download
 data one day, and then wait until a few days later to upload your edits. What if
@@ -173,8 +169,7 @@ changes later on.
     open the file again, simply open JOSM, go to the “File” menu, and
     click “Open...”
 
-Summary
--------
+## Summary
 In this chapter we looked a little bit closer at the JOSM interface and learned
 about layers and tags. You should now have a solid footing in how to map and how
 to edit OpenStreetMap.
@@ -183,8 +178,7 @@ In the final section of this guide we will look at other resources you can learn
 as you move forward. As you practice what you've learned here and explore further,
 you will get better and better at making maps with OSM.
 
-Moving Forward
---------------
+## Moving Forward
 
 Click on the link for further reading on:  
 

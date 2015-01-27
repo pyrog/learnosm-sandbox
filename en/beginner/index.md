@@ -1,6 +1,6 @@
 ---
-#layout: doc
-layout: guide
+layout: doc
+#layout: guide # for test purpose only
 title: Beginner's guide
 cover: yes
 nosearch: true

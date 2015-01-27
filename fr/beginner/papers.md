@@ -181,20 +181,20 @@ Maintenant, nous allons apprendre à créer et utiliser les Field Paper.
     tout comme vous avez fait auparavant.
 -   Cliquez sur l'onglet "Upload".
 
-![Téléchargement]({{site.baseurl}}/images/upload.png)
+![Menu Télécharger]({{site.baseurl}}/images/upload.png)
 
 -   Cliquez sur "Choose File" et allez chercher 
     la photo/le scan de vos Field Papers.
 
 
-![uploadfp]({{site.baseurl}}/images/)
+![uploadfp]({{site.baseurl}}/images/uploadfp.png)
 
 -   Cliquez sur "Upload"
 -   Ça peut prendre quelques minutes pour transférer votre image en fonction de 
     la rapidité de votre connexion à Internet.
     Une fois terminé, vous devriez voir quelque chose comme ça :
 
-![paper upload 2]({{site.baseurl}}/images/)
+![Choisir un fichier]({{site.baseurl}}/images/asd.png)
 
 ## Ajouter le plugin Field paper
 
@@ -210,7 +210,7 @@ Maintenant, nous allons apprendre à créer et utiliser les Field Paper.
 -   Cliquez dans l'onglet Plugins
 -   Trouvez le plugin Fieldf Papers et cochez la cas à côté. Cliquez sur OK.
 
-![field papers plugin]({{site.baseurl}}/images/)
+![Greffon FieldPapers pour JOSM]({{site.baseurl}}/images/plugin.png)
 
 -   Redémarrez JSOM.
 
@@ -224,7 +224,7 @@ Maintenant, nous allons apprendre à créer et utiliser les Field Paper.
 -   Localisez votre numérisation dans la liste et cliquez dessus. 
     Vous devriez voir quelque chose comme :
 
-![paper scanned]({{site.baseurl}}/images/)
+![Pages numérisées]({{site.baseurl}}/images/watchsnapshot.png)
 
 -   Pour télécharger l'image dans JOSM, vous devez copier le ID 
     correspondant à votre image sur le site de Field Paper.
@@ -232,32 +232,32 @@ Maintenant, nous allons apprendre à créer et utiliser les Field Paper.
     CTRL+C sur votre clavier pour copier. Le texte devrait être similaire à ceci : 
     [http://fieldpapers.org/snapshot.php?id=zqw8m33x#16/14.6582/121.1098](http://fieldpapers.org/snapshot.php?id=zqw8m33x#16/14.6582/121.1098)
 
-![fieldpaperid]({{site.baseurl}}/images/)
+![Identifiant Fieldpaper]({{site.baseurl}}/images/fieldpaperid.png)
 
 -   Dans le menu du haut de JOSM, cliquez sur "Field Papers". Puis sur "Scanned Map..."
 
-![scannedmap]({{site.baseurl}}/images/)
+![Scanned map]({{site.baseurl}}/images/scannedmap.png)
 
 -   Pressez CTRL+V sur votre clavier pour coller le texte que vous avez 
     copié sur le site Field Papers.
 
-![fsnapshot]({{site.baseurl}}/images/)
+![Snapshot]({{site.baseurl}}/images/fsnapshot.png)
 
 -   Cliquez sur OK.
 -   Si tout s'est bien passé, votre Field Paper devrait s'afficher dans JOSM.
     Dans le chapitre suivant, nous allons voir comment ajouter dans OpenStreetMap
     les lieux que vous avez cartographié.
 
-![fieldpaperjosm]({{site.baseurl}}/images/)
+![Fieldpaper scan as a JOSM background]({{site.baseurl}}/images/fieldpaperjosm.png)
 
 Vous pouvez aussi utiliser votre imagerie venant de Field Papers dans 
 d'autres éditeurs de carte OSM comme les éditeurs en ligne iD et Potlatch2
 en cliquant les liens "Edit in iD" ou "Edit in Potlatch"
 sur la page des Field Papers numérisés.
 
-![editinidorpot]({{site.baseurl}}/images/)
+![Edit in iD or P2]({{site.baseurl}}/images/editinidorpot.png)
 
-![paper in id]({{site.baseurl}}/images/)
+![Snapshot layer in iD]({{site.baseurl}}/images/id.png)
 
 ## Répétez!
 

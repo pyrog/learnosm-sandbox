@@ -64,8 +64,7 @@ We hope that you will find OpenStreetMap useful and interesting in your
 work. By following this guide, you should be able to quickly start
 making digital maps with OpenStreetMap.
 
-Moving Forward
---------------
+## Moving Forward
 
 Click on the link for further reading on:  
 

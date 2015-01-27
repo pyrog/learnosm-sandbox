@@ -13,8 +13,7 @@ village? We will conclude this chapter by drawing your map again, this
 time digitally. After this you should have a good understanding of how
 to draw maps in JOSM.
 
-Download JOSM
--------------
+## Download JOSM
 
 - If you have a copy of JOSM on a CD or usb flash drive, you can skip
   to the next section, Install JOSM.
@@ -37,8 +36,7 @@ Download JOSM
   begin. In this chapter we will assume that you are using Windows,
   but the instructions are similar for other operating systems.
 
-Install JOSM
-------------
+## Install JOSM
 
 >  You may have problems installing JOSM if Java is not already
 >  installed on your computer. If you have problems in this section,
@@ -60,8 +58,7 @@ Install JOSM
 
   ![JOSM splash page]({{site.baseurl}}/images/josm-splash-page.png)
 
-JOSM Preferences
---------------------
+## JOSM Preferences
 
 There are many different settings that you can customize in JOSM. 
 One setting that you may want to adjust is the language. JOSM has
@@ -84,8 +81,7 @@ work in a different one.
 - You need to restart JOSM to save your settings. Click “File” in the upper
   left corner, and Click “Restart” near the bottom of the menu.
 
-Learn Basic Drawing with JOSM
------------------------------
+## Learn Basic Drawing with JOSM
 
 - Now let’s open up a sample OSM file which we will use to learn the
   basic ways to draw maps with JOSM. Note that this map is not real,
@@ -220,8 +216,7 @@ Learn Basic Drawing with JOSM
   change colors or show a symbol. This is because you have defined
   what it is.
 
-Draw Your Own Map
------------------
+## Draw Your Own Map
 
 - Now let’s draw a map in order to practice the techniques you have
   learned. You may wish to redraw the map that you drew on paper previously.
@@ -232,16 +227,14 @@ Draw Your Own Map
 - When you are finished, you should have your own map, similar to the
   sample map that we opened in sample.osm.
 
-Summary
--------
+## Summary
 
 Excellent! If all went well you have learned how to setup JOSM on your
 computer, and the basic tools for drawing maps. In the next chapter we will
 take a closer look at the process of editing the OSM map with JOSM.
 
 
-Moving Forward
---------------
+## Moving Forward
 
 Click on the link for further reading on:  
 

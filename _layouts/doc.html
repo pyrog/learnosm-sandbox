@@ -54,6 +54,10 @@ layout: default
   {% if {{page.cover}} %}
     <div class='getstarted'>
       <span><a class='start rounded'>{{site.translations.[lang].getstarted}}</a></span>
+      <!--
+        fixme: javascript somewhere that set href to ??
+        use instead the first item of contents.txt
+      -->
     </div>
   {% endif %}
   {% unless {{page.cover}} %}

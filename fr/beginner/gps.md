@@ -1,14 +1,8 @@
 ---
 layout: doc
 title: Sur le terrain avec un GPS
-permalink: /fr/beginner/using-gps/
-lang: fr
-category: beginner
 otherguides: "Les autres niveaux"
 ---
-
-Sur le terrain avec un GPS
-==========================
 
 Dans ce chapitre, nous allons voir ce que permet un GPS et comment il fonctionne.
 Vous allez apprendre à utiliser un GPS, en particulier pour créer des cartes.
@@ -17,8 +11,7 @@ un modèle courant pour la cartographie.
 Il existe de nombreux autres modèles de GPS avec des fonctionnalités identiques, 
 donc ne craignez rien si vous en avez un autre, les principes restent les mêmes.
 
-Qu'est-ce qu'un GPS ?
----------------------
+## Qu'est-ce qu'un GPS ?
 
 Un GPS est similaire à un téléphone mobile, sauf qu'au lieu de recevoir des
 signaux radio des compagnies de téléphone, il reçoit des signaux radio de satellites
@@ -33,12 +26,11 @@ Par exemple, -8.639298 de latitude, 116.311607 de longitude est situé à Lombok
 Indonésie.
 
 
-![Google Earth software, showing coordinates of Lombok, Indonesia][]
+![Le logiciel Google Earth, affichant les coordonnées de Lombok, Indonésie]({{site.baseurl}}/images/google-earth-lombok.png)
 
-![Garmin eTrex Vista HCx][]
+![Garmin eTrex Vista HCx]({{site.baseurl}}/images/garmin-etrex.png)
 
-Allumer le GPS
---------------
+## Allumer le GPS
 
 Avant d'allumer votre GPS, sortez à un endroit dégagé, où vous pouvez observer
 le ciel facilement. Comme le GPS détermine sa position en recevant les signaux
@@ -50,14 +42,13 @@ ci-dessous. Votre GPS cherche les signaux satellites.
 Une fois qu'il a localisé 3 satellites ou plus, il affiche sa localisation.
 
 
-![GPS determined location][]
+![Acquisition des satellites]({{site.baseurl}}/images/aquiring-satellites.png)
 
 Ensuite, l'écran Satellite disparaît et le menu principal le remplace.
 
-![GPS main menu][]
+![Menu principal du GPS]({{site.baseurl}}/images/main.png)
 
-Les menus du GPS
-----------------
+## Les menus du GPS
 
 -   Le GPS a des écrans et des menus différents qui vous permettent 
     d'accéder à diverses fonctionnalités. Pour changer d'écran, appuyez sur
@@ -67,7 +58,7 @@ Les menus du GPS
 -   En appuyant plusieurs fois sur le bouton X, vous devriez pouvoir parcourir
     différents écrans, qui ressemblent à ceci :
 
-    ![GPS all][]
+![Tous les menus du GPS]({{site.baseurl}}/images/all.png)
 
 -   Si vous retournez à la page Satellites, vous pouvez vérifier que vous êtes 
     connecté à trois satellites ou plus. Dans le coin en haut à gauche, vous voyez
@@ -76,7 +67,7 @@ Les menus du GPS
 > Pour ajouter la carte OSM dans votre GPS, téléchargez les dernières données sur [http://labs.geofabrik.de/haiti/latest.garmin-gmapsupp.zip](http://labs.geofabrik.de/haiti/latest.garmin-gmapsupp.zip).
 > Dézippez “latest.garmin-gmapsupp.zip” et enregistrez le fichier “gmapsupp.img”
 > dans un dossier temporaire. Allumez et connectez votre GPS à l'ordinateur, puis 
-> créez un dossier "Garmin". Ensuite, redémarrez le GPS, et l'extrait de carte OSM
+> créez un dossier "Garmin". Ensuite redémarrez le GPS, et l'extrait de carte OSM
 > devrait être disponible.
 
 -   Passez à la page Map (carte) pour voir la carte de l'endroit où vous êtes.
@@ -85,8 +76,7 @@ Les menus du GPS
     Vous pouvez zoomer/dézoomer en appuyant sur les flèches haut/bas sur le côté
     gauche de l'appareil. 
 
-Traces et Waypoints
--------------------
+## Traces et Waypoints
 
 Votre GPS enregistre deux sortes d'informations qui sont utiles pour
 créer des cartes ou conserver les coordonnées d'un lieu.
@@ -111,17 +101,17 @@ et le résultat sera une série de points qui formera votre parcours complet.
 Les traces sont utiles pour cartographier des objets représentés par des lignes
 ou des surfaces, comme une route ou le contour d'un champ.
 
-![GPS path][]
+![Trace GPS]({{site.baseurl}}/images/google-earth.png)
 
-Enregistrer votre emplacement
------------------------------
+## Enregistrer votre emplacement
 
 -   Pour enregistrer votre emplacement courant dans un waypoint, cliquez sur le bouton
     “X” jusqu'à atteindre le menu principal. À l'aide du joystick, passez la surbrillance
     sur “Mark”, puis appuyez sur le joystick pour ouvrir la page “Save Waypoint”.
 
-    ![save location 1][]
-    ![save location 2][]
+    ![save location 1]({{site.baseurl}}/images/save-location1.png)
+
+    ![save location 2]({{site.baseurl}}/images/save-location2.png)
 
 > Si vous utilisez plusieurs récepteurs GPS, assurez-vous qu'ils sont tous
 > configurés dans le même format. Pour cela, allez dans le menu principal et
@@ -143,8 +133,7 @@ Enregistrer votre emplacement
     voir votre waypoint à l'écran.
 
 
-Activer les traces
-------------------
+## Activer les traces
 
 -   Maintenant, nous pouvons apprendre à activer et désactiver l'enregistrement 
     des traces. Quand il est activé, il mémorise votre déplacement.
@@ -156,7 +145,7 @@ Activer les traces
 -   Pour désactiver l'enregistrement des traces, cliquez sur le bouton “X” jusqu'à
     atteindre la page "Track log".
 
-    ![turn on track][]
+    ![turn on track]({{site.baseurl}}/images/turn-on-track.png)
 
 -   Si vous voulez vider la mémoire des traces pour effacer les enregistrements précédents,
     sélectionnez “Clear” au joystick : la barre du haut doit retomber à 0%.
@@ -168,8 +157,7 @@ Activer les traces
 -   Appuyez sur le bouton “X” pour revenir à la carte. Vous pouvez maintenant visualiser
     votre déplacement en direct, sous la forme d'un tracé pointillé.
 
-Transférer les waypoints et les traces sur son ordinateur
----------------------------------------------------------
+## Transférer les waypoints et les traces sur son ordinateur
 
 ### Connecter le GPS à l'ordinateur
 
@@ -209,7 +197,8 @@ Transférer les waypoints et les traces sur son ordinateur
 -   Continuez de cliquer sur “Next” jusqu'à la fin de l'installation.
 -   Enfin, cliquez sur “Finish” pour démarrer GPSBabel.
 
-    ![GPSBabel Interface][]
+    ![turn on track]({{site.baseurl}}/images/turn-on-track.png)
+
 
 ### Copier les traces et les waypoints
 
@@ -218,7 +207,8 @@ Transférer les waypoints et les traces sur son ordinateur
 -   Descendez au milieu de la fenêtre, sous Output. Dans le menu déroulant intitulé
     “Format”, sélectionnez “GPX XML”:
 
-    ![Choose GPX XML][]
+    ![Choose GPX XML]({{site.baseurl}}/images/xml.png)
+
 
 -   Cliquez sur “File Name” et tapez un nom pour enregistrer votre fichier.
     Choisissez-le assez parlant, avec la date et le lieu concerné, par exemple
@@ -233,12 +223,11 @@ Transférer les waypoints et les traces sur son ordinateur
 
 -   Maintenant, ouvrez JOSM. Dans le menu du haut, cliquez sur “Fichier” puis “Ouvrir…”
 -   Sélectionnez le fichier que vous venez de créer avec GPSBabel, puis cliquez sur “Ouvrir”.
--   Vous devriez maintenat voir vos points et vos traces chargés dans une couche de JOSM.
+-   Vous devriez maintenat voir vos points et vos traces chargées dans une couche de JOSM.
 
-    ![GPS Files Open in JOSM][]
+    ![GPS Files Open in JOSM]({{site.baseurl}}/images/open-josm.png)
 
-Résumé
-------
+## Résumé
 
 Félicitations ! Vous devriez maintenant avoir compris l'utilisation du GPS.
 Si vous n'avez pas encore pratiqué, allez sur le terrain, enregistrer des points 

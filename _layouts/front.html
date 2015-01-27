@@ -1,21 +1,23 @@
 ---
 layout: default
 ---
+{% assign l = page.url | split: "/" %}{% assign lang=l[1] %}
+{% assign endurl = ".html" %}
 <div id='ads' class='marginL cell9 padAll'>
-  <div class='ad1 cell8 {% case page.lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
-    <a href='{{site.baseurl}}/{{page.lang}}/beginner'>
+  <div class='ad1 cell8 {% case lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
+    <a href='{{site.baseurl}}/{{lang}}/beginner'>
       <span class='ad-title'>{{ page.begspan }}</span>
       <span class='ad-txt'>{{ page.beg }}</span>
       <span class='door'></span>
     </a>
   </div>
-  <div class='ad2 cell4 {% case page.lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
+  <div class='ad2 cell4 {% case lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
     <a href='{{page.interspanlink}}'>
       <span class='ad-title'>{{page.interspan}}</span>
       <span class='ad-txt'>{{ page.inter }}</span>
     </a>
   </div>
-  <div class='ad3 cell4 {% case page.lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
+  <div class='ad3 cell4 {% case lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
     <a href='{{page.interspanlink}}'>
       <span class='ad-title'>{{page.advspan}}</span>
       <span class='ad-txt'>{{page.adv}}</span>
@@ -36,10 +38,10 @@ layout: default
   <div class='faqbox cell4'>
     <h4>{{page.faq}}</h4>
     <ul class='faq'>
-      <li><a href='{{site.baseurl}}/{{page.lang}}/beginner/introduction/'>{{page.faqA}}</a></li>
-      <li><a href='{{site.baseurl}}/{{page.lang}}/beginner/start-osm/#beginning-osm-create-an-openstreetmap-account'>{{page.faqC}}</a></li>
-      <li><a href='{{site.baseurl}}/{{page.lang}}/beginner/moving-forward/'>{{page.faqD}}</a></li>
-      <li><a href='{{site.baseurl}}/{{page.lang}}/contribute/'>{{page.faqB}}</a></li>
+      <li><a href='{{site.baseurl}}/{{lang}}/beginner/introduction{{endurl}}'>{{page.faqA}}</a></li>
+      <li><a href='{{site.baseurl}}/{{lang}}/beginner/start-osm{{endurl}}#beginning-osm-create-an-openstreetmap-account'>{{page.faqC}}</a></li>
+      <li><a href='{{site.baseurl}}/{{lang}}/beginner/moving-forward{{endurl}}'>{{page.faqD}}</a></li>
+      <li><a href='{{site.baseurl}}/{{lang}}/contribute{{endurl}}'>{{page.faqB}}</a></li>
   </div>
 </div>
 <script>

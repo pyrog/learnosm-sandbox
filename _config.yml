@@ -12,7 +12,7 @@ github_username:  jekyll
 markdown: kramdown
 
 # delay in seconds for displaying the english version of untranslated pages
-delay: 4
+delay: 30
 
 # Tidying: should move to a data file ??
 translations:

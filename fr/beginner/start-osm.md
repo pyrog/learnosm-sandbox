@@ -1,22 +1,17 @@
 ---
 layout: doc
-title: OpenStreetMap.org
-permalink: /fr/beginner/start-osm/
-lang: fr
-category: beginner
+title: Introduction à OpenStreetMap.org
 otherguides: "Les autres niveaux"
 ---
-
-Introduction à OpenStreetMap.org
-================================
 
 Dans ce chapitre, nous allons apprendre comment naviguer sur le site
 OpenStreetMap, consulter et imprimer des cartes, et se créer un compte
 utilisateur. Quand vous aurez votre nom d'utilisateur et votre mot de passe,
 vous pourrez commencer à ajouter vos premiers points sur la carte.
 
-Consulter le site web OpenStreetMap 
------------------------------------
+![website]({{site.baseurl}}/images/website.png)
+
+## Consulter le site web OpenStreetMap 
 
 -   Assurez-vous que votre ordinateur est allumé et que vous êtes 
     connecté à Internet.
@@ -28,10 +23,9 @@ Consulter le site web OpenStreetMap
 -   Quand la page aura fini de se charger, vous devriez voir quelque chose de 
     similaire à ceci :
 
-    ![OpenStreetMap website with some main functions listed][]
+    ![Page de bienvenue du Site OpenStreetMap]({{site.baseurl}}/images/osm-website-main-functions.png)
 
-Naviguer sur la carte
----------------------
+## Naviguer sur la carte
 
 -   Vous devez maintenant voir une grande carte. Pour bouger la carte, faites un
     clic gauche en le maintenant appuyé, puis déplacez votre souris (voir 
@@ -46,15 +40,14 @@ Naviguer sur la carte
     recherche. Cliquez sur le lieu qui vous semble la meilleure réponse. La
     carte va automatiquement se déplacer jusqu'au lieu choisi.
 
-    ![Mouse navigation][]
+    ![Navigation avec la souris]({{site.baseurl}}/images/mouse-navigation.png)
 
-Sauvegarder une image de la carte
----------------------------------
+## Sauvegarder une image de la carte
 
 Pour enregistrer une image d'OpenStreetMap que vous puissiez facilement
 imprimer, suivez ces instructions:
 
-![Exporting a map][]
+![Exporter une carte]({{site.baseurl}}/images/start_export.png)
 
 -   Cliquez sur l'onglet «Exporter», juste au-dessus de la carte. Une nouvelle
     fenêtre va apparaître à côté de la carte.
@@ -67,8 +60,7 @@ imprimer, suivez ces instructions:
     cliquer sur «Imprimer» dans le menu «Fichier», après avoir connecté votre
     ordinateur à une imprimante.
 
-Créer votre compte OpenStreetMap
---------------------------------
+## Créer votre compte OpenStreetMap
 
 Maintenant que vous savez à quoi ressemble le site principal, il est temps de
 vous créer un compte et de faire vos premiers ajouts à la carte.
@@ -77,7 +69,7 @@ vous créer un compte et de faire vos premiers ajouts à la carte.
     coin en haut à droite de la page.
 -   Une nouvelle page devrait s'ouvrir, ressemblant à ça:
 
-    ![Registering an OpenStreetMap account][]
+    ![S'inscrire sur OpenStreetMap]({{site.baseurl}}/images/start_register.png)
 
 -   Il y a cinq champs à remplir dans cette page pour pouvoir créer votre
     compte.
@@ -109,7 +101,7 @@ vous créer un compte et de faire vos premiers ajouts à la carte.
     devrait ressembler à l'image ci-dessous. Cliquez sur le lien surligné
     ci-dessous:
 
-    ![Confirming your OpenStreetMap account][]
+    ![Confirmez la création de votre compte OpenStreetMap]({{site.baseurl}}/images/start_confirm.png)
 
 -   Un nouvel onglet ou une nouvelle fenêtre devrait s'ouvrir dans votre
     navigateur. Si c'est bien le cas et qu'il n'y a pas de message d'erreur,
@@ -120,8 +112,7 @@ vous créer un compte et de faire vos premiers ajouts à la carte.
     identifié. Si c'est bien le cas, vous devez voir votre nom d'utilisateur
     dans le coin en haut à droite de la page.
 
-Ajouter vos premiers points
----------------------------
+## Ajouter vos premiers points
 
 Maintenant que vous êtes identifié avec votre nom d'utilisateur sur le site
 d'OpenStreetMap, vous pouvez utiliser l'éditeur Potlatch pour ajouter vos
@@ -143,8 +134,7 @@ premiers points sur la carte.
     ajouté, ne cliquez pas sur «Enregistrer» ! Amusez-vous à tester Potlatch,
     mais ne sauvez pas vos modifications.
 
-En résumé
----------
+## En résumé
 
 Bravo! Si tout s'est bien passé, vous avez maintenant un nom d'utilisateur 
 OpenStreetMap et un mot de passe, vous savez naviguer sur le site d'OSM, et
@@ -152,9 +142,3 @@ vous savez comment on peut ajouter des informations à la carte.
 
 Dans le chapitre suivant, on va installer un éditeur pour OpenStreetMap, appelé
 JOSM, et apprendre comment tracer des cartes et ajouter des lieux sur la carte.
-
-[OpenStreetMap website with some main functions listed]: {{site.baseurl}}/images/start_osm_website_en.png
-[Mouse navigation]: {{site.baseurl}}/images/start_mouse_en.png
-[Exporting a map]: {{site.baseurl}}/images/start_export_en.png
-[Registering an OpenStreetMap account]: {{site.baseurl}}/images/start_register_en.png
-[Confirming your OpenStreetMap account]: {{site.baseurl}}/images/start_confirm_en.png
