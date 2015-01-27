@@ -26,7 +26,7 @@ layout: default
   <ul style="margin-top:40px;">
       <li class='doc rounded'>
         <a class='title cover'>
-          <span>{{site.translations.[lang].otherguides}}</span>
+          <span>{{site.data.translations[lang].otherguides}}</span>
         </a>
       </li>
       
@@ -49,7 +49,7 @@ layout: default
   {{content}}
   {% if {{page.cover}} %}
     <div class='getstarted'>
-      <span><a class='start rounded'>{{site.translations.[lang].getstarted}}</a></span>
+      <span><a class='start rounded'>{{site.data.translations[lang].getstarted}}</a></span>
       <!--
         fixme: javascript somewhere that set href to ??
         use instead the first item of contents.txt
@@ -58,8 +58,8 @@ layout: default
   {% endif %}
   {% unless {{page.cover}} %}
   <div class='feedback padAll'>
-    <span>{{site.translations.[lang].feedbackspan}}</span>
-    <a href='{{site.baseurl}}/{{lang}}/contribute'>{{site.translations.[lang].feedback}}</a>
+    <span>{{site.data.translations[lang].feedbackspan}}</span>
+    <a href='{{site.baseurl}}/{{lang}}/contribute'>{{site.data.translations[lang].feedback}}</a>
   </div>
   {% endunless %}
 </div>
