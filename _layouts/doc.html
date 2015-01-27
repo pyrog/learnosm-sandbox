@@ -26,11 +26,7 @@ layout: default
   <ul style="margin-top:40px;">
       <li class='doc rounded'>
         <a class='title cover'>
-          {% if {{page.otherguides}} %}
-            <span>{{ page.otherguides }}</span>
-          {% else %}
-            <span>Other guides</span><!-- fixme: need translation -->
-          {% endif %}
+          <span>{{site.translations.[lang].otherguides}}</span>
         </a>
       </li>
       

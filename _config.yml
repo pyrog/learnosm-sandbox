@@ -24,6 +24,7 @@ translations:
     feedbackspan: "Was this chapter helpful?"
     feedback: "Let us know and help us improve the guides!"
     getstarted: "Get started"
+    otherguides: "Other guides"
   es:
     tagline: "Aprende OpenStreetMap Paso a Paso"
     contribute: "Ayuda a mejorar las guías"
@@ -32,6 +33,7 @@ translations:
     feedbackspan: "¿Este capítulo te resultó útil?"
     feedback: "¡Contacta con nosotros y ayúdanos a mejorar estas guías!"
     getstarted: "Comencemos"
+    otherguides: ""
   fr:
     tagline: "Apprendre OpenStreetMap pas à pas"
     contribute: "Contribuer à ces guides"
@@ -40,6 +42,7 @@ translations:
     feedbackspan: "Avez-vous trouvé ce chapitre utile ?"
     feedback: "Aidez-nous à améliorer ces guides en donnant vos impressions!"
     getstarted: "Commencer"
+    otherguides: "Les autres niveaux"
   bi:
     overview: "Ringkasan"
     tagline: "Pelajari OpenStreetMap Langkah Demi Langkah"
@@ -49,6 +52,8 @@ translations:
     feedbackspan: "Apakah bab ini bermanfaat?"
     feedback: "Beritahu kami dan bantu kami memperbaiki panduan!"
     getstarted: "Lanjutkan ke bab berikutnya"
+    otherguides: ""
+
   jp:
     overview: "概要"
     tagline: "はじめてからのOpenStreetMapガイド"
@@ -58,6 +63,7 @@ translations:
     feedbackspan: "この章は役に立ちましたか？"
     feedback: "ガイドの改善にご意見ください"
     getstarted: "次の章に進む"
+    otherguides: ""
   pt:
     overview: "Sumário"
     tagline: "Conheça sobre o OpenStreetMap, passo-a-passo."
@@ -67,6 +73,7 @@ translations:
     feedbackspan: "Este capítulo foi útil?"
     feedback: "Conte-nos e ajude a melhorar os guias!"
     getstarted: "prosseguir para o próximo capítulo"
+    otherguides: ""
   it:
     overview: "Riassunto"
     tagline: "Impara a conoscere OpenStreetMap passo dopo passo"
@@ -76,6 +83,7 @@ translations:
     feedbackspan: "Questa capitolo ti è stato utile?"
     feedback: "Contattaci ed aiutaci a migliorare le guide!"
     getstarted: "procedere al capitolo successivo"
+    otherguides: ""
   de:
     tagline: "Lerne OpenStreetMap Schritt für Schritt kennen"
     contribute: "Hilf mit, unsere Anleitungen zu verbessern"
@@ -84,6 +92,7 @@ translations:
     feedbackspan: "War dieses Kapitel hilfreich?"
     feedback: "Sende uns Feedback und verbessere die Anleitungen!"
     getstarted: "weiter zum nächsten Kapitel"
+    otherguides: ""
   hr:
     tagline: "Naučite OpenStreetMap korak po korak"
     contribute: "Pomozite poboljšati naša uputstva"
@@ -92,4 +101,4 @@ translations:
     feedbackspan: "Je li ovo poglavlje bilo korisno?"
     feedback: "Javite nam i pomozite nam poboljšati uputstva!"
     getstarted: "Započnite"
-
+    otherguides: ""
