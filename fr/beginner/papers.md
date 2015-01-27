@@ -1,14 +1,8 @@
 ---
 layout: doc
-title: Field Papers
-permalink: /fr/beginner/field-papers/
-lang: fr
-category: beginner
+title: Étude de terrain avec les Field Papers
 otherguides: "Les autres niveaux"
 ---
-
-Étude de terrain avec les  Field Papers
-=============================
 
 Dans ce chapitre, nous allons voir comment nous pouvons enregistrer les
 coordonnées des lieux sans GPS. Nous allons utiliser un outil appelé [Field Papers](http://fieldpapers.org/)
@@ -17,8 +11,7 @@ ajouter des notes et ensuite charger cette version du document dans JOSM, où vo
 ajouter vos informations dans OpenStreetMap. 
 
 
-Aperçu des Field Papers
---------------------------
+## Aperçu des Field Papers
 
 Avant de regarder en détail les Field Papers, voici un aperçu de
 la façon dont le processus fonctionne :
@@ -26,38 +19,34 @@ la façon dont le processus fonctionne :
 1. Sur le site Field Papers, localisez la zone que vous souhaitez cartographier.
 Imprimez une carte de cette zone. Vous pouvez choisir d'imprimer avec la carte
 OpenStreetMap ou vous pouvez choisir d'imprimer avec l'imagerie aérienne
-(si elle est disponible dans votre région).
+(si elle est disponible dans votre région).  
+![Page d'accueil de FieldPapers]({{site.baseurl}}/images/homepage.png)
 
-![field papers homepage][]
-
-2. Utilisez votre carte imprimée pour faire le relevé de la zone géographique.
+1. Utilisez votre carte imprimée pour faire le relevé de la zone géographique.
 Ajoutez plus d'endroits en les dessinant sur ​​la carte.
 Tracez des lignes pour les routes, les formes des bâtiments, etc. 
 Rédigez des notes sur chaque emplacement directement sur la carte ou
 écrivez les nombres sur la carte correspondant aux numéros de votre
 fiche de cueillette, où vous pouvez écrire des informations plus
-détaillées sur chaque objet. 
+détaillées sur chaque objet.  
+![Example de fieldpaper imprimé]({{site.baseurl}}/images/fieldp.png)
 
-![paper example][]
-
-3. Numérisez votre papier dans l'ordinateur. Si vous n'avez pas de scanner,
+1. Numérisez votre papier dans l'ordinateur. Si vous n'avez pas de scanner,
 vous pouvez prendre une photo de l'article, si votre appareil est capable
 de prendre des photos de haute qualité. Téléchargez l'image sur le site Field Papers.
 
-4. Dans JOSM, chargez le papier manuellement. Utilisez les objets dessinés comme
-une référence pour les ajouter numériquement dans OpenStreetMap. 
+1. Dans JOSM, chargez le papier manuellement. Utilisez les objets dessinés comme
+une référence pour les ajouter numériquement dans OpenStreetMap.  
+![Fieldpaper numérisé affiché comme fond dans JOSM]({{site.baseurl}}/images/fieldpaperjosm.png)
 
-![fieldpaperjosm][]
 
-
-Comment ça fonctionne les Field papers?
------------------------------
+## Comment ça fonctionne les Field papers?
 
 Si vous suivez le processus décrit ci-haut, vous collecterez des coordonnées
 géographiques précises des lieux sans rien de plus
 que le papier. Comment est-ce possible?
 
-![paper QR code][]
+![code QR]({{site.baseurl}}/images/paper_qrc.png)
 
 
 Lorsque vous imprimez un Field Paper, le document est livré avec un code-barres
@@ -69,8 +58,7 @@ GPS pour collecter des informations précises, sauf qu'un bout de apier suffit !
 
 Maintenant, nous allons apprendre à créer et utiliser les Field Paper. 
 
-Créer et Imprimer
-----------------
+## Créer et Imprimer
 
 -   Ouvrez votre navigateur web - par exemple Firefox, Chrome, Opera, ou
     Internet Explorer.
@@ -79,7 +67,7 @@ Créer et Imprimer
       [fieldpapers.org](http://fieldpapers.org/)
 -   Le site Web devrait ressembler à quelque chose comme ceci :
 
-![field papers homepage][]
+![Page d'accueil de FieldPapers]({{site.baseurl}}/images/homepage.png)
 
 -   Pour l'instant le site n'est accessible qu'en anglais, mais une version 
     française devrait arriver dans quelques mois.
@@ -87,11 +75,11 @@ Créer et Imprimer
 -   Cliquez sur **Make yourself an Atlas** Pour sélectionner la 
     zone géographique à imprimer.
 
-![makeatlas][]
+![Création d'un nouvel atlas]({{site.baseurl}}/images/makeatlas.png)
 
 -   Vous allez être redirigé(e) vers cette page :
 
-![atlas][]
+![Adresse de l'atlas]({{site.baseurl}}/images/makeyourselfanatlas.png)
 
 -   Cliquez le nom de la zone qui vous intéresse et dans la boîte puis
     sur "Start there".
@@ -103,13 +91,13 @@ Créer et Imprimer
     Cliquez sur les boutons (+) et (-) dans le coin en haut à gauche 
     pour ajuster votre niveau de zoom.
 
-![zoominout][]
+![Zoomer et dé-zoomer]({{site.baseurl}}/images/zoominout.png)
 
 -   Juste en dessous de la carte il y a quelques options supplémentaires.
     La première option est pour sélctionner l'orientation de la feuille
     de papier. Vous avez le choix entre portrait et paysage (à l'italienne).
 
-![choosetile][]
+![Choix de l'orientation de l'atlas]({{site.baseurl}}/images/choosetile.png)
 
 -   L'option suivante vous permet de choisir le type de données que vous
     désirez utiliser dans votre Field Paper. Vous pouvez sélectionner
@@ -117,7 +105,7 @@ Créer et Imprimer
     Pour l'instant nous allons choisir
     **Black and White**.
 
-![blackandwhite][]
+![Choix du noir et blanc]({{site.baseurl}}/images/blackandwhite.png)
 
 -   Vous devez vous assurer que la fenêtre montre bien ce que vous
     voulez cartographier. Utilisez les contrôles pour redimentionner
@@ -131,38 +119,37 @@ Créer et Imprimer
     carte rende bien, alors vous êtes prêt. Cliquez sur "Next" à côté
     de la liste de choix déroulants.
 
-![labelnext][]
+![Suivant]({{site.baseurl}}/images/labelnext.png)
 
 -   Donnez un nom à la carte. Vous pouvez aussi ajouter du texte qui
     apparaitra sur chaque feuille.
 
-![name][]
+![Nom de l'atlas]({{site.baseurl}}/images/name.png)
 
 -   La prochaine option vous permet de sélectionner la disposition.
     Vous pouvez ajouter une grille UTM (Transverse Universelle de Mercator)
     sur chaque carte si vous voulez. Vous pouvez cliquer sur "Maps Only"
     qui est déjà sélectionné par défaut.
 
-![layout][]
+![Mise en page]({{site.baseurl}}/images/layout.png)
 
 -   Cliquer sur "Finished!"
 -   Votre impression est en train de se préparer. Elle apparaîtra sur l'écran
     dès qu'elle sera prête.
     Ça prend quelques minutes en fonction du nombre de pages.
 
-![preparing your atlas][]
+![Génération de l'atlas]({{site.baseurl}}/images/preparingyouratlas.png)
 
 -   Quand l'impression est prète, cliquez sur "Download map PDF for print".
     L'imprimé du Field Paper devrait alors être téléchargé.
 
-![downloadpdf][]
+![Téléchargement du pdf]({{site.baseurl}}/images/downloadpdf.png)
 
 -   Quand le téléchargement est terminé, ouvrez le fichier PDF.
     Branchez votre ordinateur à une imprimante et imprimez les pages.
     Si tout se déroule bien, votre carte devrait maintenant être imprimée sur papier.
 
-Cartographier avec les Field Papers
------------------------
+## Cartographier avec les Field Papers
 
 -   Amenez vos Field Papers à l'extérieur, dans la zone où effectuer l'Étude terrain
     et utilisez-les comme guide vous déplacant et identifiant de nouvelles places qui ne sont pas sur la carte.
@@ -172,8 +159,7 @@ Cartographier avec les Field Papers
 -   Lorsque vous êtes satisfaits avec vos additions sur la carte papier, alors
     vous pouvez les ajouter digitalement dans OpenStreetMap.
 
-Numériser et Envoyer
----------------
+## Numériser et Envoyer
 
 -   Les Field Papers sont très utiles pour cartographier avec rien d'autre que
     du papier, mais ne sont pas 100% magie. Nous allons toujours avoir besoin
@@ -188,30 +174,29 @@ Numériser et Envoyer
     dans chaque image, étant donné que les Field Papers ne fonctionnent pas sans ce code.	 
     Voici ci-dessous un exemple d'une image numérisée (ou photo) :
 
-![scrnsht][]
+![Feuille de terrain numérisée]({{site.baseurl}}/images/scrnsht.png)
 
 -   Une fois que vos Field Papers sont numérisés et sauvegardés sur un ordinateur,
     démarrez votre navigateur internet et retournez à la page [fieldpapers.org](http://fieldpapers.org),
     tout comme vous avez fait auparavant.
 -   Cliquez sur l'onglet "Upload".
 
-![upload][]
+![Téléchargement]({{site.baseurl}}/images/upload.png)
 
 -   Cliquez sur "Choose File" et allez chercher 
     la photo/le scan de vos Field Papers.
 
 
-![uploadfp][]
+![uploadfp]({{site.baseurl}}/images/)
 
 -   Cliquez sur "Upload"
 -   Ça peut prendre quelques minutes pour transférer votre image en fonction de 
     la rapidité de votre connexion à Internet.
     Une fois terminé, vous devriez voir quelque chose comme ça :
 
-![paper upload 2][]
+![paper upload 2]({{site.baseurl}}/images/)
 
-Ajouter le plugin Field paper
-------------
+## Ajouter le plugin Field paper
 
 -   Avant de pouvoir ouvrir le Field Papers dans JOSM, il faut installer le 
     plugin Field Papers pour JOSM (JOSM Field Papers Plugin).
@@ -225,12 +210,11 @@ Ajouter le plugin Field paper
 -   Cliquez dans l'onglet Plugins
 -   Trouvez le plugin Fieldf Papers et cochez la cas à côté. Cliquez sur OK.
 
-![field papers plugin][]
+![field papers plugin]({{site.baseurl}}/images/)
 
 -   Redémarrez JSOM.
 
-Ouvrir dans JOSM
-------------
+## Ouvrir dans JOSM
 
 -   Maintenant vous pouvez charger votre Field Paper et l'utiliser pour 
     ajouter les informations que vous avez collectées à OpenStreetMap.
@@ -240,7 +224,7 @@ Ouvrir dans JOSM
 -   Localisez votre numérisation dans la liste et cliquez dessus. 
     Vous devriez voir quelque chose comme :
 
-![paper scanned][]
+![paper scanned]({{site.baseurl}}/images/)
 
 -   Pour télécharger l'image dans JOSM, vous devez copier le ID 
     correspondant à votre image sur le site de Field Paper.
@@ -248,73 +232,43 @@ Ouvrir dans JOSM
     CTRL+C sur votre clavier pour copier. Le texte devrait être similaire à ceci : 
     [http://fieldpapers.org/snapshot.php?id=zqw8m33x#16/14.6582/121.1098](http://fieldpapers.org/snapshot.php?id=zqw8m33x#16/14.6582/121.1098)
 
-![fieldpaperid][]
+![fieldpaperid]({{site.baseurl}}/images/)
 
 -   Dans le menu du haut de JOSM, cliquez sur "Field Papers". Puis sur "Scanned Map..."
 
-![scannedmap][]
+![scannedmap]({{site.baseurl}}/images/)
 
 -   Pressez CTRL+V sur votre clavier pour coller le texte que vous avez 
     copié sur le site Field Papers.
 
-![fsnapshot][]
+![fsnapshot]({{site.baseurl}}/images/)
 
 -   Cliquez sur OK.
 -   Si tout s'est bien passé, votre Field Paper devrait s'afficher dans JOSM.
     Dans le chapitre suivant, nous allons voir comment ajouter dans OpenStreetMap
     les lieux que vous avez cartographié.
 
-![fieldpaperjosm][]
+![fieldpaperjosm]({{site.baseurl}}/images/)
 
 Vous pouvez aussi utiliser votre imagerie venant de Field Papers dans 
 d'autres éditeurs de carte OSM comme les éditeurs en ligne iD et Potlatch2
 en cliquant les liens "Edit in iD" ou "Edit in Potlatch"
 sur la page des Field Papers numérisés.
 
-![editinidorpot][]
+![editinidorpot]({{site.baseurl}}/images/)
 
-![paper in id][]
+![paper in id]({{site.baseurl}}/images/)
 
-Répétez!
--------
+## Répétez!
 
 -   Après avoir ajouté vos modifications dans OSM, ils seront finalement sauvegardés
     sur la carte. De cette façon, la prochaine fois que vous voulez améliorer la carte,
     vous pouvez imprimer un nouveau Field Paper qui contiendra les changements déjà effectués.
     En répétant cette procédure, la carte deviendra de mieux en mieux, à chaque fois que vous cartographiez!
 
-Sommaire
--------
+## Sommaire
 
 Félicitations! Dans ce chapitre, vous avez appris la procédure et le mode de fonctionnement des Field Paper.
 Vous avez appris comment imprimer, cartographier et numériser un Field Paper.
 Dans le prochain chapitre, nous allons voir comment ajouter dans OSM les lieux  que nous avons cartographié
 et vous aurez appris l'ensemble de la procédure d'édition de carte.
-
-
-[field papers homepage]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image00_homepage.png
-[paper example]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image01_fieldp.png
-[fieldpaperjosm]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image02_fieldpaperjosm.png
-[paper QR code]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image03_paper_qrc.png
-[makeatlas]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image04_makeatlas.png
-[atlas]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image05_makeyourselfanatlas.png
-[zoominout]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image06_zoominout.png
-[choosetile]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image07_choosetile.png
-[blackandwhite]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image08_blackandwhite.png
-[zoom]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image09_zoom.png
-[labelnext]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image10_labelnext.png
-[name]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image11_name.png
-[layout]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image12_layout.png
-[preparing your atlas]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image13_preparingyouratlas.png
-[downloadpdf]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image14_downloadpdf.png
-[scrnsht]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image15_scrnsht.png
-[upload]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image16_upload.png
-[uploadfp]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image17_uploadfp.png
-[paper upload 2]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image18_asd.png
-[field papers plugin]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image19_plugin.png
-[paper scanned]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image20_watchsnapshot.png
-[fieldpaperid]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image21_fieldpaperid.png
-[scannedmap]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image22_scannedmap.png
-[fsnapshot]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image23_fsnapshot.png
-[editinidorpot]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image24_editinidorpot.png
-[paper in id]: /images/en/beginner/06_field-papers/en_beg_06_field-papers_image25_id.png

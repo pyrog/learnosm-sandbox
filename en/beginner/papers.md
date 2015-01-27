@@ -9,8 +9,7 @@ which allows you to print a map of an area, draw on it and add notes, and load
 the paper back into JOSM, where you can add your locations to OpenStreetMap. You can 
 also watch this 8-minute [Tutorial Field Papers video](http://www.youtube.com/watch?v=A_HGkBXZ69g&feature=youtu.be) on how to create an atlas and upload a snapshot. 
 
-Overview of Field Papers
---------------------------
+## Overview of Field Papers
 
 Before we go into detail about Field Papers, let's look at an
 overview of how the process works:
@@ -18,30 +17,26 @@ overview of how the process works:
 1. Locate the area you want to map on the Field Papers
 website. Print out a map of this area. You can choose to print the
 current map of the area on OpenStreetMap, or you can choose to print
-aerial imagery, if it is available in your area.
-
+aerial imagery, if it is available in your area.  
 ![FieldPapers homepage]({{site.baseurl}}/images/homepage.png)
 
-2. Use your printed map to survey the area. Add more places by
+1. Use your printed map to survey the area. Add more places by
 drawing them on the map. Draw lines for roads, shapes for buildings, and
 so forth. Write notes about each location directly on the map, or write
 numbers on the map that relate to numbers in your notebook, where you
-can write more detailed information about each object.
-
+can write more detailed information about each object.  
 ![Example fieldpaper print]({{site.baseurl}}/images/fieldp.png)
 
-3. Scan your paper into the computer. If you don't have a
+1. Scan your paper into the computer. If you don't have a
 scanner, you can take a photograph of the paper, if your camera is able
 to take high quality pictures. Upload the image to the Field Papers
 website.
 
-4. In JOSM, load the Field Papers.  Use the objects you draw as
-a reference to add them digitally into OpenStreetMap.
-
+1. In JOSM, load the Field Papers.  Use the objects you draw as
+a reference to add them digitally into OpenStreetMap.  
 ![Fieldpaper scan as a JOSM background]({{site.baseurl}}/images/fieldpaperjosm.png)
 
-How does Field Papers work?
------------------------------
+## How does Field Papers work?
 
 If you follow the Field Papers process described above, you will be
 collecting accurate geographic coordinates of places with nothing more
@@ -58,8 +53,7 @@ coordinates, except all you need is paper!
 
 Now let's learn how to create and use Field Papers.
 
-Create and Print
-----------------
+## Create and Print
 
 -   Open your web browser. In the address bar at the top of the window,
     enter the following text and press Enter:
@@ -143,8 +137,7 @@ Create and Print
     computer to a printer and print the page. If everything goes well,
     you should now have your map printed on paper.
 
-Map with Field Papers
------------------------
+## Map with Field Papers
 
 -   Take your Field Paper outside, and use it as a guide to walk and
     identify new places that are not on the map.
@@ -155,8 +148,7 @@ Map with Field Papers
 -   When you are satisfied with your additions on the paper map, then
     you can add them digitally into OpenStreetMap.
 
-Scan and Upload
----------------
+## Scan and Upload
 
 -   Field Papers are very useful for mapping with nothing more than
     paper, but they are not 100% magic. We will still need to add our
@@ -195,8 +187,7 @@ Scan and Upload
 
 ![Upload 2]({{site.baseurl}}/images/asd.png)
 
-Add the Field Papers Plugin
----------------------------
+## Add the Field Papers Plugin
 -   Before we can open the Field Paper in JOSM, we need to install the
     JOSM Field Papers plugin.
 
@@ -214,8 +205,7 @@ Add the Field Papers Plugin
 
 -   Restart JOSM.
 
-Open in JOSM
-------------
+## Open in JOSM
 
 -   Now can load your Field Paper into JOSM and use it to add the
     information you collected to OpenStreetMap. Return to the
@@ -261,8 +251,7 @@ links in the scanned Field Papers page.
 
 ![Snapshot layer in iD]({{site.baseurl}}/images/id.png)
 	
-Repeat!
--------
+## Repeat!
 
 -   After you add your changes to OSM, they will be saved on the
     map. Then the next time you want to improve the map, you can print
@@ -270,15 +259,13 @@ Repeat!
     made. As this process is repeated, the map will get better and
     better, the more you map!
 
-Summary
--------
+## Summary
 
 Congratulations! In this chapter you learned the process of using
 Field Papers and how they work. You learned how to print, map, and
 scan a Field Paper, and how you can use them to improve OpenStreetMap.
 
-Moving Forward
---------------
+## Moving Forward
 
 Click on the link for further reading on:
 
