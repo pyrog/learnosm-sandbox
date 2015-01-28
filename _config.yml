@@ -13,3 +13,9 @@ markdown: kramdown
 
 # delay in seconds for displaying the english version of untranslated pages
 delay: 30
+
+# Not documented (for pages). See https://github.com/jekyll/jekyll/blob/c2f0b9a7994afcff4a22dbff065ab6dbdcab21da/lib/jekyll/page.rb#L66
+# The parameter in _config.yml is permalink but inside ruby code, the class property is permalink_style ;-)
+permalink: pretty
+# pretty: For page /en/beginer/introduction.xx URL are /en/beginer/introduction/
+# else /en/beginer/introduction.html
