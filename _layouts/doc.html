@@ -11,6 +11,7 @@ layout: default
         use content.txt
         see https://www.penflip.com/Penflip/help/blob/master/working-offline/organizing-contents.md
     -->
+{%comment%}
     {% for post in site.pages %}
       {% assign l = post.url | split: "/" %}
       {% if {{l[1]}} == {{lang}} and {{post.title}}!="" %}{% unless post.hidden %}
@@ -20,6 +21,18 @@ layout: default
         </a>
       </li>
       {% endunless %}{% endif %}
+    {% endfor %}
+{%endcomment%}
+
+    <!--
+        fixme: currently, display only the toc of beginner's guide !!
+    -->
+    {% for chapter in site.data.beginner.[lang] %}
+      <li class='doc rounded'>
+        <a class='title {% if {{chapter.cover}} %}cover{% endif %} {% if page.url == chapter.url %}active{% endif %}' href="{{site.baseurl}}{{ chapter.url }}">
+          <span>{{ chapter.title }}</span>
+        </a>
+      </li>
     {% endfor %}
   </ul>
 
@@ -31,14 +44,15 @@ layout: default
       </li>
       
       {% for p in site.pages %}
-        {% if {{p.lang}} == {{lang}} %}{% unless p.hidden %}
-        {% if p.cover %}{% unless p.category == page.category %}<!-- fixme: category are removed from matter -->
-          <li class='doc rounded'>
-            <a class='title' href="{{site.baseurl}}{{ post.url }}">
-              <span>{{ p.title }}</span>
-            </a>
-          </li>
-        {% endunless %}{% endif %}
+        {% assign l = p.url | split: "/" %}
+        {% if {{l[1]}} == {{lang}} %}{% unless p.hidden %}
+          {% if p.cover and (p.url =="/en/editing/") %}   <!-- fixme: trick!! -->
+            <li class='doc rounded'>
+              <a class='title' href="{{site.baseurl}}{{ p.url }}">
+                <span>{{ p.title }}</span>
+              </a>
+            </li>
+          {% endif %}
         {% endunless %}{% endif %}
       {% endfor %}
   </ul>

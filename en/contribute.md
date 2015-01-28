@@ -1,7 +1,6 @@
 ---
 layout: contribute
-title: Contribute
-contributetitle: "Help improve our guides"
+title: "Help improve our guides"
 startwith: "Ready to get started?"
 startA: "Send us feedback"
 startB: "Create a translation"

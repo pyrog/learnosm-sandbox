@@ -2,7 +2,9 @@
 layout: default
 ---
 {% assign l = page.url | split: "/" %}{% assign lang=l[1] %}
-{% assign endurl = ".html" %}
+{% comment %}
+  {% assign endurl = ".html" %}
+{% endcomment %}
 <div id='ads' class='marginL cell9 padAll'>
   <div class='ad1 cell8 {% case lang %}{% when 'hr' %}no-capitalize{% else %}{% endcase %}'>
     <a href='{{site.baseurl}}/{{lang}}/beginner'>
