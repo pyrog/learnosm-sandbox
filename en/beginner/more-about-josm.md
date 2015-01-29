@@ -195,6 +195,6 @@ can then be imported into JOSM, and used to edit the map.
 
 Click on the link for further reading on:  
  
-*  [Surveying with GPS](../using-gps/)  
-*  [Field Papers](/..r/field-papers/)
+*  [Surveying with GPS](../gps/)  
+*  [Field Papers](../papers/)
 *  [Editing Field Data](../editing-with-josm/)

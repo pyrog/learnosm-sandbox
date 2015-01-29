@@ -238,5 +238,5 @@ take a closer look at the process of editing the OSM map with JOSM.
 
 Click on the link for further reading on:  
 
-*  [To continue with this beginner series & to learn more about JOSM](./more-about-josm/)  
-*  [To continue with the Remote, Armchair or Mapathon section of LearnOSM](../coordination/remote/)  
+*  [To continue with this beginner series & to learn more about JOSM](../more-about-josm/)  
+*  [To continue with the Remote, Armchair or Mapathon section of LearnOSM](../../coordination/remote/)  

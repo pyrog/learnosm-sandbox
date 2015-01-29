@@ -68,6 +68,6 @@ making digital maps with OpenStreetMap.
 
 Click on the link for further reading on:  
 
-*  [Getting started on OpenStreetMap.org](./start-osm/) 
-*  [Getting started with the iD editor](../editing/id-editor/)   
-*  [Getting started with the JOSM editor](./start-josm/)
+*  [Getting started on OpenStreetMap.org](../start-osm/) 
+*  [Getting started with the iD editor](../../editing/id-editor/)   
+*  [Getting started with the JOSM editor](../start-josm/)

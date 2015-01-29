@@ -182,4 +182,4 @@ you will get better and better at making maps with OSM.
 
 Click on the link for further reading on:  
 
-*  [Learning Beyond the Beginner Guide](./moving-forward/)
+*  [Learning Beyond the Beginner Guide](../moving-forward/)

@@ -281,5 +281,5 @@ These allow you to make maps without the need for a GPS!
 
 Click on the link for further reading on:
 
-*  [Field Papers](./field-papers/)
-*  [Editing Field Data](./editing-with-josm/)
+*  [Field Papers](../papers/)
+*  [Editing Field Data](../editing-with-josm/)
