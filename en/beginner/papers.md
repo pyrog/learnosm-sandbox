@@ -269,5 +269,4 @@ scan a Field Paper, and how you can use them to improve OpenStreetMap.
 
 Click on the link for further reading on:
 
-*  [Surveying with GPS](../gps/)
 *  [Editing Field Data](../editing-with-josm/)
