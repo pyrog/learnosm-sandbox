@@ -17,7 +17,7 @@ Starting the iD Editor
 -	Pan and zoom the map to the area that you want to edit.
 -	Click on the small arrow next to **Edit**. Then click **Edit with ID (in-browser editor)**.
 
-![image1](/images/id-editor.png)
+![image1](/images/edit-with-id.png)
 
 
 Moving Forward
@@ -25,5 +25,5 @@ Moving Forward
 
 Click on the link for further reading on:  
 
-*  [To continue with this beginner series & to learn about JOSM](/en/beginner/start-josm/)  
-*  [To continue with the Remote, Armchair or Mapathon section of LearnOSM](/en/coordination/remote/)
+*  [To continue with this beginner series & to learn about JOSM](./start-josm/)  
+*  [To continue with the Remote, Armchair or Mapathon section of LearnOSM](../coordination/remote/)

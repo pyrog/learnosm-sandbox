@@ -174,6 +174,6 @@ called JOSM, and learn better how to draw digital maps.
 
 Click on the link for further reading on:  
 
-*  [Getting started with the iD editor](/en/editing/id-editor/)   
-*  [Getting started with the JOSM editor](/en/beginner/start-josm/) 
-*  [To continue with the Remote, Armchair or Mapathon section of LearnOSM](/en/coordination/remote/)  
+*  [Getting started with the iD editor](../editing/id-editor/)   
+*  [Getting started with the JOSM editor](./start-josm/) 
+*  [To continue with the Remote, Armchair or Mapathon section of LearnOSM](../coordination/remote/)  
