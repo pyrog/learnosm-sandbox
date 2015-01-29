@@ -49,7 +49,7 @@
             {% if l.code == lang %}
               <a class="active">{{ l.name }}</a>
             {% else %}
-              <a href="/{{ l.code }}{{ page.url | remove_first: lang | remove_first: "/" }}">{{ l.name }}</a>
+              <a href="{{ site.baseurl }}/{{ l.code }}{{ page.url | remove_first: lang | remove_first: "/" }}">{{ l.name }}</a>
             {% endif %}
             
             {% if forloop.last == false %} | {% endif %}
