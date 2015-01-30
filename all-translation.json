@@ -1,124 +1,26 @@
 ---
 # used by the javascript search engine
 ---
-[{
-	"lang":"bi",
-	"chapters":[
-		{% for post in site.posts %}
-		{% if {{post.lang}} == 'bi' %}
-		{% unless post.nosearch %}
-		  {% include post.json %},
-		{% endunless %}
-		{% endif %}
-		{% endfor %}
-		{"label":"",
-   		"url":""}
-   	]
-},{
-	"lang":"en",
-	"chapters":[
-	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'en' %}
-	  {% unless post.nosearch %}
-	      {% include post.json %},
-	  {% endunless %}
-	  {% endif %}
-	  {% endfor %}
-	  {"label":"",
-	   "url":""}
-	]
-},{
-	"lang":"de",
-	"chapters":[
-	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'de' %}
-	  {% unless post.nosearch %}
-	      {% include post.json %},
-	  {% endunless %}
-	  {% endif %}
-	  {% endfor %}
-	  {"label":"",
-	   "url":""}
-	]
-},{
-	"lang":"es",
-	"chapter":[
-	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'es' %}
-	  {% unless post.nosearch %}
-	      {% include post.json %},
-	  {% endunless %}
-	  {% endif %}
-	  {% endfor %}
-	  {"label":"",
-	   "url":""}
-	]
-},
+[
+{% assign languages = site.data.languages | sort: "code" %}
+{% for l in languages %}
 {
-	"lang":"fr",
-	"chapters":[
-	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'fr' %}
-	  {% unless post.nosearch %}
-	      {% include post.json %},
-	  {% endunless %}
-	  {% endif %}
-	  {% endfor %}
-	  {"label":"",
-	   "url":""}
-	]
-},
-{
-	"lang":"it",
-	"chapters":[
-	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'it' %}
-	  {% unless post.nosearch %}
-	      {% include post.json %},
-	  {% endunless %}
-	  {% endif %}
-	  {% endfor %}
-	  {"label":"",
-	   "url":""}
-	]
-},{
-	"lang":"jp",
-	"chapters":[
-	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'jp' %}
-	  {% unless post.nosearch %}
-	      {% include post.json %},
-	  {% endunless %}
-	  {% endif %}
-	  {% endfor %}
-	  {"label":"",
-	   "url":""}
-	]
-},{
-	"lang":"pt",
-		"chapters":[
-	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'pt' %}
-	  {% unless post.nosearch %}
-	      {% include post.json %},
-	  {% endunless %}
-	  {% endif %}
-	  {% endfor %}
-	  {"label":"",
-	   "url":""}
-	]
-},{
-	"lang":"hr",
-		"chapters":[
-	  {% for post in site.posts %}
-	  {% if {{post.lang}} == 'hr' %}
-	  {% unless post.nosearch %}
-	      {% include post.json %},
-	  {% endunless %}
-	  {% endif %}
-	  {% endfor %}
-	  {"label":"",
-	   "url":""}
-	]
-}
+  "lang":"{{l.code}}",
+  "chapters":[
+	{% for post in site.pages %}
+	{% assign codes = post.url | split: "/" %}{% assign lang=codes[1] %}
+	{% if lang == l.code %}
+    {
+      "label"    : "{{ post.title }}",
+      "url"     : "{{ site.baseurl }}{{ post.url }}"
+    },
+	{% endif %}
+	{% endfor %}
+    {
+      "label"    : "",
+      "url"     : ""
+    }
+  ]
+}{% if forloop.last == false %},{% endif %}
+{% endfor %}
 ]

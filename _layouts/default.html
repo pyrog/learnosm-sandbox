@@ -100,6 +100,7 @@
   </body>
   <script>
   // autocomplete search with all-translation json
+  console.log('toto');
     $.getJSON("{{site.baseurl}}/all-translation.json",function(data){
       console.log(data);
       var lang = "{{lang}}";
@@ -111,7 +112,7 @@
            delay: 0,
            source: o.chapters,
            select: function(event, ui) {
-             destination = '{{site.baseurl}}' + ui.item.url;
+             destination = ui.item.url;
              window.location = destination;
            }
           });
