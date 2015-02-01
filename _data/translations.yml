@@ -7,6 +7,7 @@ en:
   feedback: "Let us know and help us improve the guides!"
   getstarted: "Get started"
   otherguides: "Other guides"
+  linkto: "Link to this section"
 es:
   tagline: "Aprende OpenStreetMap Paso a Paso"
   contribute: "Ayuda a mejorar las guías"
@@ -16,6 +17,7 @@ es:
   feedback: "¡Contacta con nosotros y ayúdanos a mejorar estas guías!"
   getstarted: "Comencemos"
   otherguides: ""
+  linkto: ""
 fr:
   tagline: "Apprendre OpenStreetMap pas à pas"
   contribute: "Contribuer à ces guides"
@@ -25,6 +27,7 @@ fr:
   feedback: "Aidez-nous à améliorer ces guides en donnant vos impressions!"
   getstarted: "Commencer"
   otherguides: "Les autres niveaux"
+  linkto: "Permalien vers cette section"
 bi:
   overview: "Ringkasan"
   tagline: "Pelajari OpenStreetMap Langkah Demi Langkah"
@@ -35,7 +38,7 @@ bi:
   feedback: "Beritahu kami dan bantu kami memperbaiki panduan!"
   getstarted: "Lanjutkan ke bab berikutnya"
   otherguides: ""
-
+  linkto: ""
 jp:
   overview: "概要"
   tagline: "はじめてからのOpenStreetMapガイド"
@@ -46,6 +49,7 @@ jp:
   feedback: "ガイドの改善にご意見ください"
   getstarted: "次の章に進む"
   otherguides: ""
+  linkto: ""
 pt:
   overview: "Sumário"
   tagline: "Conheça sobre o OpenStreetMap, passo-a-passo."
@@ -56,6 +60,7 @@ pt:
   feedback: "Conte-nos e ajude a melhorar os guias!"
   getstarted: "prosseguir para o próximo capítulo"
   otherguides: ""
+  linkto: ""
 it:
   overview: "Riassunto"
   tagline: "Impara a conoscere OpenStreetMap passo dopo passo"
@@ -66,6 +71,7 @@ it:
   feedback: "Contattaci ed aiutaci a migliorare le guide!"
   getstarted: "procedere al capitolo successivo"
   otherguides: ""
+  linkto: ""
 de:
   tagline: "Lerne OpenStreetMap Schritt für Schritt kennen"
   contribute: "Hilf mit, unsere Anleitungen zu verbessern"
@@ -75,6 +81,7 @@ de:
   feedback: "Sende uns Feedback und verbessere die Anleitungen!"
   getstarted: "weiter zum nächsten Kapitel"
   otherguides: ""
+  linkto: ""
 hr:
   tagline: "Naučite OpenStreetMap korak po korak"
   contribute: "Pomozite poboljšati naša uputstva"
@@ -84,3 +91,4 @@ hr:
   feedback: "Javite nam i pomozite nam poboljšati uputstva!"
   getstarted: "Započnite"
   otherguides: ""
+  linkto: ""

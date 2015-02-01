@@ -93,7 +93,7 @@ layout: default
   addId(allH2);
   addId(allH3);
   // make the titles linkable
-  $('h2[id], h3[id]','.doc').attr('title', 'Link to this section').click(function(e) {
+  $('h2[id], h3[id]','.doc').attr('title', '{{site.data.translations[lang].linkto}}').click(function(e) {
     window.location.hash = $(e.currentTarget).attr('id');
   });
   //select the image containers so the images can be centered, styles in css
