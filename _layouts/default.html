@@ -100,9 +100,7 @@
   </body>
   <script>
   // autocomplete search with all-translation json
-  console.log('toto');
     $.getJSON("{{site.baseurl}}/all-translation.json",function(data){
-      console.log(data);
       var lang = "{{lang}}";
       data.forEach(function(o){
         if (o.lang === lang){
