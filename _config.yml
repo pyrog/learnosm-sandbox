@@ -39,5 +39,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - changelog.md
-  - vendor
   - .travis.yml
