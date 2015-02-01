@@ -19,3 +19,23 @@ delay: 30
 permalink: pretty
 # pretty: For page /en/beginer/introduction.xx URL are /en/beginer/introduction/
 # else /en/beginer/introduction.html
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV['GIT_NAME'] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to "source" for USERNAME.github.io
+# or "master" otherwise
+username: pyrog
+repo: learnosm-sandbox
+branch: master
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+#  - vendor
+  - .travis.yml
