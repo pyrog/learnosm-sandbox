@@ -1,26 +1,1080 @@
----
-# used by the javascript search engine
----
 [
-{% assign languages = site.data.languages | sort: "code" %}
-{% for l in languages %}
+
+
 {
-  "lang":"{{l.code}}",
+  "lang":"bi",
   "chapters":[
-	{% for post in site.pages %}
-	{% assign codes = post.url | split: "/" %}{% assign lang=codes[1] %}
-	{% if lang == l.code %}
-    {
-      "label"    : "{{ post.title }}",
-      "url"     : "{{ site.baseurl }}{{ post.url }}"
-    },
-	{% endif %}
-	{% endfor %}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
     {
       "label"    : "",
       "url"     : ""
     }
   ]
-}{% if forloop.last == false %},{% endif %}
-{% endfor %}
+},
+
+{
+  "lang":"de",
+  "chapters":[
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "",
+      "url"     : ""
+    }
+  ]
+},
+
+{
+  "lang":"en",
+  "chapters":[
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "contents.txt",
+      "url"     : "/learnosm-sandbox/en/beginner/contents/"
+    },
+	
+	
+	
+	
+    {
+      "label"    : "Help improve our guides",
+      "url"     : "/learnosm-sandbox/en/contribute/"
+    },
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "Contributing to LearnOSM",
+      "url"     : "/learnosm-sandbox/en/contributing/"
+    },
+	
+	
+	
+	
+    {
+      "label"    : "Editing Field Data",
+      "url"     : "/learnosm-sandbox/en/beginner/editing-with-josm/"
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "Surveying with a GPS",
+      "url"     : "/learnosm-sandbox/en/beginner/gps/"
+    },
+	
+	
+	
+	
+    {
+      "label"    : "The iD Editor",
+      "url"     : "/learnosm-sandbox/en/editing/id-editor/"
+    },
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "Detailed Editing",
+      "url"     : "/learnosm-sandbox/en/editing/"
+    },
+	
+	
+	
+	
+    {
+      "label"    : "Beginner's guide",
+      "url"     : "/learnosm-sandbox/en/beginner/"
+    },
+	
+	
+	
+	
+    {
+      "label"    : "",
+      "url"     : "/learnosm-sandbox/en/"
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "Introduction",
+      "url"     : "/learnosm-sandbox/en/beginner/introduction/"
+    },
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "The JOSM Editing Process",
+      "url"     : "/learnosm-sandbox/en/beginner/more-about-josm/"
+    },
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "Further Reading",
+      "url"     : "/learnosm-sandbox/en/beginner/moving-forward/"
+    },
+	
+	
+	
+	
+    {
+      "label"    : "Surveying with Field Papers",
+      "url"     : "/learnosm-sandbox/en/beginner/papers/"
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "The iD Editor",
+      "url"     : "/learnosm-sandbox/en/beginner/start-id/"
+    },
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "Getting Started with JOSM",
+      "url"     : "/learnosm-sandbox/en/beginner/start-josm/"
+    },
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "Getting started on OpenStreetMap.org",
+      "url"     : "/learnosm-sandbox/en/beginner/start-osm/"
+    },
+	
+	
+    {
+      "label"    : "",
+      "url"     : ""
+    }
+  ]
+},
+
+{
+  "lang":"es",
+  "chapters":[
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "",
+      "url"     : ""
+    }
+  ]
+},
+
+{
+  "lang":"fr",
+  "chapters":[
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "Utiliser l'imagerie aérienne",
+      "url"     : "/learnosm-sandbox/fr/beginner/aerial-imagery/"
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "Contribute",
+      "url"     : "/learnosm-sandbox/fr/contribute/"
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "Éditer avec JOSM",
+      "url"     : "/learnosm-sandbox/fr/beginner/editing-with-josm/"
+    },
+	
+	
+	
+	
+    {
+      "label"    : "Sur le terrain avec un GPS",
+      "url"     : "/learnosm-sandbox/fr/beginner/gps/"
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "",
+      "url"     : "/learnosm-sandbox/fr/"
+    },
+	
+	
+	
+	
+    {
+      "label"    : "Guide du débutant",
+      "url"     : "/learnosm-sandbox/fr/beginner/"
+    },
+	
+	
+	
+	
+    {
+      "label"    : "Introduction",
+      "url"     : "/learnosm-sandbox/fr/beginner/introduction/"
+    },
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "Préférences et greffons JOSM",
+      "url"     : "/learnosm-sandbox/fr/beginner/josm-plugins/"
+    },
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "Pour aller plus loin",
+      "url"     : "/learnosm-sandbox/fr/beginner/moving-forward/"
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "Étude de terrain avec les Field Papers",
+      "url"     : "/learnosm-sandbox/fr/beginner/papers/"
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "Premiers pas avec JOSM",
+      "url"     : "/learnosm-sandbox/fr/beginner/start-josm/"
+    },
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "Introduction à OpenStreetMap.org",
+      "url"     : "/learnosm-sandbox/fr/beginner/start-osm/"
+    },
+	
+	
+	
+	
+	
+    {
+      "label"    : "",
+      "url"     : ""
+    }
+  ]
+},
+
+{
+  "lang":"hr",
+  "chapters":[
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "",
+      "url"     : ""
+    }
+  ]
+},
+
+{
+  "lang":"it",
+  "chapters":[
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "",
+      "url"     : ""
+    }
+  ]
+},
+
+{
+  "lang":"jp",
+  "chapters":[
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "",
+      "url"     : ""
+    }
+  ]
+},
+
+{
+  "lang":"pt",
+  "chapters":[
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "",
+      "url"     : ""
+    }
+  ]
+}
+
 ]
