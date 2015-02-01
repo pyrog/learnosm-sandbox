@@ -27,10 +27,10 @@ permalink: pretty
 # or "master" otherwise
 username: pyrog
 repo: learnosm-sandbox
-branch: master
-production_url:  http://pyrog.github.io/learnosm-sandbox
-source_url:      http://github.com/pyrog/learnosm-sandbox
-destination:     ./_site
+#branch: master
+#production_url:  http://pyrog.github.io/learnosm-sandbox
+#source_url:      http://github.com/pyrog/learnosm-sandbox
+destination:     "./_site"
 
 
 exclude:
@@ -39,5 +39,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - changelog.md
-#  - vendor
+  - vendor
   - .travis.yml
