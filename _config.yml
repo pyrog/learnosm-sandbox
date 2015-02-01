@@ -36,7 +36,7 @@ destination:     "./_site"
 exclude:
   - README.md
   - Rakefile
-  - Gemfile
+#  - Gemfile
   - Gemfile.lock
   - changelog.md
   - .travis.yml
