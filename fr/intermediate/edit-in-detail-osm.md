@@ -248,8 +248,6 @@ attributs !
     redémarrage de JOSM, le menu suivant sera également ajouté :
     Sélection
 
-[](#)[](#)
-
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image34.png)
 
 Les outils suivants se sont révélés être les plus utiles :
@@ -336,19 +334,12 @@ devez :
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image37.png)
 
-Vous verrez alors votre bâtiment représenté avec une surface solide et
-les polygones intérieurs représentés avec des vides. Les données
-sous-jacentes de la relation dans cet exemple sont visibles sur
-OpenStreetMap
-: [http://www.openstreetmap.org/browse/relation/2435797](http://www.openstreetmap.org/browse/relation/2435797).
-Le bâtiment est rendu par Mapnik comme sur cette image :
+Vous verrez alors votre bâtiment représenté avec une surface solide et les polygones intérieurs représentés avec des vides. Les données sous-jacentes de la relation dans cet exemple sont visibles sur OpenStreetMap : [http://www.openstreetmap.org/browse/relation/2435797](http://www.openstreetmap.org/browse/relation/2435797).
 
+Le bâtiment est rendu par Mapnik comme sur cette image :
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image06.png)
 
-[OSM Wiki: Relation:
-MultiPolygon](http://wiki.openstreetmap.org/wiki/FR:Relation:multipolygon#Un_anneau_externe_et_un_anneau_interne)
-
-[](http://wiki.openstreetmap.org/wiki/FR:Relation:multipolygon#Un_anneau_externe_et_un_anneau_interne)
+[OSM Wiki: Relation: MultiPolygon](http://wiki.openstreetmap.org/wiki/FR:Relation:multipolygon#Un_anneau_externe_et_un_anneau_interne)
 
 ### Autre type de MultiPolygone
 
@@ -359,12 +350,9 @@ membres et couvrant une superficie beaucoup plus grande. Elle définit
 les contours de la rivière et les éléments à exclure (les îles). Ce
 multipolygone comprend dix lignes avec les rôles inner et outer.
 
-La relation peut être consultée sur le site OpenStreetMap ici
-: [](http://www.openstreetmap.org/browse/relation/1046961.)[http://www.openstreetmap.org/browse/relation/1046961](http://www.openstreetmap.org/browse/relation/1046961).
+La relation peut être consultée sur le site OpenStreetMap ici : [http://www.openstreetmap.org/browse/relation/1046961](http://www.openstreetmap.org/browse/relation/1046961)
 
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image12.png)![image](/images/fr/0300-12-30-edit-in-detail-osm/image42.png)
-
-[](#)[](#)
 
 ### Relations de Lignes
 
@@ -642,20 +630,16 @@ tableau de lignes d'attributs. Le reste peut être ignoré.
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image43.png)
 
 - Cliquez sur OK et la fenêtre se ferme. Vous verrez alors votre
-    bâtiment comme une forme solide avec les polygones intérieurs
-    formant des trous. La donnée illustrant la relation dans cet exemple
-    est visible sur OpenStreetMap
-    : [](http://www.openstreetmap.org/browse/relation/2435797)[http://www.openstreetmap.org/browse/relation/2435797](http://www.openstreetmap.org/browse/relation/2435797).
-    Le bâtiment est rendu dans Mapnik comme sur cette image:
+bâtiment comme une forme solide avec les polygones intérieurs
+formant des trous. La donnée illustrant la relation dans cet exemple
+est visible sur OpenStreetMap : [http://www.openstreetmap.org/browse/relation/2435797](http://www.openstreetmap.org/browse/relation/2435797)
 
+Le bâtiment est rendu dans Mapnik comme sur cette image:
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image06.png)
 
-Source : [OSM Wiki: Relation:
-MultiPolygone](http://wiki.openstreetmap.org/wiki/FR:Relation:multipolygon#Un_anneau_externe_et_un_anneau_interne)
+Source : [OSM Wiki: Relation: MultiPolygone](http://wiki.openstreetmap.org/wiki/FR:Relation:multipolygon#Un_anneau_externe_et_un_anneau_interne)
 
-[](http://wiki.openstreetmap.org/wiki/FR:Relation:multipolygon#Un_anneau_externe_et_un_anneau_interne)
-
-**Relation cours d'eau.**
+**Relation cours d'eau**
 
 L'exemple d'un cours d'eau nécessite que vous créiez les berges internes
 et externes, de même que les surfaces exclues à l'intérieur. De même
@@ -674,25 +658,25 @@ transport le long de l'itinéraire.
 ![image](/images/fr/0300-12-30-edit-in-detail-osm/image03.png)
 
 - Assurez-vous que tous les chemins que suit l'itinéraire sont
-    étiquetés de manière appropriée. Par exemple, highway=street.
+étiquetés de manière appropriée. Par exemple, highway=street.
 - Ouvrez le panneau pour Afficher la liste des relations Alt + Maj + R
-    et cliquez sur le bouton + dans le panneau pour créer une nouvelle
-    relation.
+et cliquez sur le bouton + dans le panneau pour créer une nouvelle
+relation.
 - Saisissez les bons attributs dans la fenêtre. Pour un itinéraire
-    routier (exemple : ligne de bus appelée Route 5), il s'agit de
-    type=route et name=Route 5.
+routier (exemple : ligne de bus appelée Route 5), il s'agit de
+type=route et name=Route 5.
 - Cliquez sur OK.
 - Sélectionnez tous les voies et chemins pris par le moyen de
-    transport (exemple : le bus). Si vous voulez sélectionner seulement
-    certaines parties d'un chemin, vous devez malheureusement le diviser
-    pour obtenir la section voulue. Cela ajoute une tâche
-    supplémentaire, mais cela peut être fait facilement avec l'outil
-    Couper le chemin P. Une fois que tous les chemins ou certains
-    d'entre eux sont sélectionnés, cliquez sur le bouton "Modifiez la
-    relation dans l'éditeur de relation" dans le panneau des relations.
-    La fenêtre des propriétés de la relation s'ouvre alors.
+transport (exemple : le bus). Si vous voulez sélectionner seulement
+certaines parties d'un chemin, vous devez malheureusement le diviser
+pour obtenir la section voulue. Cela ajoute une tâche
+supplémentaire, mais cela peut être fait facilement avec l'outil
+Couper le chemin P. Une fois que tous les chemins ou certains
+d'entre eux sont sélectionnés, cliquez sur le bouton "Modifiez la
+relation dans l'éditeur de relation" dans le panneau des relations.
+La fenêtre des propriétés de la relation s'ouvre alors.
 - Cliquez sur l'un des boutons Ajouter les objets avant le premier
-    membre ou Ajouter les objets après le dernier membre pour ajouter
-    les chemins sélectionnés à la relation existante.
+membre ou Ajouter les objets après le dernier membre pour ajouter
+les chemins sélectionnés à la relation existante.
 
 
