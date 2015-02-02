@@ -412,7 +412,7 @@ les connaitre. À mesure que vous développez vos compétences avec OSM et
 voulez créer des objets plus complexes, comme par exemple les immeubles,
 rivières et routes, les relations seront utiles.
 
-## Techniques d'édition : Les A faire et Ne pas faire
+## Techniques d'édition à faire et à éviter
 
 Dans cette section, nous couvrirons quelques erreurs communes dans JOSM
 et fournirons quelques trucs d'édition pour rendre votre travail dans
