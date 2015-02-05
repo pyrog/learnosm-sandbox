@@ -78,8 +78,9 @@
       </div>
     </div>
     <div id='content' class='cf'>
-        {{ content }}
-    </div>
+      {% capture src %}<img src="/images/{% endcapture %}
+      {% capture dst %}<img src="{{site.baseurl}}/images/{% endcapture %}
+      {{content | replace: src,dst }}
     <small id='footer' class='fillG cell12'>
       <ul class='contact marginL marginR cell5 padAll'>
         <li><a class='email' href="mailto:learnosm@hotosm.org">learnosm@hotosm.org</a></li>
