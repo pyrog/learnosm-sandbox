@@ -43,4 +43,21 @@ exclude:
   
 prose:
   media: "images"
+  ignore:
+    - "_data"
+    - "_includes"
+    - "_layouts"
+    - "_plugins"
+    - "vendor"
+    - ".gitignore"
+    - ".travis.yml"
+    - "Gemfile"
+    - "Rakefile"
+    - "_config.yml"
+    - "all-translation.json"
+    - "print.css"
+    - "reset.css"
+    - "site.js"
+    - "style.css"
+    - "index.html"
   
