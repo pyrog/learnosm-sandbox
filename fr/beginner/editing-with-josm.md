@@ -74,7 +74,7 @@ carte OSM.
     sélection. L'information relative à l'objet sera affichée dans le panneau Propriétés, et le nom d'utilisateur de l'auteur de cet objet sera affiché
     dans le panneau Auteurs.
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_46acf705_en.png)
+    ![](/images/EditingWithJOSM_html_46acf705_en.png)
 
 -   Sur le côté gauche de JOSM, il y a plusieurs barres d'outils sous forme de
     nombreux boutons. Au haut de cette barre, se trouvent différents boutons qui
@@ -101,20 +101,20 @@ devons télécharger les données existantes dans la base OSM pour la zone à
     vos fichiers, regardez dans le fond à gauche de JOSM. Vous pouvez voir la
     latitude et la longitude (Coordonnées) du curseur de votre souris.
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m58e5f3e7_en.png)
+    ![](/images/EditingWithJOSM_html_m58e5f3e7_en.png)
 
 -   Parce que la fenêtre de la carte montre déjà la zone que l'on veut
     modifier, il est facile de télécharger les données OpenStreetMap pour cette zone.
     Cliquez sur «Fichier» dans le coin supérieur gauche de JOSM et cliquez sur «Télécharger de OSM». Cela permettra d'ouvrir la fenêtre de téléchargement. Vous pouvez accéder à
     cette fenêtre plus simplement en cliquant sur le bouton de téléchargement décrit ci-dessous:
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m6f2281c2_en.png)
+    ![](/images/EditingWithJOSM_html_m6f2281c2_en.png)
 
 -   Lorsque la fenêtre de téléchargement s'ouvre, vous devriez voir une carte
     avec une boîte rose dessinée au-dessus. Si vous ne voyez pas la carte,
     cliquez sur l'onglet marqué «Carte Slippy».
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m1318e890_en.png)
+    ![](/images/EditingWithJOSM_html_m1318e890_en.png)
 
 -   La boîte rose correspond à la zone de la carte que nous aimerions
     télécharger pour l'édition. À l'ouverture, elle correspond à la zone
@@ -138,7 +138,7 @@ devons télécharger les données existantes dans la base OSM pour la zone à
     téléchargez à partir d'OpenStreetMap, un autre élément est ajouté dans le
     panneau Calques sur le côté droit de JOSM. Vos panneaux de couches peuvent ressembler à ceci:
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_5c2b7c3b_en.png)
+    ![](/images/EditingWithJOSM_html_5c2b7c3b_en.png)
 
 -   Chaque élément de cette liste représente une source de données différente
     que vous avez ouverte dans la fenêtre de votre carte. Dans l'exemple
@@ -152,7 +152,7 @@ devons télécharger les données existantes dans la base OSM pour la zone à
 -   Pour masquer une de ces couches, sélectionnez-la avec votre souris et
     cliquez sur le bouton «Afficher / Masquer» qui ressemble à ceci:
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_5c2e696f_en.png)
+    ![](/images/EditingWithJOSM_html_5c2e696f_en.png)
 
 -   Vous devriez voir la couche sélectionnée disparaître de la fenêtre «Carte».
     Cliquez sur «Afficher / Masquer» de nouveau, et elle réapparaîtra.
@@ -160,7 +160,7 @@ devons télécharger les données existantes dans la base OSM pour la zone à
 -   Vous pouvez fermer une couche en la sélectionnant et en cliquant sur le 
     bouton «Suppression» :
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m172543d8_en.png)
+    ![](/images/EditingWithJOSM_html_m172543d8_en.png)
 
 -   Enfin, il est important de savoir que vous ne pouvez modifier que la couche
     considérée comme *active* par JOSM. Si vous ne parvenez pas à éditer la
@@ -173,7 +173,7 @@ devons télécharger les données existantes dans la base OSM pour la zone à
 -   Si vous voulez qu'une couche devienne active, sélectionnez-la dans le
     panneau «Calques», puis cliquez sur le bouton «Activer»:
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_de83a77_en.png)
+    ![](/images/EditingWithJOSM_html_de83a77_en.png)
 
 ## Éditer
 
@@ -186,7 +186,7 @@ de mieux en mieux.
     devrait être. Ceci peut être utilisé pour corriger la position des éléments
     qui ont été mis au mauvais endroit.
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m2eb4096c_en.png)
+    ![](/images/EditingWithJOSM_html_m2eb4096c_en.png)
 
 -   Utiliser les outils de **Dessin** pour dessiner des nouveaux points, des
     lignes et des formes. Décrivez ces objets en les sélectionnant dans le menu «Attributs», comme vous l'avez fait dans le [Chapitre 3]({{site.baseurl}}/en/beginner/start-josm/).
@@ -204,7 +204,7 @@ de mieux en mieux.
     va créer un point. Puis allez dans le menu «Attributs», et trouvez
     l'attribut pour l'école. Entrez le nom de l'école et cliquez sur «Appliquez les attributs». Faites de même pour ajouter des lignes et des polygones.
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_1cb5aeb4_en.png)
+    ![](/images/EditingWithJOSM_html_1cb5aeb4_en.png)
 	
 ## Balises
 
@@ -231,7 +231,7 @@ de mieux en mieux.
 -   Si vous sélectionnez un objet dans JOSM, vous pouvez voir tous les attributs
     qui lui sont attribués à partir du panneau «Propriétés» sur la droite.
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m945ccee_en.png)
+    ![](/images/EditingWithJOSM_html_m945ccee_en.png)
 
 ### Éditer les attributs
 
@@ -253,7 +253,7 @@ Pour modifier un objet existant :
     2. Vous pouvez éditer les attributs directement dans la fenêtre «Propriétés»
     sur la droite.
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_94da59a_en.png)
+    ![](/images/EditingWithJOSM_html_94da59a_en.png)
 
 ### Erreur courante: ajouter des attributs aux nœuds d'un objet au lieu de les ajouter à des lignes ou des polygones
 
@@ -268,7 +268,7 @@ ceux-ci sont alors ajoutés *et* à la ligne *et* aux nœuds qui la composent.
 Assurez-vous de ne sélectionner que les *lignes** lorsque vous souhaitez leur
 ajouter des attributs.
 
-![]({{site.baseurl}}/images/EditingWithJOSM_html_2746cce8_en.png)
+![](/images/EditingWithJOSM_html_2746cce8_en.png)
 
 > Vous pouvez trouver plus d'information sur les attributs et les presets dans
 > le guide intermédiaire, «Chapitre 4: XML et attributs JOSM».
@@ -284,7 +284,7 @@ téléverser les modifications vers la base OpenStreetMap.
     va ouvrir la fenêtre de téléchargement. Vous pouvez accéder à cette fenêtre
     en cliquant simplement sur le bouton de téléchargement, illustré ici:
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_67f320b3_en.png)
+    ![](/images/EditingWithJOSM_html_67f320b3_en.png)
 
 -   La fenêtre qui apparaît affiche la liste des objets que vous ajoutez et les
     objets que vous modifiez ou supprimez. Dans la boîte en bas de la fenêtre,
@@ -293,7 +293,7 @@ téléverser les modifications vers la base OpenStreetMap.
     contexte collaboratif comme OpenStreetMap, il est important de décrire de
     façon générale l'objet de ces ajouts, modifications et suppressions.
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m5f20c80_en.png)
+    ![](/images/EditingWithJOSM_html_m5f20c80_en.png)
 
 -   Cliquez sur «Télécharger les modifications».
 
@@ -305,7 +305,7 @@ téléverser les modifications vers la base OpenStreetMap.
     sauvegardés et vous n'aurez pas besoin de les entrer à nouveau à l'avenir.
     Cliquez sur «Authentification».
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m5f20c80_en.png)
+    ![](/images/EditingWithJOSM_html_m5f20c80_en.png)
 
 -   Vous devrez attendre quelques secondes pour que vos modifications soient 
     transférées. Et voilà! Vous avez fait votre première modification à
@@ -345,7 +345,7 @@ Internet.
     donnez-lui un nom. Vous pouvez également enregistrer en cliquant sur ce
     bouton :
 
-    ![]({{site.baseurl}}/images/EditingWithJOSM_html_m3d7a0a33_en.png)
+    ![](/images/EditingWithJOSM_html_m3d7a0a33_en.png)
 
 -   Vous pouvez maintenant fermer JOSM et vos données seront sauvegardées.
     Lorsque vous voulez accéder au fichier à nouveau, il suffit d'ouvrir JOSM,

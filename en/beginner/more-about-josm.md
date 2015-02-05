@@ -33,13 +33,13 @@ to make changes to the map, because the map is often being updated by other user
     this window more simply by clicking on the download button, shown
     here:
 
-![JOSM Download Button]({{site.baseurl}}/images/download-button.png)
+![JOSM Download Button](/images/download-button.png)
 
 -  When the download window opens, you should see a map with a pink box
     drawn on it. If you don’t see the map, click on the tab marked
     “Slippy map”.
 
-![JOSM Download Dialog]({{site.baseurl}}/images/download-dialog.png)
+![JOSM Download Dialog](/images/download-dialog.png)
 
 -  The pink box represents the area of the map that we would like to
     download for editing. Use your mouse to pan and zoom it to an area
@@ -73,8 +73,8 @@ contributing to the map.
 >   If you don't see Bing Sat on the Imagery menu, you may need to activate
 >   it in the JOSM preferences. Go to Edit -> Preferences and click on the icon
 >   that says “WMS TMS”. You may need to click on the down arrow to find it.
-> ![JOSM Preferences up down]({{site.baseurl}}/images/preferences-up-down.png)
-> ![JOSM Preferences WMS TMS]({{site.baseurl}}/images/preferences-wms-tms.png)
+> ![JOSM Preferences up down](/images/preferences-up-down.png)
+> ![JOSM Preferences WMS TMS](/images/preferences-wms-tms.png)
 >   Click on “Bing Sat”. Then Click “Activate”.
 
 
@@ -82,7 +82,7 @@ contributing to the map.
 Now that we've downloaded OpenStreetMap data and added the Bing satellite imagery,
 let's take another look at the interface of JOSM.
 
-![JOSM layout]({{site.baseurl}}/images/josm-layout.png)
+![JOSM layout](/images/josm-layout.png)
 
 The main window you are already familiar with - this is the map window, and 
 it is where most of the action takes place. Here you will view, edit, and
@@ -122,7 +122,7 @@ have seen previously - points, lines, and shapes that represent real-life locati
     should be. This can be used to correct the location of items that
     have been put in the wrong place.
 
-![JOSM select tool]({{site.baseurl}}/images/select-tool.png)
+![JOSM select tool](/images/select-tool.png)
 
 -  Use the **draw tool** to draw new points, lines, and shapes.
     Describe these objects by selecting from the Presets menu, as you
@@ -131,7 +131,7 @@ have seen previously - points, lines, and shapes that represent real-life locati
 > Never edit the map outside of the area you have downloaded. You
 can see the rectangular area you have downloaded has a solid background,
 while the area you have not downloaded has diagonal pinstriped lines.
-![JOSM area downloaded]({{site.baseurl}}/images/area-downloaded.png)
+![JOSM area downloaded](/images/area-downloaded.png)
 
 ## Save Changes
 The third and final step to complete our edits is to upload the changes we have
@@ -142,14 +142,14 @@ be connected to the internet.
     will open up the upload window. You can access this window more
     simply by clicking on the upload button, shown here:
 
-![JOSM Upload Button]({{site.baseurl}}/images/upload-button.png)
+![JOSM Upload Button](/images/upload-button.png)
 
 -  The window that appears shows a list of the objects that you are
     adding and the objects you are modifying or deleting. In the box at
     the bottom you are asked to provide a comment about the changes that
     you are making. Type in here a description of your edits.
 
-![JOSM Upload Dialog]({{site.baseurl}}/images/upload-dialog.png)
+![JOSM Upload Dialog](/images/upload-dialog.png)
 
 -  Click “Upload Changes”.
 
@@ -159,7 +159,7 @@ be connected to the internet.
     this window, your username and password will be saved and you won’t
     need to enter them again in the future. Click “Authenticate”.
 
-![JOSM Authenticate]({{site.baseurl}}/images/authenticate.png)
+![JOSM Authenticate](/images/authenticate.png)
 
 -	You will need to wait a few seconds for your changes to be uploaded,
     and then you are done! You have edited the map on OpenStreetMap.

@@ -8,7 +8,7 @@ OpenStreetMap website, view maps, and sign up for a user
 account. After you have your own username and password, you will be able
 to contribute your first points to the map.
 
-![website]({{site.baseurl}}/images/website.png)
+![website](/images/website.png)
 
 ## Visit the OpenStreetMap Website
 
@@ -21,7 +21,7 @@ to contribute your first points to the map.
 -   When the page has finished loading, you should see something like
     this:
 
-    ![OpenStreetMap website with some main functions listed]({{site.baseurl}}/images/osm-website-main-functions.png)
+    ![OpenStreetMap website with some main functions listed](/images/osm-website-main-functions.png)
 
 
 ## Navigate the Map
@@ -30,7 +30,7 @@ to contribute your first points to the map.
     on it with your left mouse button, holding the button down, and
     dragging your mouse around (see figure below).
 
-    ![Mouse navigation]({{site.baseurl}}/images/mouse-navigation.png)
+    ![Mouse navigation](/images/mouse-navigation.png)
 
 -   If you have a mouse with a scroll-wheel, zoom in and out on the map
     by turning the wheel. If you don’t have a scroll-wheel, use the +
@@ -43,7 +43,7 @@ to contribute your first points to the map.
     location that looks like the one you want. The map will
     automatically move to the location you chose.
 
-    ![Search]({{site.baseurl}}/images/search.png)
+    ![Search](/images/search.png)
  
 
 ## View Different Map Styles
@@ -55,7 +55,7 @@ available on the OSM website.
 
 -   Click on the Layers button on the right side of the map window.
 
-    ![Layers button]({{site.baseurl}}/images/layers.png)
+    ![Layers button](/images/layers.png)
 
 -   Click on the different style options for the map. Notice how the map
     changes with each one. The transport map, for example, emphasizes
@@ -63,7 +63,7 @@ available on the OSM website.
     routes. All of the data to make this possible is contained in the OSM
     database.
 
-    ![Transport map]({{site.baseurl}}/images/transport-map.png)
+    ![Transport map](/images/transport-map.png)
 
 ## Create an OpenStreetMap Account
 
@@ -74,7 +74,7 @@ available on the OSM website.
     right corner of the page.
 -   You should see a new page that looks like this:
 
-    ![Registering an OpenStreetMap account]({{site.baseurl}}/images/registering-account.png)
+    ![Registering an OpenStreetMap account](/images/registering-account.png)
     
 -   There are five boxes on this page that you need to fill in to
     register an account with OSM.
@@ -109,7 +109,7 @@ available on the OSM website.
     look like the image below. Click on the link that is identified
     below:
 
-    ![Confirming your OpenStreetMap account]({{site.baseurl}}/images/confirming-account.png)
+    ![Confirming your OpenStreetMap account](/images/confirming-account.png)
     
 -   A new tab or window will open. If everything went well, you should
     have an OSM account!
@@ -131,15 +131,15 @@ available on the OSM website.
     drop down.
 -   Click “Edit with iD (in-browser editor)”.
 
-    ![Click edit]({{site.baseurl}}/images/click-edit.png)
+    ![Click edit](/images/click-edit.png)
 -   The online editor, named iD, should open. It will look something like this.
 
-    ![iD editor]({{site.baseurl}}/images/id-editor.png)
+    ![iD editor](/images/id-editor.png)
 -   You can add a point to the map by clicking on the button named "Point" at
     the top the window. Then click on the map where you would like to add a new
     point.
 
-    ![Point button]({{site.baseurl}}/images/point-button.png) 
+    ![Point button](/images/point-button.png) 
 
 -   Select from the menu on the left what type of location it is that you are
     adding to the map. You can then fill in the appropriate form with the location's
@@ -148,7 +148,7 @@ available on the OSM website.
     first edit, you may prefer to play around with the editor. Don't save your changes
     unless you are sure they are correct.
 
-    ![Save button]({{site.baseurl}}/images/save-button.png)
+    ![Save button](/images/save-button.png)
 
 -   If you do click Save, you will be asked to provide a description of your changes.
     Then you can click "Save" once more, and your additions will be saved to the

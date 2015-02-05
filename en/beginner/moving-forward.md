@@ -15,7 +15,7 @@ There is a lot of information about OpenStreetMap available at
 find information about other projects that are related to OpenStreetMap,
 and documents and tutorials that can help you learn more about OSM.
 
-![Wiki]({{site.baseurl}}/images/osm-wiki.png)
+![Wiki](/images/osm-wiki.png)
 
 <!-- also more info on this site once it is prepared -->
 
@@ -31,7 +31,7 @@ OpenStreetMap.
     browser and go to
     [lists.openstreetmap.org](http://lists.openstreetmap.org/).
 
-![Mailing list]({{site.baseurl}}/images/osm-mailing-lists.png)
+![Mailing list](/images/osm-mailing-lists.png)
 
 -   Scroll down the page to find the list associated with your country.
     The country lists are named "Talk-lg", where lg represents the
@@ -65,7 +65,7 @@ is a simple tool for printing a map of any area you choose. It will
 automatically create the map, along with a grid over the map, and an
 index of locations that are included in the area.
 
-![MapOSMatic]({{site.baseurl}}/images/maposmatic-homepage.png)
+![MapOSMatic](/images/maposmatic-homepage.png)
 -->
 
 

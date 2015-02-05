@@ -32,9 +32,9 @@ geographic coordinates.
 For example: -8.639298 Latitude, 116.311607 Longitude is a location in
 Lombok, Indonesia.
 
-![Google Earth software, showing coordinates of Lombok, Indonesia]({{site.baseurl}}/images/google-earth-lombok.png)
+![Google Earth software, showing coordinates of Lombok, Indonesia](/images/google-earth-lombok.png)
 
-![Garmin eTrex Vista HCx]({{site.baseurl}}/images/garmin-etrex.png)
+![Garmin eTrex Vista HCx](/images/garmin-etrex.png)
 
 ## Turn on the GPS
 
@@ -47,12 +47,12 @@ will start, and it will show you the Satellites page. You should see
 something like the image below. Your GPS is looking for satellite signals. 
 When it has connected to three or more satellites, it will have your location.
 
-![GPS determined location]({{site.baseurl}}/images/aquiring-satellites.png)
+![GPS determined location](/images/aquiring-satellites.png)
 
 Once your location is determined, the Satellite screen will disappear
 and you will see the main menu.
 
-![GPS main menu]({{site.baseurl}}/images/main.png)
+![GPS main menu](/images/main.png)
 
 ## Navigate the GPS
 
@@ -64,7 +64,7 @@ and you will see the main menu.
 -   By pressing the X button, you should be able to flip through
     different screens that will look something like this:
 
-![GPS all]({{site.baseurl}}/images/all.png)
+![GPS all](/images/all.png)
 
 -   If you return to the Satellites page, you can see that you are
     connected to three or more satellites. In the upper left corner are
@@ -116,7 +116,7 @@ where you have been. Tracks are useful for mapping objects that are
 represented by lines or shapes, such as the course of a road, or the
 shape of a field.
 
-![GPS path]({{site.baseurl}}/images/google-earth.png)
+![GPS path](/images/google-earth.png)
 
 ## Save Your Location
 
@@ -125,7 +125,7 @@ shape of a field.
     “Mark” is highlighted on the screen. Push the joystick button down
     to open the “Save Waypoint” page.
 
-![save location 1]({{site.baseurl}}/images/save-location1.png)
+![save location 1](/images/save-location1.png)
 
 <!-- note unnecessary perhaps? add to advanced section 
 > If you are using multiple GPS devices it is important to ensure that all
@@ -148,7 +148,7 @@ shape of a field.
     and any other information you want to record about the place in your
     notebook.
 
-![save location 2]({{site.baseurl}}/images/save-location2.png)
+![save location 2](/images/save-location2.png)
 
 -   Press the “X” button to go to the map page. You should now see your
     point on the map.
@@ -167,7 +167,7 @@ shape of a field.
 -   To turn on the track log, click the “X” button until your reach the
     page that says Track Log.
 
-![turn on track]({{site.baseurl}}/images/turn-on-track.png)
+![turn on track](/images/turn-on-track.png)
 
 -   If you would like to empty the track log to delete earlier
     recordings, use the joystick to select “Clear”, and press the
@@ -233,7 +233,7 @@ additional features.
 -   Continue clicking “Next” until the program installs. 
 -   When the program has finished installing, click “Finish” to start GPSBabel.
 
-![GPSBabel Interface]({{site.baseurl}}/images/babel.png)
+![GPSBabel Interface](/images/babel.png)
 
 ### Copy Tracks and Waypoints
 
@@ -244,7 +244,7 @@ additional features.
 -   Go down to the middle of the window, under Output. In the dropdown
     menu labelled “Format”, select “GPX XML”:
 
-![Choose GPX XML]({{site.baseurl}}/images/xml.png)
+![Choose GPX XML](/images/xml.png)
 
 -   Click “File Name” and type a name for your saved file. It should be
     something that describes the data, such as the date and the
@@ -262,7 +262,7 @@ additional features.
 -   Find and select the file that you created with GPSBabel. Click “Open”.
 -   You should now see your points and tracks loaded into JOSM.
 
-![GPS Files Open in JOSM]({{site.baseurl}}/images/open-josm.png)
+![GPS Files Open in JOSM](/images/open-josm.png)
 
 ## Summary
 

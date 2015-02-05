@@ -25,11 +25,11 @@ to draw maps in JOSM.
 - You can also find the JOSM website by searching the internet for “JOSM”.    
 - The website should look something like this:
 
-  ![JOSM website]({{site.baseurl}}/images/josm-website.png)
+  ![JOSM website](/images/josm-website.png)
 
 - If you have Windows installed on your computer, click “Windows Installer” to download JOSM.
 
-  ![Windows installer]({{site.baseurl}}/images/windows-installer.png)
+  ![Windows installer](/images/windows-installer.png)
 
 - If you have a different operating
   system, click on the link for your system. Your download should
@@ -56,7 +56,7 @@ to draw maps in JOSM.
   message again, check the box at the bottom before pressing “Cancel.”
 - When JOSM starts, it will look something like this:
 
-  ![JOSM splash page]({{site.baseurl}}/images/josm-splash-page.png)
+  ![JOSM splash page](/images/josm-splash-page.png)
 
 ## JOSM Preferences
 
@@ -67,7 +67,7 @@ work in a different one.
 
 - To access the Preferences window, click Edit -\> Preferences.
 
-  ![Preferences window]({{site.baseurl}}/images/preferences-window.png)
+  ![Preferences window](/images/preferences-window.png)
 
 - On the left side, click the icon that looks like a paint can and
   paint brush.
@@ -75,7 +75,7 @@ work in a different one.
 - Choose your language in the dropdown box next to the word
   “Language”.
   
-  ![Look and feel]({{site.baseurl}}/images/look-and-feel.png)
+  ![Look and feel](/images/look-and-feel.png)
 
 - Click OK.
 - You need to restart JOSM to save your settings. Click “File” in the upper
@@ -91,13 +91,13 @@ work in a different one.
 - Now let’s open the sample map file in JOSM. Click the
   “Open” button in the upper left.
 
-  ![Open file]({{site.baseurl}}/images/open-file.png)
+  ![Open file](/images/open-file.png)
 
 - Find the file **sample.osm**. It is probably in your Downloads folder,
   unless you saved it somewhere else. Click on it, and then click “Open”.
 - You should now see a sample map that looks like this:
 
-  ![Sample file]({{site.baseurl}}/images/sample-file.png)
+  ![Sample file](/images/sample-file.png)
 
 ### Basic Operations
 
@@ -110,7 +110,7 @@ work in a different one.
   and right by holding your left mouse down and moving the bar left or
   right with your mouse.
 
-  ![Scale bar]({{site.baseurl}}/images/scale-bar.png)
+  ![Scale bar](/images/scale-bar.png)
 
 - Look at the sample map. There a few different types of objects here.
   There is a river, a forest, some buildings, several roads, and a
@@ -177,14 +177,14 @@ work in a different one.
 - Until now, you have been using the Select tool, which looks like
   this:
 
-  ![Select tool]({{site.baseurl}}/images/select-tool.png)
+  ![Select tool](/images/select-tool.png)
 
 - Before you draw, you need to make sure that nothing is selected.
   Click in the black space on the map, where it is empty, to make sure
   nothing is selected.
 - Click on the second button, the Draw tool.
 
-  ![Draw tool]({{site.baseurl}}/images/draw-tool.png)
+  ![Draw tool](/images/draw-tool.png)
 
 - Find an empty area on the map, and double-click with your mouse.
   This will draw a single point.
@@ -202,7 +202,7 @@ work in a different one.
   shapes are fields, buildings, or something else.
 - Click on the Select tool, in the column of buttons on the left.
 
-  ![Select tool]({{site.baseurl}}/images/select-tool.png)
+  ![Select tool](/images/select-tool.png)
 
 - Select one of the objects that you drew with the Draw tool. On the
   top menu, click “Presets”. Move your mouse through the sub-menu to

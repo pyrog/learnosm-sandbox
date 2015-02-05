@@ -18,14 +18,14 @@ overview of how the process works:
 website. Print out a map of this area. You can choose to print the
 current map of the area on OpenStreetMap, or you can choose to print
 aerial imagery, if it is available in your area.  
-![FieldPapers homepage]({{site.baseurl}}/images/homepage.png)
+![FieldPapers homepage](/images/homepage.png)
 
 1. Use your printed map to survey the area. Add more places by
 drawing them on the map. Draw lines for roads, shapes for buildings, and
 so forth. Write notes about each location directly on the map, or write
 numbers on the map that relate to numbers in your notebook, where you
 can write more detailed information about each object.  
-![Example fieldpaper print]({{site.baseurl}}/images/fieldp.png)
+![Example fieldpaper print](/images/fieldp.png)
 
 1. Scan your paper into the computer. If you don't have a
 scanner, you can take a photograph of the paper, if your camera is able
@@ -34,7 +34,7 @@ website.
 
 1. In JOSM, load the Field Papers.  Use the objects you draw as
 a reference to add them digitally into OpenStreetMap.  
-![Fieldpaper scan as a JOSM background]({{site.baseurl}}/images/fieldpaperjosm.png)
+![Fieldpaper scan as a JOSM background](/images/fieldpaperjosm.png)
 
 ## How does Field Papers work?
 
@@ -42,7 +42,7 @@ If you follow the Field Papers process described above, you will be
 collecting accurate geographic coordinates of places with nothing more
 than paper. How is this possible?
 
-![QR code]({{site.baseurl}}/images/paper_qrc.png)
+![QR code](/images/paper_qrc.png)
 
 When you print a Field Paper, the paper comes with a square barcode on
 the bottom of the page. This bar code allows Field Papers to determine
@@ -60,16 +60,16 @@ Now let's learn how to create and use Field Papers.
     [fieldpapers.org](http://fieldpapers.org)
 -   The website should look something like this:
 
-![FieldPapers homepage]({{site.baseurl}}/images/homepage.png)
+![FieldPapers homepage](/images/homepage.png)
 
 
 -   Click **Make yourself an Atlas** to select the area you want to print out.
 
-![Create a new atlas]({{site.baseurl}}/images/makeatlas.png)
+![Create a new atlas](/images/makeatlas.png)
 	
 -   You will be directed to this page:
 	
-![Atlas location]({{site.baseurl}}/images/makeyourselfanatlas.png)
+![Atlas location](/images/makeyourselfanatlas.png)
 	
 -	Type the name of your area of interest in the space provided. Then
     click "Start there".
@@ -81,20 +81,20 @@ Now let's learn how to create and use Field Papers.
     Left-clicking on the (+) and (–) buttons in the upper left corner will
     also zoom in and out.
 	
-![Zoom in and out]({{site.baseurl}}/images/zoominout.png)
+![Zoom in and out](/images/zoominout.png)
 	
 -   Just above the map are some additional options. The first option is
     to select the orientation of the paper you want to use for printing the
 	Field Paper. You may choose either portrait or landscape.
 	
-![Choose map orientation]({{site.baseurl}}/images/choosetile.png)
+![Choose map orientation](/images/choosetile.png)
 	
 -   The next option lets you select the kind of data you want to use
     for your Field Paper. Here you can select from different options
 	that will change how the map looks. For now, we will select
 	**Black and White**.
 
-![Choose map tile - black & white]({{site.baseurl}}/images/blackandwhite.png)
+![Choose map tile - black & white](/images/blackandwhite.png)
 	
 -   You want to make sure that the window shows the area that you want to
     map. You can use the controls in the map window to resize the pages of
@@ -107,18 +107,18 @@ Now let's learn how to create and use Field Papers.
     paper look good, you are ready. Click the button labelled "Next",
     next to the dropdown box.
 	
-![labelnext]({{site.baseurl}}/images/labelnext.png)
+![labelnext](/images/labelnext.png)
 	
 -	Provide a name for the paper. If you like, you can add text which will appear
     on each paper that is printed.
 
-![Provide a name]({{site.baseurl}}/images/name.png)
+![Provide a name](/images/name.png)
 	
 -	The next option lets you select a layout. It comes with three options.
 	You may add a UTM grid overlay to each map if you want to. In most cases,
     you can select "Maps Only," which is already selected by default.
 	
-![Layout]({{site.baseurl}}/images/layout.png)
+![Layout](/images/layout.png)
 	
 -   Click "Finished!"
 -   You will see that your new print is being
@@ -126,12 +126,12 @@ Now let's learn how to create and use Field Papers.
     page. It usually only take a few minutes for a print to be ready, depending
     on how many pages you are creating.
 
-![Preparing your atlas]({{site.baseurl}}/images/preparingyouratlas.png)
+![Preparing your atlas](/images/preparingyouratlas.png)
 
 -   When your print is ready, click "Download map PDF for print". The
     Field Paper should begin downloading.
 	
-![Download the pdf]({{site.baseurl}}/images/downloadpdf.png)
+![Download the pdf](/images/downloadpdf.png)
 	
 -   When the download is finished, open the PDF file. Connect your
     computer to a printer and print the page. If everything goes well,
@@ -164,7 +164,7 @@ Now let's learn how to create and use Field Papers.
     example of a scanned/photographed image:
 
 
-![FP screenshot]({{site.baseurl}}/images/scrnsht.png)
+![FP screenshot](/images/scrnsht.png)
 
 
 -   Once you have your Field Paper scanned and saved on the computer,
@@ -172,20 +172,20 @@ Now let's learn how to create and use Field Papers.
     before.
 -   Click on the "Upload" tab.
 
-![Upload]({{site.baseurl}}/images/upload.png)
+![Upload](/images/upload.png)
 	
 -   Click "Choose File" and navigate to the file where you
     scanned/photographed your Field Papers.
 	
 
-![uploadfp]({{site.baseurl}}/images/uploadfp.png)
+![uploadfp](/images/uploadfp.png)
 	
 -   Click "Upload"
 -   It may take a few minutes for your paper to upload, depending on the
     speed of your internet connection. When the upload finishes, you will
 	see something like this:
 
-![Upload 2]({{site.baseurl}}/images/asd.png)
+![Upload 2](/images/asd.png)
 
 ## Add the Field Papers Plugin
 -   Before we can open the Field Paper in JOSM, we need to install the
@@ -201,7 +201,7 @@ Now let's learn how to create and use Field Papers.
 -   Click on the Plugins tab.
 -   Find the Field Papers plugin and check the box next to it. Click OK.
 
-![FieldPapers JOSM plugin]({{site.baseurl}}/images/plugin.png)
+![FieldPapers JOSM plugin](/images/plugin.png)
 
 -   Restart JOSM.
 
@@ -216,7 +216,7 @@ Now let's learn how to create and use Field Papers.
 -   Find your paper from the list, and click on it. You should see
     something like this:
 
-![Scanned paper]({{site.baseurl}}/images/watchsnapshot.png)
+![Scanned paper](/images/watchsnapshot.png)
 
 -   To load the paper into JOSM, we need to copy the snapshot ID of the Field
     Papers you have scanned. In the URL bar at the top of your internet
@@ -224,32 +224,32 @@ Now let's learn how to create and use Field Papers.
     The text should look similar to this:
     [http://fieldpapers.org/snapshot.php?id=zqw8m33x#16/14.6582/121.1098](http://fieldpapers.org/snapshot.php?id=zqw8m33x#16/14.6582/121.1098)
 	
-![Fieldpaper ID]({{site.baseurl}}/images/fieldpaperid.png)
+![Fieldpaper ID](/images/fieldpaperid.png)
 	
 -   On the top menu of JOSM, Click "Field Papers". Then click "Scanned
     Map..."
 	
-![Scanned map]({{site.baseurl}}/images/scannedmap.png)
+![Scanned map](/images/scannedmap.png)
 	
 -   Press CTRL+V on your keyboard to paste the text that you copied from
     the Field Papers website.
 	
-![Snapshot]({{site.baseurl}}/images/fsnapshot.png)
+![Snapshot](/images/fsnapshot.png)
 	
 -   Click OK.
 -   If all went well, you should see your Field Paper load into JOSM.
     In the next chapter, we will see how to add the places that you
     mapped into OpenStreetMap.
 
-![Fieldpaper scan as a JOSM background]({{site.baseurl}}/images/fieldpaperjosm.png)
+![Fieldpaper scan as a JOSM background](/images/fieldpaperjosm.png)
 
 You can also use your scanned Field Papers in other OSM online editors 
 such as iD or Potlatch2 by clicking the "Edit in iD" or "Edit in Potlatch"
 links in the scanned Field Papers page. 
 
-![Edit in iD or P2]({{site.baseurl}}/images/editinidorpot.png)
+![Edit in iD or P2](/images/editinidorpot.png)
 
-![Snapshot layer in iD]({{site.baseurl}}/images/id.png)
+![Snapshot layer in iD](/images/id.png)
 	
 ## Repeat!
 

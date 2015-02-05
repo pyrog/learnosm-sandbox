@@ -9,7 +9,7 @@ OpenStreetMap, consulter et imprimer des cartes, et se créer un compte
 utilisateur. Quand vous aurez votre nom d'utilisateur et votre mot de passe,
 vous pourrez commencer à ajouter vos premiers points sur la carte.
 
-![website]({{site.baseurl}}/images/website.png)
+![website](/images/website.png)
 
 ## Consulter le site web OpenStreetMap 
 
@@ -23,7 +23,7 @@ vous pourrez commencer à ajouter vos premiers points sur la carte.
 -   Quand la page aura fini de se charger, vous devriez voir quelque chose de 
     similaire à ceci :
 
-    ![Page de bienvenue du Site OpenStreetMap]({{site.baseurl}}/images/osm-website-main-functions.png)
+    ![Page de bienvenue du Site OpenStreetMap](/images/osm-website-main-functions.png)
 
 ## Naviguer sur la carte
 
@@ -40,14 +40,14 @@ vous pourrez commencer à ajouter vos premiers points sur la carte.
     recherche. Cliquez sur le lieu qui vous semble la meilleure réponse. La
     carte va automatiquement se déplacer jusqu'au lieu choisi.
 
-    ![Navigation avec la souris]({{site.baseurl}}/images/mouse-navigation.png)
+    ![Navigation avec la souris](/images/mouse-navigation.png)
 
 ## Sauvegarder une image de la carte
 
 Pour enregistrer une image d'OpenStreetMap que vous puissiez facilement
 imprimer, suivez ces instructions:
 
-![Exporter une carte]({{site.baseurl}}/images/start_export.png)
+![Exporter une carte](/images/start_export.png)
 
 -   Cliquez sur l'onglet «Exporter», juste au-dessus de la carte. Une nouvelle
     fenêtre va apparaître à côté de la carte.
@@ -69,7 +69,7 @@ vous créer un compte et de faire vos premiers ajouts à la carte.
     coin en haut à droite de la page.
 -   Une nouvelle page devrait s'ouvrir, ressemblant à ça:
 
-    ![S'inscrire sur OpenStreetMap]({{site.baseurl}}/images/start_register.png)
+    ![S'inscrire sur OpenStreetMap](/images/start_register.png)
 
 -   Il y a cinq champs à remplir dans cette page pour pouvoir créer votre
     compte.
@@ -101,7 +101,7 @@ vous créer un compte et de faire vos premiers ajouts à la carte.
     devrait ressembler à l'image ci-dessous. Cliquez sur le lien surligné
     ci-dessous:
 
-    ![Confirmez la création de votre compte OpenStreetMap]({{site.baseurl}}/images/start_confirm.png)
+    ![Confirmez la création de votre compte OpenStreetMap](/images/start_confirm.png)
 
 -   Un nouvel onglet ou une nouvelle fenêtre devrait s'ouvrir dans votre
     navigateur. Si c'est bien le cas et qu'il n'y a pas de message d'erreur,

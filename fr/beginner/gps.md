@@ -26,9 +26,9 @@ Par exemple, -8.639298 de latitude, 116.311607 de longitude est situé à Lombok
 Indonésie.
 
 
-![Le logiciel Google Earth, affichant les coordonnées de Lombok, Indonésie]({{site.baseurl}}/images/google-earth-lombok.png)
+![Le logiciel Google Earth, affichant les coordonnées de Lombok, Indonésie](/images/google-earth-lombok.png)
 
-![Garmin eTrex Vista HCx]({{site.baseurl}}/images/garmin-etrex.png)
+![Garmin eTrex Vista HCx](/images/garmin-etrex.png)
 
 ## Allumer le GPS
 
@@ -42,11 +42,11 @@ ci-dessous. Votre GPS cherche les signaux satellites.
 Une fois qu'il a localisé 3 satellites ou plus, il affiche sa localisation.
 
 
-![Acquisition des satellites]({{site.baseurl}}/images/aquiring-satellites.png)
+![Acquisition des satellites](/images/aquiring-satellites.png)
 
 Ensuite, l'écran Satellite disparaît et le menu principal le remplace.
 
-![Menu principal du GPS]({{site.baseurl}}/images/main.png)
+![Menu principal du GPS](/images/main.png)
 
 ## Les menus du GPS
 
@@ -58,7 +58,7 @@ Ensuite, l'écran Satellite disparaît et le menu principal le remplace.
 -   En appuyant plusieurs fois sur le bouton X, vous devriez pouvoir parcourir
     différents écrans, qui ressemblent à ceci :
 
-![Tous les menus du GPS]({{site.baseurl}}/images/all.png)
+![Tous les menus du GPS](/images/all.png)
 
 -   Si vous retournez à la page Satellites, vous pouvez vérifier que vous êtes 
     connecté à trois satellites ou plus. Dans le coin en haut à gauche, vous voyez
@@ -101,7 +101,7 @@ et le résultat sera une série de points qui formera votre parcours complet.
 Les traces sont utiles pour cartographier des objets représentés par des lignes
 ou des surfaces, comme une route ou le contour d'un champ.
 
-![Trace GPS]({{site.baseurl}}/images/google-earth.png)
+![Trace GPS](/images/google-earth.png)
 
 ## Enregistrer votre emplacement
 
@@ -109,9 +109,9 @@ ou des surfaces, comme une route ou le contour d'un champ.
     “X” jusqu'à atteindre le menu principal. À l'aide du joystick, passez la surbrillance
     sur “Mark”, puis appuyez sur le joystick pour ouvrir la page “Save Waypoint”.
 
-    ![save location 1]({{site.baseurl}}/images/save-location1.png)
+    ![save location 1](/images/save-location1.png)
 
-    ![save location 2]({{site.baseurl}}/images/save-location2.png)
+    ![save location 2](/images/save-location2.png)
 
 > Si vous utilisez plusieurs récepteurs GPS, assurez-vous qu'ils sont tous
 > configurés dans le même format. Pour cela, allez dans le menu principal et
@@ -145,7 +145,7 @@ ou des surfaces, comme une route ou le contour d'un champ.
 -   Pour désactiver l'enregistrement des traces, cliquez sur le bouton “X” jusqu'à
     atteindre la page "Track log".
 
-    ![turn on track]({{site.baseurl}}/images/turn-on-track.png)
+    ![turn on track](/images/turn-on-track.png)
 
 -   Si vous voulez vider la mémoire des traces pour effacer les enregistrements précédents,
     sélectionnez “Clear” au joystick : la barre du haut doit retomber à 0%.
@@ -197,7 +197,7 @@ ou des surfaces, comme une route ou le contour d'un champ.
 -   Continuez de cliquer sur “Next” jusqu'à la fin de l'installation.
 -   Enfin, cliquez sur “Finish” pour démarrer GPSBabel.
 
-    ![turn on track]({{site.baseurl}}/images/turn-on-track.png)
+    ![turn on track](/images/turn-on-track.png)
 
 
 ### Copier les traces et les waypoints
@@ -207,7 +207,7 @@ ou des surfaces, comme une route ou le contour d'un champ.
 -   Descendez au milieu de la fenêtre, sous Output. Dans le menu déroulant intitulé
     “Format”, sélectionnez “GPX XML”:
 
-    ![Choose GPX XML]({{site.baseurl}}/images/xml.png)
+    ![Choose GPX XML](/images/xml.png)
 
 
 -   Cliquez sur “File Name” et tapez un nom pour enregistrer votre fichier.
@@ -225,7 +225,7 @@ ou des surfaces, comme une route ou le contour d'un champ.
 -   Sélectionnez le fichier que vous venez de créer avec GPSBabel, puis cliquez sur “Ouvrir”.
 -   Vous devriez maintenat voir vos points et vos traces chargées dans une couche de JOSM.
 
-    ![GPS Files Open in JOSM]({{site.baseurl}}/images/open-josm.png)
+    ![GPS Files Open in JOSM](/images/open-josm.png)
 
 ## Résumé
 

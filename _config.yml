@@ -40,3 +40,7 @@ exclude:
   - Gemfile.lock
   - changelog.md
   - .travis.yml
+  
+prose:
+  media: "images"
+  

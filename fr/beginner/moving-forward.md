@@ -41,7 +41,7 @@ La meilleure façon de rester connecté avec la communtauté d'OpenStreetMap est
     un mail de confirmation pour la liste de diffusion.
 -   Cliquez sur le lien de confirmation, qui doit ressembler à:
 
-    ![Confirmation d'inscription à la liste de diffusion]({{site.baseurl}}/images/confirmation-email.png)
+    ![Confirmation d'inscription à la liste de diffusion](/images/confirmation-email.png)
 
 -   Vous êtes maintenant membre de la liste de diffusion.
 -   Vous pouvez maintenant envoyer un message à la liste, en écrivant à

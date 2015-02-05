@@ -20,7 +20,7 @@ la façon dont le processus fonctionne :
 Imprimez une carte de cette zone. Vous pouvez choisir d'imprimer avec la carte
 OpenStreetMap ou vous pouvez choisir d'imprimer avec l'imagerie aérienne
 (si elle est disponible dans votre région).  
-![Page d'accueil de FieldPapers]({{site.baseurl}}/images/homepage.png)
+![Page d'accueil de FieldPapers](/images/homepage.png)
 
 1. Utilisez votre carte imprimée pour faire le relevé de la zone géographique.
 Ajoutez plus d'endroits en les dessinant sur ​​la carte.
@@ -29,7 +29,7 @@ Rédigez des notes sur chaque emplacement directement sur la carte ou
 écrivez les nombres sur la carte correspondant aux numéros de votre
 fiche de cueillette, où vous pouvez écrire des informations plus
 détaillées sur chaque objet.  
-![Example de fieldpaper imprimé]({{site.baseurl}}/images/fieldp.png)
+![Example de fieldpaper imprimé](/images/fieldp.png)
 
 1. Numérisez votre papier dans l'ordinateur. Si vous n'avez pas de scanner,
 vous pouvez prendre une photo de l'article, si votre appareil est capable
@@ -37,7 +37,7 @@ de prendre des photos de haute qualité. Téléchargez l'image sur le site Field
 
 1. Dans JOSM, chargez le papier manuellement. Utilisez les objets dessinés comme
 une référence pour les ajouter numériquement dans OpenStreetMap.  
-![Fieldpaper numérisé affiché comme fond dans JOSM]({{site.baseurl}}/images/fieldpaperjosm.png)
+![Fieldpaper numérisé affiché comme fond dans JOSM](/images/fieldpaperjosm.png)
 
 
 ## Comment ça fonctionne les Field papers?
@@ -46,7 +46,7 @@ Si vous suivez le processus décrit ci-haut, vous collecterez des coordonnées
 géographiques précises des lieux sans rien de plus
 que le papier. Comment est-ce possible?
 
-![code QR]({{site.baseurl}}/images/paper_qrc.png)
+![code QR](/images/paper_qrc.png)
 
 
 Lorsque vous imprimez un Field Paper, le document est livré avec un code-barres
@@ -67,7 +67,7 @@ Maintenant, nous allons apprendre à créer et utiliser les Field Paper.
       [fieldpapers.org](http://fieldpapers.org/)
 -   Le site Web devrait ressembler à quelque chose comme ceci :
 
-![Page d'accueil de FieldPapers]({{site.baseurl}}/images/homepage.png)
+![Page d'accueil de FieldPapers](/images/homepage.png)
 
 -   Pour l'instant le site n'est accessible qu'en anglais, mais une version 
     française devrait arriver dans quelques mois.
@@ -75,11 +75,11 @@ Maintenant, nous allons apprendre à créer et utiliser les Field Paper.
 -   Cliquez sur **Make yourself an Atlas** Pour sélectionner la 
     zone géographique à imprimer.
 
-![Création d'un nouvel atlas]({{site.baseurl}}/images/makeatlas.png)
+![Création d'un nouvel atlas](/images/makeatlas.png)
 
 -   Vous allez être redirigé(e) vers cette page :
 
-![Adresse de l'atlas]({{site.baseurl}}/images/makeyourselfanatlas.png)
+![Adresse de l'atlas](/images/makeyourselfanatlas.png)
 
 -   Cliquez le nom de la zone qui vous intéresse et dans la boîte puis
     sur "Start there".
@@ -91,13 +91,13 @@ Maintenant, nous allons apprendre à créer et utiliser les Field Paper.
     Cliquez sur les boutons (+) et (-) dans le coin en haut à gauche 
     pour ajuster votre niveau de zoom.
 
-![Zoomer et dé-zoomer]({{site.baseurl}}/images/zoominout.png)
+![Zoomer et dé-zoomer](/images/zoominout.png)
 
 -   Juste en dessous de la carte il y a quelques options supplémentaires.
     La première option est pour sélctionner l'orientation de la feuille
     de papier. Vous avez le choix entre portrait et paysage (à l'italienne).
 
-![Choix de l'orientation de l'atlas]({{site.baseurl}}/images/choosetile.png)
+![Choix de l'orientation de l'atlas](/images/choosetile.png)
 
 -   L'option suivante vous permet de choisir le type de données que vous
     désirez utiliser dans votre Field Paper. Vous pouvez sélectionner
@@ -105,7 +105,7 @@ Maintenant, nous allons apprendre à créer et utiliser les Field Paper.
     Pour l'instant nous allons choisir
     **Black and White**.
 
-![Choix du noir et blanc]({{site.baseurl}}/images/blackandwhite.png)
+![Choix du noir et blanc](/images/blackandwhite.png)
 
 -   Vous devez vous assurer que la fenêtre montre bien ce que vous
     voulez cartographier. Utilisez les contrôles pour redimentionner
@@ -119,31 +119,31 @@ Maintenant, nous allons apprendre à créer et utiliser les Field Paper.
     carte rende bien, alors vous êtes prêt. Cliquez sur "Next" à côté
     de la liste de choix déroulants.
 
-![Suivant]({{site.baseurl}}/images/labelnext.png)
+![Suivant](/images/labelnext.png)
 
 -   Donnez un nom à la carte. Vous pouvez aussi ajouter du texte qui
     apparaitra sur chaque feuille.
 
-![Nom de l'atlas]({{site.baseurl}}/images/name.png)
+![Nom de l'atlas](/images/name.png)
 
 -   La prochaine option vous permet de sélectionner la disposition.
     Vous pouvez ajouter une grille UTM (Transverse Universelle de Mercator)
     sur chaque carte si vous voulez. Vous pouvez cliquer sur "Maps Only"
     qui est déjà sélectionné par défaut.
 
-![Mise en page]({{site.baseurl}}/images/layout.png)
+![Mise en page](/images/layout.png)
 
 -   Cliquer sur "Finished!"
 -   Votre impression est en train de se préparer. Elle apparaîtra sur l'écran
     dès qu'elle sera prête.
     Ça prend quelques minutes en fonction du nombre de pages.
 
-![Génération de l'atlas]({{site.baseurl}}/images/preparingyouratlas.png)
+![Génération de l'atlas](/images/preparingyouratlas.png)
 
 -   Quand l'impression est prète, cliquez sur "Download map PDF for print".
     L'imprimé du Field Paper devrait alors être téléchargé.
 
-![Téléchargement du pdf]({{site.baseurl}}/images/downloadpdf.png)
+![Téléchargement du pdf](/images/downloadpdf.png)
 
 -   Quand le téléchargement est terminé, ouvrez le fichier PDF.
     Branchez votre ordinateur à une imprimante et imprimez les pages.
@@ -174,27 +174,27 @@ Maintenant, nous allons apprendre à créer et utiliser les Field Paper.
     dans chaque image, étant donné que les Field Papers ne fonctionnent pas sans ce code.	 
     Voici ci-dessous un exemple d'une image numérisée (ou photo) :
 
-![Feuille de terrain numérisée]({{site.baseurl}}/images/scrnsht.png)
+![Feuille de terrain numérisée](/images/scrnsht.png)
 
 -   Une fois que vos Field Papers sont numérisés et sauvegardés sur un ordinateur,
     démarrez votre navigateur internet et retournez à la page [fieldpapers.org](http://fieldpapers.org),
     tout comme vous avez fait auparavant.
 -   Cliquez sur l'onglet "Upload".
 
-![Menu Télécharger]({{site.baseurl}}/images/upload.png)
+![Menu Télécharger](/images/upload.png)
 
 -   Cliquez sur "Choose File" et allez chercher 
     la photo/le scan de vos Field Papers.
 
 
-![uploadfp]({{site.baseurl}}/images/uploadfp.png)
+![uploadfp](/images/uploadfp.png)
 
 -   Cliquez sur "Upload"
 -   Ça peut prendre quelques minutes pour transférer votre image en fonction de 
     la rapidité de votre connexion à Internet.
     Une fois terminé, vous devriez voir quelque chose comme ça :
 
-![Choisir un fichier]({{site.baseurl}}/images/asd.png)
+![Choisir un fichier](/images/asd.png)
 
 ## Ajouter le plugin Field paper
 
@@ -210,7 +210,7 @@ Maintenant, nous allons apprendre à créer et utiliser les Field Paper.
 -   Cliquez dans l'onglet Plugins
 -   Trouvez le plugin Fieldf Papers et cochez la cas à côté. Cliquez sur OK.
 
-![Greffon FieldPapers pour JOSM]({{site.baseurl}}/images/plugin.png)
+![Greffon FieldPapers pour JOSM](/images/plugin.png)
 
 -   Redémarrez JSOM.
 
@@ -224,7 +224,7 @@ Maintenant, nous allons apprendre à créer et utiliser les Field Paper.
 -   Localisez votre numérisation dans la liste et cliquez dessus. 
     Vous devriez voir quelque chose comme :
 
-![Pages numérisées]({{site.baseurl}}/images/watchsnapshot.png)
+![Pages numérisées](/images/watchsnapshot.png)
 
 -   Pour télécharger l'image dans JOSM, vous devez copier le ID 
     correspondant à votre image sur le site de Field Paper.
@@ -232,32 +232,32 @@ Maintenant, nous allons apprendre à créer et utiliser les Field Paper.
     CTRL+C sur votre clavier pour copier. Le texte devrait être similaire à ceci : 
     [http://fieldpapers.org/snapshot.php?id=zqw8m33x#16/14.6582/121.1098](http://fieldpapers.org/snapshot.php?id=zqw8m33x#16/14.6582/121.1098)
 
-![Identifiant Fieldpaper]({{site.baseurl}}/images/fieldpaperid.png)
+![Identifiant Fieldpaper](/images/fieldpaperid.png)
 
 -   Dans le menu du haut de JOSM, cliquez sur "Field Papers". Puis sur "Scanned Map..."
 
-![Scanned map]({{site.baseurl}}/images/scannedmap.png)
+![Scanned map](/images/scannedmap.png)
 
 -   Pressez CTRL+V sur votre clavier pour coller le texte que vous avez 
     copié sur le site Field Papers.
 
-![Snapshot]({{site.baseurl}}/images/fsnapshot.png)
+![Snapshot](/images/fsnapshot.png)
 
 -   Cliquez sur OK.
 -   Si tout s'est bien passé, votre Field Paper devrait s'afficher dans JOSM.
     Dans le chapitre suivant, nous allons voir comment ajouter dans OpenStreetMap
     les lieux que vous avez cartographié.
 
-![Fieldpaper scan as a JOSM background]({{site.baseurl}}/images/fieldpaperjosm.png)
+![Fieldpaper scan as a JOSM background](/images/fieldpaperjosm.png)
 
 Vous pouvez aussi utiliser votre imagerie venant de Field Papers dans 
 d'autres éditeurs de carte OSM comme les éditeurs en ligne iD et Potlatch2
 en cliquant les liens "Edit in iD" ou "Edit in Potlatch"
 sur la page des Field Papers numérisés.
 
-![Edit in iD or P2]({{site.baseurl}}/images/editinidorpot.png)
+![Edit in iD or P2](/images/editinidorpot.png)
 
-![Snapshot layer in iD]({{site.baseurl}}/images/id.png)
+![Snapshot layer in iD](/images/id.png)
 
 ## Répétez!
 

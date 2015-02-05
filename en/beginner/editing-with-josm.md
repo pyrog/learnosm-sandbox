@@ -20,7 +20,7 @@ You may have also noticed that every time you add something new to JOSM, an addi
 item is added to the Layers panel on the right side of JOSM. Depending on what you have
 opened, your Layers panel may look something like this:
 
-![Layers panel]({{site.baseurl}}/images/layers-panel.png)
+![Layers panel](/images/layers-panel.png)
 
 Each item in this list represents a different source of data that
 you have open in your map window. In this example, “Data Layer
@@ -40,19 +40,19 @@ are often called "base layers." The OSM data layer is the layer that you actuall
 -   To move a layer, click on it in the Layers panel and click on the up
     or down arrow to move it.
 
-![Layers up down]({{site.baseurl}}/images/layers-panel-up-down.png)
+![Layers up down](/images/layers-panel-up-down.png)
 
 -  To hide a layer, select it with your mouse and
     click the Show/Hide button:
 
-![Layers show hide]({{site.baseurl}}/images/layers-panel-show-hide.png)
+![Layers show hide](/images/layers-panel-show-hide.png)
 
 -  You should see the layer that you selected disappear in the map
     window. Click Show/Hide again, and it will reappear.
 -  You can remove a layer by selecting it and using the delete
     button:
 
-![Layers delete]({{site.baseurl}}/images/layers-panel-delete.png)
+![Layers delete](/images/layers-panel-delete.png)
 
 -  Lastly, it’s important to know that you can only edit the layer that
     is considered *active* by JOSM. If you are unable to edit the map in
@@ -64,7 +64,7 @@ are often called "base layers." The OSM data layer is the layer that you actuall
 -  To make a layer active, select it in the Layers panel, and click on
     the Activate button:
 
-![Layers activate]({{site.baseurl}}/images/layers-panel-activate.png)
+![Layers activate](/images/layers-panel-activate.png)
 
 
 ## Using GPS Data and Field Papers
@@ -88,7 +88,7 @@ notes, or a combination of them all.
     school. Enter the name of the school and click “Apply Preset”. Do
     the same to add lines and shapes.
 
-![GPS in JOSM]({{site.baseurl}}/images/gps-layer.png)
+![GPS in JOSM](/images/gps-layer.png)
 
 ## Tags
 When you draw a point, line, or shape, it has a location, but no
@@ -113,7 +113,7 @@ OpenStreetMap, the tags written above would in fact be:
 If you select an object in JOSM, you can see all the tags that are
 attached to it in the Properties panel on the right.
 
-![Properties panel]({{site.baseurl}}/images/properties-panel.png)
+![Properties panel](/images/properties-panel.png)
 
 ### Editing Tags
 You can add, edit, and delete tags from the Properties panel. However, the tags
@@ -138,7 +138,7 @@ to be selected, and when you add tags they are applied to the nodes
 as well. Be sure to **only** select lines when you want to add tags
 to them.
 
-![Nodes mistake]({{site.baseurl}}/images/nodes-selected-mistake.png)
+![Nodes mistake](/images/nodes-selected-mistake.png)
 
 ## Saving OSM files
 When you are editing in JOSM, it is always a good idea to download, edit, and
@@ -163,7 +163,7 @@ changes later on.
     Choose a location for the file and give it a name. You can also save
     by clicking this button:
 
-![JOSM save button]({{site.baseurl}}/images/josm-save-button.png)
+![JOSM save button](/images/josm-save-button.png)
 
 -  You can now close JOSM and your data will be saved. When you want to
     open the file again, simply open JOSM, go to the “File” menu, and

@@ -14,7 +14,7 @@ Data Store), et avant cela, le greffon vous permettant d'utiliser les Walking Pa
 Il existe de très nombreux plugins différents pour JOSM, et nous allons couvrir
 certains des plus utiles dans ce chapitre.
 
-![plug]({{site.baseurl}}/images/plugins_html_m76fc73bd_en.png)
+![plug](/images/plugins_html_m76fc73bd_en.png)
 
 Chaque fois que vous voulez installer un nouveau greffon, cliquez sur 
 Modifier --\> Préférences, puis sur l'onglet «Greffons». Si vous ne voyez pas une
@@ -39,7 +39,7 @@ Nous vous recommandons également ces greffons, qui sont abordés dans d'autres 
 
 ## Mirrored Download
 
-![]({{site.baseurl}}/images/plugins_html_m2c477766_en.png)
+![](/images/plugins_html_m2c477766_en.png)
 
 __Mirrored Download__ vous permet de télécharger plus vite les données OSM.
 Au lieu d'utiliser le serveur OSM central, il vous permet de configurer un 
@@ -49,24 +49,24 @@ miroir, qui est une réplique exacte des données, mais situé plus près de vou
 Une fois ce greffon installé, vous obtenez une nouvelle entrée dans le 
 menu Fichier «Télécharger depuis un miroir OSM…»
 
-![]({{site.baseurl}}/images/plugins_html_1f3d8d84_en.png)
+![](/images/plugins_html_1f3d8d84_en.png)
 
 Ensuite, le téléchargement se passe exactement de la même manière que ce que 
 vous avez déjà vu, mais avec un peu de chance, il sera beaucoup plus rapide !
 
 ## Direct Upload
 
-![]({{site.baseurl}}/images/plugins_html_m37f530e4_en.png)
+![](/images/plugins_html_m37f530e4_en.png)
 
 __DirectUpload__ envoie vos traces GPX au serveur OSM directement par JOSM
 (voir les **Annexes** pour plus de détails). Avec ce greffon installé, vous
 pouvez voir une entrée «Envoyer les traces» dans le menu Outils.
 
-![]({{site.baseurl}}/images/plugins_html_m53ca88fd_en.png)
+![](/images/plugins_html_m53ca88fd_en.png)
 
 Si vous cliquez dessus, cette fenêtre va apparaître :
 
-![]({{site.baseurl}}/images/plugins_html_2e01a9a7_en.png)
+![](/images/plugins_html_2e01a9a7_en.png)
 
 Dans le champ «Attributs», ajoutez des mots-clés (séparés par des virgules,
 sans espaces) précisant votre trace GPS. Par exemple, 
@@ -87,7 +87,7 @@ ce greffon et les envois de traces GPS dans les [Annexes]{{site.baseurl}}/learno
 
 ## edit gpx
 
-![]({{site.baseurl}}/images/plugins_html_m1d1170b2_en.png)
+![](/images/plugins_html_m1d1170b2_en.png)
 
 **EditGpx** vous permet de préparer des traces GPX avant de les envoyer à OSM.
 Souvent, vos traces comportent des tronçons que vous préférez supprimer. Ce greffon
@@ -96,17 +96,17 @@ en modifiant l'horodatage de la trace.
 
 Une fois que le greffon est installé, dans la barre d'outil de gauche, vous aurez
 accès à ce nouvel outil.
-![]({{site.baseurl}}/images/plugins_html_42e55708_en.png)
+![](/images/plugins_html_42e55708_en.png)
 
-1. Ouvrez un fichier GPX file dans JOSM![]({{site.baseurl}}/images/plugins_html_3fabdc1a_en.png)
+1. Ouvrez un fichier GPX file dans JOSM![](/images/plugins_html_3fabdc1a_en.png)
 
-2. Cliquez sur le nouveau bouton ![]({{site.baseurl}}/images/plugins_html_42e55708_en.png) dans la barre latérale gauche. Les données GPX vont être importées dans un nouveau calque EditGpx.
+2. Cliquez sur le nouveau bouton ![](/images/plugins_html_42e55708_en.png) dans la barre latérale gauche. Les données GPX vont être importées dans un nouveau calque EditGpx.
 Chaque point de la trace sera surligné en jaune
-![]({{site.baseurl}}/images/plugins_html_m3f86e83d_en.png)
+![](/images/plugins_html_m3f86e83d_en.png)
 
 3. Maintenant, marquez les points (en cliquant) ou les zones (en dessinant un
 rectangle) à supprimer. Le surlignage jaune doit disparaître.
-![]({{site.baseurl}}/images/plugins_html_m7e01ae1f_en.png)
+![](/images/plugins_html_m7e01ae1f_en.png)
 
 4. Faites un clic-droit sur le nom du calque et choisissez 
 «Convertir en calque GPX» dans le menu contextuel.
@@ -116,18 +116,18 @@ au serveur OSM (par exemple avec le greffon [DirectUpload](http://josm.openstree
 
 ## Print
 
-![]({{site.baseurl}}/images/plugins_html_m66e7a0a9_en.png)
+![](/images/plugins_html_m66e7a0a9_en.png)
 
 Si vous cherchez une méthode simple pour imprimer une carte pendant que
 vous modifier les données dans JOSM, installez ce greffon. Vous n'obtiendrez
 pas une sortie stylée, mais un aperçu rapide des données disponibles dans JOSM.
 Ce greffon ajoute au menu Fichier l'entrée «Imprimer…»
 
-![]({{site.baseurl}}/images/plugins_html_mbd3c18f_en.png)
+![](/images/plugins_html_mbd3c18f_en.png)
 
 qui ouvre la boîte de dialogue «Imprimer la carte», semblable à :
 
-![]({{site.baseurl}}/images/plugins_html_49f16afc_en.png)
+![](/images/plugins_html_49f16afc_en.png)
 
 Vous pouvez modifier les réglages d'impression. Si la page est vide (grise),
 cochez la case «Aperçu de la carte» à droite. Vous pouvez zoomer / dé-zoomer 
@@ -144,7 +144,7 @@ Préférences > Greffons précise pour chacun une courte description, et vous ou
 une page web avec tous les détails si vous cliquez sur le lien «plus d'infos…»
 
 
-![]({{site.baseurl}}/images/plugins_html_17ea8a4b_en.png)
+![](/images/plugins_html_17ea8a4b_en.png)
 
 Bonne chance !
 
@@ -152,7 +152,7 @@ Bonne chance !
 
 ## Détails sur DirectUpload
 
-![]({{site.baseurl}}/images/plugins_html_m7e14a056_en.png)
+![](/images/plugins_html_m7e14a056_en.png)
 
 Envoyer vos traces GPS et waypoints au serveur OSM est utile pour plusieurs raisons.
 _(Si vous ne voulez pas que vos points GPX soient visibles par d'autres, 
@@ -201,14 +201,14 @@ privé, public, traçable, identifiable.
     Les points seront disponibles dans l'ordre chronologique via l'API GPS
     **mais sans leurs horodatages réels**.
 
-![]({{site.baseurl}}/images/plugins_html_2009cd0_en.png)
+![](/images/plugins_html_2009cd0_en.png)
 
 ## Envoyer les traces GPS en ligne
 
 1. Allez à l'adresse [http://www.openstreetmap.org/](http://www.openstreetmap.org/) 
 et connectez-vous.
 
-2. Sélectionnez «Traces GPS» à gauche de la bannière.![]({{site.baseurl}}/images/plugins_html_32e7d3be_en.png)
+2. Sélectionnez «Traces GPS» à gauche de la bannière.![](/images/plugins_html_32e7d3be_en.png)
 
 3. Sélectionnez
 [Envoyer une trace](http://www.openstreetmap.org/trace/create).
@@ -218,7 +218,7 @@ Vous pouvez également **Voir toutes vos traces** pour vérifier vos envois pré
 Description et Balises, et choisissez la Visibilité que vous préférez.
 Si vous avez de nombreux fichiers .gpx, vous pouvez les compresser dans une archive zip
 avant de les envoyer. Ils seront traités comme un gros fichier gpx, et une seule entrée
-sera ajoutée à la liste des traces. ![]({{site.baseurl}}/images/plugins_html_m63dc490_en.png)
+sera ajoutée à la liste des traces. ![](/images/plugins_html_m63dc490_en.png)
 
 5. Cliquez sur *Envoyer*.
 Le fichier sera envoyé au serveur OSM, où il ira rejoindre la file des

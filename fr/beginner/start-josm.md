@@ -28,7 +28,7 @@ Vous aurez alors une bonne vue d'ensemble de la création de carte avec JOSM.
     recherche
 -   Le site doit ressembler à ça:
 
-    ![]({{site.baseurl}}/images/start_josm_image05_fr.png)
+    ![](/images/start_josm_image05_fr.png)
 
 -   Si vous utilisez Windows, cliquez sur le lien «Installeur Windows». Si vous
     avez un autre système d'exploitation, cliquez sur le lien adéquat. Le
@@ -55,7 +55,7 @@ Vous aurez alors une bonne vue d'ensemble de la création de carte avec JOSM.
     à côté du bouton «Annuler» avant d'appuyer.
 -   Quand JOSM est lancé, voici à quoi il ressemble:
 
-    ![]({{site.baseurl}}/images/start_josm_image08_en.png)
+    ![](/images/start_josm_image08_en.png)
 
 ## Changer les paramètres de JOSM
 
@@ -63,7 +63,7 @@ Avant de commencer à l'utiliser, on va changer quelques paramètres qui vont
 rendre son utilisation plus facile. Pour cela, cliquez sur «Modifier» dans la
 barre de menu du haut, puis choisissez «Préférences».
 
-![]({{site.baseurl}}/images/start_josm_image13_en.png)
+![](/images/start_josm_image13_en.png)
 
 ### Ajouter des modèles d'attributs
 
@@ -74,7 +74,7 @@ le moment de l'utiliser. Par exemple, un tel fichier pourrait être nommé
 -   Toujours dans la fenêtre des préférences, cliquez sur l'icône qui ressemble
     à une grille.
 
-    ![]({{site.baseurl}}/images/start_josm_image09_en.png)
+    ![](/images/start_josm_image09_en.png)
 
 -   Cliquez sur l'onglet «Modèles d'attributs» en haut de la fenêtre.
 -   Cliquez sur le bouton «+» en haut à droite de la fenêtre.
@@ -96,7 +96,7 @@ Papers.
     nouveau via le menu «Modifier», en choisissant «Préférences».
 -   Sur la partie gauche, cliquez sur l'icône qui ressemble à une prise.
 
-    ![]({{site.baseurl}}/images/start_josm_image04_en.png)
+    ![](/images/start_josm_image04_en.png)
 
 -   Cliquez sur «Télécharger la liste». La liste des greffons disponibles va
     être téléchargée, et devrait apparaître dans la fenêtre.
@@ -119,7 +119,7 @@ langue, vous pouvez l'activer via les préférences.
 -   Choisissez votre langue dans le menu déroulant à gauche du mot «Langue».
 -   Cliquez sur «Valider»
   
-    ![]({{site.baseurl}}/images/start_josm_image01_en.png)
+    ![](/images/start_josm_image01_en.png)
 
 -   Il faut maintenant relancer JOSM pour que vos modifications soient prises
     en compte. Via le menu «Fichier» de la barre du haut, choisissez «Quitter».
@@ -140,13 +140,13 @@ langue, vous pouvez l'activer via les préférences.
 -   Maintenant, ouvrons le fichier dans JOSM. Ouvrez JOSM. Cliquez sur le bouton
     «Ouvrir», dans le coin en haut à gauche.
 
-    ![]({{site.baseurl}}/images/start_josm_image12_en.png)
+    ![](/images/start_josm_image12_en.png)
 
 -   Naviguez jusqu'au fichier «sample.osm», sélectionnez-le, puis cliquez sur
     «Ouvrir».
 -   Vous devriez maintenant voir une carte similaire à:
 
-    ![]({{site.baseurl}}/images/start_josm_image03_en.png)
+    ![](/images/start_josm_image03_en.png)
 
 ### Opérations de base
 
@@ -159,7 +159,7 @@ langue, vous pouvez l'activer via les préférences.
     barre vers la gauche ou vers la droite avec votre souris pour zoomer ou
     dézoomer.
 
-  ![]({{site.baseurl}}/images/start_josm_image14_en.png)
+  ![](/images/start_josm_image14_en.png)
 
 -   Prenez le temps de regarder la carte de test. Notez les différents types
     d'objets: il y a une rivière, une forêt, quelques bâtiments, des routes, et
@@ -225,14 +225,14 @@ Les quatre boutons du haut sont les plus importants. Ils vous permettent de:
 -   Jusqu'à présent, vous avez utilisé l'outil de sélection, qui ressemble à
     ceci:
 
-    ![]({{site.baseurl}}/images/start_josm_image00_en.png)
+    ![](/images/start_josm_image00_en.png)
 
 -   Avant de commencer à tracer, assurez-vous que rien n'est sélectionné. Pour
     cela, toujours avec l'outil de sélection, cliquez dans une zone vide de la
     carte.
 -   Vous pouvez maintenant cliquer sur le deuxième bouton, celui pour tracer.
 
-    ![]({{site.baseurl}}/images/start_josm_image10_en.png)
+    ![](/images/start_josm_image10_en.png)
 
 -   Dans une zone vide de la carte, double-cliquez avec le bouton gauche de
     votre souris. Vous venez de créer un point.
@@ -252,7 +252,7 @@ de même si nos polygones sont des champs, des bâtiments, ou autre chose.
 -   Dans la barre d'outils à gauche, cliquez de nouveau sur l'outil de
     sélection.
 
-    ![]({{site.baseurl}}/images/start_josm_image00_en.png)
+    ![](/images/start_josm_image00_en.png)
 
 -   Sélectionnez un des objets que vous venez de tracer. Dans le menu du haut,
     cliquez sur «Attributs». Déplacer votre souris dans les sous-menus jusqu'à

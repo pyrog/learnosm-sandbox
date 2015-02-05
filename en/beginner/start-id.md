@@ -17,7 +17,7 @@ Starting the iD Editor
 -	Pan and zoom the map to the area that you want to edit.
 -	Click on the small arrow next to **Edit**. Then click **Edit with ID (in-browser editor)**.
 
-![Edit with iD]({{site.baseurl}}/images/edit-with-id.png)
+![Edit with iD](/images/edit-with-id.png)
 
 
 Moving Forward

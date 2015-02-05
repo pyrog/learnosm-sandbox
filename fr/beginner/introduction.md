@@ -26,9 +26,9 @@ Quand vous aurez terminé de dessiner rapidement votre carte, réfléchissez à
 l'importance des informations présentes dans votre carte, et à qui ces
 informations pourraient servir.
 
-![Un village en Indonésie]({{site.baseurl}}/images/village-in-indonesia.png)
+![Un village en Indonésie](/images/village-in-indonesia.png)
 
-![Exemple de carte dessinée à la main]({{site.baseurl}}/images/hand-drawn-map.png)
+![Exemple de carte dessinée à la main](/images/hand-drawn-map.png)
 
 Vous avez probalement dessiné quelques lignes pour représenter les routes et
 chemins, ainsi qu'une rivière ou un ruisseau. Peut-être avez vous représenté
@@ -37,7 +37,7 @@ champs, ou des frontières. Vous avez probablement utilisé des symboles - une
 ligne pour une route, un rectangle pour un bâtiment, et ainsi de suite. Votre
 carte est une représentation de ce qui se trouve sur le sol.
 
-![Examples of symbols]({{site.baseurl}}/images/examples-of-symbols.png)
+![Examples of symbols](/images/examples-of-symbols.png)
 
 Votre carte est informative. Vous pourriez utiliser une carte de ce genre pour
 expliquer à quelqu'un où trouver divers services, où se trouvent des problèmes
@@ -49,7 +49,7 @@ difficile de diffuser les informations contenues sur votre carte parce qu'elle
 est en papier, pour cette raison une carte réalisée sur un ordinateur, de telle
 manière que n'importe qui peut y accéder, peut avoir beaucoup plus de valeur.
 
-![Mapping on Computer]({{site.baseurl}}/images/mapping-on-computer.png)
+![Mapping on Computer](/images/mapping-on-computer.png)
 
 OpenStreetMap est un outil pour créer et partager des informations
 cartographiques. Tout le monde peut contribuer à OSM, et des milliers de
@@ -62,7 +62,7 @@ reste, et nous représentons aussi les hôpitaux et les écoles avec des symbole
 Le point important est que les cartes OSM sont enregistrées sur internet, et que
 chacun peut les consulter gratuitement à tout moment.
 
-![Digital maps with OpenStreetMap]({{site.baseurl}}/images/digital-maps-with-osm.png)
+![Digital maps with OpenStreetMap](/images/digital-maps-with-osm.png)
 
 Nous espérons que vous trouverez OpenStreetMap utile et intéressant pour votre
 travail. En suivant ce guide, vous devriez rapidement être capables de créer vos
