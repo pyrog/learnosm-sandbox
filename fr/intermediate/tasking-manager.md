@@ -1,9 +1,10 @@
 ---
 layout: doc
 title: Gestionnaire des Tâches
+published: true
 ---
 
-Gestionnaire des Tâches (Tasking Manager)
+Gestionnaire de Tâches (Tasking Manager)
 ==========================================
 
 Introduction
