@@ -87,6 +87,10 @@ def parameterize(string, sep = '-')
 end
 
 def check_destination
+  puts "environment variable keep in travis secret:"
+  puts "GIT_NAME=#{ENV['GIT_NAME']}
+  puts "GIT_EMAIL=#{ENV['GIT_EMAIL']}
+  puts "GIT_TOKEN=#{ENV['GIT_TOKEN']}
   unless Dir.exist? CONFIG["destination"]
     sh "git clone https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
   end
