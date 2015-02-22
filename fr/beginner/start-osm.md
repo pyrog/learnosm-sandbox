@@ -136,9 +136,9 @@ premiers points sur la carte.
 
 ## En résumé
 
-Bravo! Si tout s'est bien passé, vous avez maintenant un nom d'utilisateur 
+Bravo ! Si tout s'est bien passé, vous avez maintenant un nom d'utilisateur 
 OpenStreetMap et un mot de passe, vous savez naviguer sur le site d'OSM, et
 vous savez comment on peut ajouter des informations à la carte.
 
-Dans le chapitre suivant, on va installer un éditeur pour OpenStreetMap, appelé
-JOSM, et apprendre comment tracer des cartes et ajouter des lieux sur la carte.
+Dans le chapitre suivant, on va installer sur notre ordinateur un éditeur pour OpenStreetMap, appelé
+JOSM, et apprendre comment tracer des objets et ajouter des lieux sur la carte.
