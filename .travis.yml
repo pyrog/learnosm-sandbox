@@ -4,6 +4,9 @@ install:
 before_script:
   - git config credential.helper "store --file=.git/credentials"
   - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+  - echo "token: ${GH_TOKEN}"
+  - echo "user: ${GH_USER}"
+  - echo "mel: ${GH_MAIL}"
 script: bundle exec rake site:deploy
 global:
   env:
