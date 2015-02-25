@@ -37,25 +37,25 @@
         
         
             
-              <a href="/learnosm-sandbox/bi/beginner/start-osm/">Bahasa Indonesia</a>
+              <a href="/learnosm-sandbox/bi/intermediate/tasking-manager/">Bahasa Indonesia</a>
             
             
              | 
         
             
-              <a href="/learnosm-sandbox/de/beginner/start-osm/">Deutsch</a>
+              <a href="/learnosm-sandbox/de/intermediate/tasking-manager/">Deutsch</a>
             
             
              | 
         
             
-              <a href="/learnosm-sandbox/en/beginner/start-osm/">English</a>
+              <a href="/learnosm-sandbox/en/intermediate/tasking-manager/">English</a>
             
             
              | 
         
             
-              <a href="/learnosm-sandbox/es/beginner/start-osm/">Español</a>
+              <a href="/learnosm-sandbox/es/intermediate/tasking-manager/">Español</a>
             
             
              | 
@@ -67,25 +67,25 @@
              | 
         
             
-              <a href="/learnosm-sandbox/hr/beginner/start-osm/">Hrvatski</a>
+              <a href="/learnosm-sandbox/hr/intermediate/tasking-manager/">Hrvatski</a>
             
             
              | 
         
             
-              <a href="/learnosm-sandbox/it/beginner/start-osm/">Italiano</a>
+              <a href="/learnosm-sandbox/it/intermediate/tasking-manager/">Italiano</a>
             
             
              | 
         
             
-              <a href="/learnosm-sandbox/pt/beginner/start-osm/">Português</a>
+              <a href="/learnosm-sandbox/pt/intermediate/tasking-manager/">Português</a>
             
             
              | 
         
             
-              <a href="/learnosm-sandbox/jp/beginner/start-osm/">日本語</a>
+              <a href="/learnosm-sandbox/jp/intermediate/tasking-manager/">日本語</a>
             
             
             
@@ -145,7 +145,7 @@
       </li>
     
       <li class='doc rounded'>
-        <a class='title  active' href="/learnosm-sandbox/fr/beginner/start-osm/">
+        <a class='title  ' href="/learnosm-sandbox/fr/beginner/start-osm/">
           <span>Introduction à OpenStreetMap.org</span>
         </a>
       </li>
@@ -326,161 +326,168 @@
 
 </div>
 <div class='doc-main doc cell5 padAll'>
-  <h1>Introduction à OpenStreetMap.org</h1>
-  <p>Dans ce chapitre, nous allons apprendre comment naviguer sur le site
-OpenStreetMap, consulter et imprimer des cartes, et se créer un compte
-utilisateur. Quand vous aurez votre nom d’utilisateur et votre mot de passe,
-vous pourrez commencer à ajouter vos premiers points sur la carte.</p>
+  <h1>Gestionnaire des Tâches</h1>
+  <h1 id="gestionnaire-de-tches-tasking-manager">Gestionnaire de Tâches (Tasking Manager)</h1>
 
-<p><img src="/learnosm-sandbox/images/website.png" alt="website" /></p>
+<h2 id="introduction">Introduction</h2>
 
-<h2 id="consulter-le-site-web-openstreetmap">Consulter le site web OpenStreetMap</h2>
+<p>Dans le chapitre précédent, nous avons exposé différentes approches de
+contrôle de qualité au service de la contribution à OpenStreetMap. Dans
+ce chapitre, nous allons focaliser sur le Gestionnaire des tâches de
+HOT. C’est un outil qui permet à plusieurs cartographes OSM de
+travailler de manière organisée pour cartographier une zone qui sera
+divisée selon une grille composée de cellules de plus petite taille
+appelées dalles.</p>
 
-<ul>
-  <li>Assurez-vous que votre ordinateur est allumé et que vous êtes 
-connecté à Internet.</li>
-  <li>Pour accéder au site OpenStreetMap, il faut utiliser votre navigateur 
-Internet. Démarrez votre navigateur — Firefox, Chrome, Opera, ou Internet
-Explorer.</li>
-  <li>Dans la barre d’adresse en haut de la fenêtre, copiez le texte suivant :
-www.openstreetmap.org</li>
-  <li>
-    <p>Quand la page aura fini de se charger, vous devriez voir quelque chose de 
-similaire à ceci :</p>
+<p>La coordination de plusieurs cartographes OSM impliqués dans des
+activités de cartographie terrain ou de cartographie à distance
+(utilisant de l’imagerie satellite ou important une base de données
+libres) a été un constant défi pour les membres du projet OpenStreetMap.
+A cet effet, HOT a développé un outil de gestion de tâches, le
+Gestionnaire des Tâches (Tasking Manager), qui permet à des
+administrateurs de définir des zones d’intérêt pour la cartographie OSM
+et de déléguer la réalisation du travail de tâches cartographiques aux
+contributeurs OSM. L’idée derrière cet outil est que pour cartographier
+une zone, une ville par exemple, deux groupes de cartographes OSM, l’un
+actif sur le terrain et l’autre à distance en utilisant l’imagerie
+satellite, pourraient disposer d’un outil qui créerait une grille
+couvrant toute la zone d’intérêt et constituée de plusieurs carrés
+appelés dalles. Les contributeurs pourraient alors sélectionner et
+réserver la dalle de la grille sur laquelle ils désireraient travailler.
+Une fois leurs tâches accomplies, ils pourraient alors indiquer le
+statut de leur dalle comme accomplie. Une équipe de
+plusieurs personnes peut ainsi travailler ensemble pour cartographier
+l’ensemble de la grille. Lors de l’activation humanitaire pour le typhon
+Haiyan aux Philippines en novembre 2013, des contributeurs de 82 pays
+ont pu ainsi travailler simultanément et coordonner leurs efforts tout
+en évitant de créer des conflits d’édition lorsque plus d’une personne
+édite dans une zone.</p>
 
-    <p><img src="/learnosm-sandbox/images/osm-website-main-functions.png" alt="Page de bienvenue du Site OpenStreetMap" /></p>
-  </li>
-</ul>
+<p>Nous allons voir comment utiliser le Gestionnaire des Tâches (GT).</p>
 
-<h2 id="naviguer-sur-la-carte">Naviguer sur la carte</h2>
+<p>Ouvrez votre navigateur et allez à
+l’adresse [](http://tasks.hotosm.org)<a href="http://tasks.hotosm.org">tasks.hotosm.org</a>.
+Vous verrez une page comme celle-ci :<img src="/learnosm-sandbox/images/fr/0300-12-26-tasking-manager/image03.png" alt="image" /></p>
 
-<ul>
-  <li>Vous devez maintenant voir une grande carte. Pour bouger la carte, faites un
-clic gauche en le maintenant appuyé, puis déplacez votre souris (voir 
-l’image ci-dessous).</li>
-  <li>Si votre souris a une molette, vous pouvez l’utiliser pour zoomer. Sinon,
-vous pouvez utiliser les boutons «+» et «-», dans le coin en haut à gauche
-de la carte (voir l’image ci-dessus).</li>
-  <li>
-    <p>Pour rechercher un lieu, cliquez dans la boîte libellée «Recherche» sur la
-partie gauche de la page (voir la figure ci-dessus). Tapez le nom de votre
-ville ou village et appuyez sur «Entrée». Une nouvelle fenêtre devrait
-apparaître sur la partie gauche de la carte avec les résultats de votre
-recherche. Cliquez sur le lieu qui vous semble la meilleure réponse. La
-carte va automatiquement se déplacer jusqu’au lieu choisi.</p>
+<p>Cliquez sur “Connectez-vous en utilisant votre compte OpenStreetMap”
+(Log in using your OpenStreetMap account).</p>
 
-    <p><img src="/learnosm-sandbox/images/mouse-navigation.png" alt="Navigation avec la souris" /></p>
-  </li>
-</ul>
+<p>Acceptez que l’application puisse accéder à votre compte OpenStreetMap
+en cliquant sur “Enregistrer les modifications” (Save Changes)</p>
 
-<h2 id="sauvegarder-une-image-de-la-carte">Sauvegarder une image de la carte</h2>
+<p><img src="/learnosm-sandbox/images/fr/0300-12-26-tasking-manager/image08.png" alt="image" /></p>
 
-<p>Pour enregistrer une image d’OpenStreetMap que vous puissiez facilement
-imprimer, suivez ces instructions:</p>
+<p>La liste des projets en cours va alors s’afficher. Ce sont les
+différentes zones d’intérêt de par le monde où des activités de
+cartographie sont coordonnées avec le Gestionnaire de Tâches de HOT. Il
+est possible d’y visualiser tous les projets ou de n’afficher que ceux
+prioritaires (le terme Featured est utilisé dans le Gestionnaire de
+tâches lorsque l’interface est en anglais).</p>
 
-<p><img src="/learnosm-sandbox/images/start_export.png" alt="Exporter une carte" /></p>
-
-<ul>
-  <li>Cliquez sur l’onglet «Exporter», juste au-dessus de la carte. Une nouvelle
-fenêtre va apparaître à côté de la carte.</li>
-  <li>Dans cette nouvelle fenêtre, assurez-vous que la case est cochée à côté de
-«Image de carte».</li>
-  <li>Cliquez sur le bouton «Exporter», en bas de la nouvelle fenêtre. Un
-téléchargement devrait commencer. Sauvegarder le fichier sur votre
-ordinateur.</li>
-  <li>Vous pouvez ouvrir le fichier. Si vous souhaitez l’imprimer, il suffit de
-cliquer sur «Imprimer» dans le menu «Fichier», après avoir connecté votre
-ordinateur à une imprimante.</li>
-</ul>
-
-<h2 id="crer-votre-compte-openstreetmap">Créer votre compte OpenStreetMap</h2>
-
-<p>Maintenant que vous savez à quoi ressemble le site principal, il est temps de
-vous créer un compte et de faire vos premiers ajouts à la carte.</p>
+<p><img src="/learnosm-sandbox/images/fr/0300-12-26-tasking-manager/image06.png" alt="image" /></p>
 
 <ul>
-  <li>Retournez sur le site OpenStreetMap.org. Cliquez sur «S’inscrire» dans le
-coin en haut à droite de la page.</li>
-  <li>
-    <p>Une nouvelle page devrait s’ouvrir, ressemblant à ça:</p>
-
-    <p><img src="/learnosm-sandbox/images/start_register.png" alt="S'inscrire sur OpenStreetMap" /></p>
-  </li>
-  <li>Il y a cinq champs à remplir dans cette page pour pouvoir créer votre
-compte.</li>
-  <li>Renseignez votre courriel dans les deux premiers champs. Faites attention de
-renseigner la même adresse dans les deux champs. Il faudra tout à l’heure
-pouvoir relever vos courriels pour confirmer la création du compte.</li>
-  <li>Dans le troisième champ, entrez le nom d’utilisateur que vous souhaiteriez.
-Il n’est pas possible d’utiliser le nom d’un utilisateur qui existe déjà,
-tâchez donc d’être créatif. Si vous entrez quelque chose de trop simple,
-par exemple votre prénom, il est fort probable qu’il soit déjà utilisé.</li>
-  <li>Entrez un mot de passe dans les quatrième et cinquième champs. Veillez à
-entrer deux fois le même mot de passe. Il est conseillé de ne pas utiliser
-le même mot de passe que pour votre compte courriel.</li>
-  <li>Veillez à vous souvenir de votre nom d’utilisateur et de votre mot de passe,
-ils vous seront demandés plus tard pour vous identifier.</li>
-  <li>Quand vous avez renseigné les cinq champs, cliquez sur «Continuer» en bas de
-la page.</li>
-  <li>Il est possible qu’un message d’erreur s’affiche. Par exemple si vous n’avez
-pas renseigné deux fois le même courriel, ou si vous n’avez renseigné deux
-fois le même mot de passe. Dans ce cas, vérifiez ce que vous avez entré. Si
-la troisième boîte est entourée de rouge, cela signifie que le nom
-d’utilisateur que vous avez renseigné est déjà utilisé. Choisissez-en un
-différent.</li>
-  <li>Vous devez maintenant accéder à votre boîte courriel. Notez bien que les
-identifiants de votre boîte courriel ne sont <strong>pas</strong> les mêmes que ceux
-d’OpenStreetMap.</li>
-  <li>
-    <p>Si la création de compte s’est bien déroulée, vous devriez avoir un courriel
-provenant d’OpenStreetMap dans votre boîte de réception. Ouvrez-le. Il
-devrait ressembler à l’image ci-dessous. Cliquez sur le lien surligné
-ci-dessous:</p>
-
-    <p><img src="/learnosm-sandbox/images/start_confirm.png" alt="Confirmez la création de votre compte OpenStreetMap" /></p>
-  </li>
-  <li>Un nouvel onglet ou une nouvelle fenêtre devrait s’ouvrir dans votre
-navigateur. Si c’est bien le cas et qu’il n’y a pas de message d’erreur,
-vous avez maintenant un compte OpenStreetMap!</li>
-  <li>Revenez sur la page OpenStreetMap, et cliquez sur «Connexion» dans le coin
-en haut à droite. Entrez votre nom d’utilisateur OpenStreetMap ainsi que
-votre mot de passe, et appuyez sur «Entrée». Vous devriez maintenant être
-identifié. Si c’est bien le cas, vous devez voir votre nom d’utilisateur
-dans le coin en haut à droite de la page.</li>
+  <li>Cliquez sur le nom d’un projet pour obtenir plus d’informations.</li>
 </ul>
 
-<h2 id="ajouter-vos-premiers-points">Ajouter vos premiers points</h2>
+<p><img src="/learnosm-sandbox/images/fr/0300-12-26-tasking-manager/image01.png" alt="image" /></p>
 
-<p>Maintenant que vous êtes identifié avec votre nom d’utilisateur sur le site
-d’OpenStreetMap, vous pouvez utiliser l’éditeur Potlatch pour ajouter vos
-premiers points sur la carte.</p>
+<p>S’ouvre une page qui présente tout ce que vous devez savoir à propos du
+projet sélectionné. Sur le côté gauche de la page, l’onglet
+“Description” présente le projet et l’organisation du travail
+cartographique qu’il engage. Les autres onglets vous fournissent des
+informations contextuelles plus précises. La moitié droite de la page
+est consacrée à une interface cartographique qui montre la zone à
+cartographier divisée en dalles de couleurs différentes :</p>
 
 <ul>
-  <li>Déplacez la carte sur un lieu que vous connaissez très bien, par exemple
-votre ville ou votre village.</li>
-  <li>Zoomez jusqu’à un endroit où vous voudriez ajouter un point sur la carte.</li>
-  <li>Juste au-dessus de la carte, sur la gauche, il y a un onglet «Modifier».
-Cliquez dessus. Un menu devrait apparaître.</li>
-  <li>Cliquez sur «Éditer avec Potlatch 2».</li>
-  <li>L’éditeur en ligne devrait se lancer. Si un message s’affiche, cliquez sur
-«OK».</li>
-  <li>Vous pouvez ajouter un point sur la carte en cliquant sur un icône sur la
-gauche et en le faisant glisser jusqu’à la bonne position sur la carte.
-Quand vous avez ajouté le point et que vous êtes sûr qu’il est à la bonne
-place, cliquez sur «Enregistrer», dans le coin en haut à gauche.</li>
-  <li>IMPORTANT: si vous n’êtes pas sûr de la précision du point que vous avez
-ajouté, ne cliquez pas sur «Enregistrer» ! Amusez-vous à tester Potlatch,
-mais ne sauvez pas vos modifications.</li>
+  <li>Le rouge indique les dalles pour lesquelles le travail a été achevé,</li>
+  <li>Le vert signale celles pour lesquelles le travail a été achevé et
+contrôlé (par un cartographe OSM avancé)</li>
+  <li>le gris enfin signale les dalles qui restent à cartographier ou pour
+lesquelles un travail est en cours, lorsqu’elles sont marquées par
+un contour orange</li>
 </ul>
 
-<h2 id="en-rsum">En résumé</h2>
+<p>L’onglet “Flux de travail” (Workflow), détaille aux contributeurs la
+méthodologie requise pour la réalisation du travail cartographique dans
+un éditeur tel que ID ou JOSM. L’onglet “Tâche” (Task) permet au
+contributeur de sélectionner une dalle de la grille qui lui sera
+réservée pendant cent vingt minutes pour y travailler. Il est également
+possible de s’en faire attribuer une au hasard par l’outil en cliquant
+sur Take a task.</p>
 
-<p>Bravo ! Si tout s’est bien passé, vous avez maintenant un nom d’utilisateur 
-OpenStreetMap et un mot de passe, vous savez naviguer sur le site d’OSM, et
-vous savez comment on peut ajouter des informations à la carte.</p>
+<p><img src="/learnosm-sandbox/images/fr/0300-12-26-tasking-manager/image00.png" alt="image" /></p>
 
-<p>Dans le chapitre suivant, on va installer sur notre ordinateur un éditeur pour OpenStreetMap, appelé
-JOSM, et apprendre comment tracer des objets et ajouter des lieux sur la carte.</p>
+<p>La dalle située au centre de la carte avec un contour orange correspond
+à la zone à cartographier que vous avez sélectionnée ou qui vous a été
+attribuée par l’outil. Vous pouvez l’ouvrir dans JOSM ou ID ou encore
+créer une carte scannée (“Walking Paper”) correspondant à son emprise
+spatiale.</p>
+
+<p>Le bouton JOSM vous permet de communiquer avec JOSM et d’y transférer
+les données OSM de la dalle. Pour que cela fonctionne, assurez-vous
+d’abord que le paramètre “Contrôle à distance” de JOSM est activé. Pour
+ce faire, ouvrez JOSM et rendez-vous dans menu Modifier –&gt;
+Préférences. Cliquez sur l’onglet “Contrôle à distance” et cochez la
+case “Activer le contrôle à distance” comme indiqué ci-dessous.</p>
+
+<p><img src="/learnosm-sandbox/images/fr/0300-12-26-tasking-manager/image07.png" alt="image" /></p>
+
+<p>Cliquez sur OJ puis redémarrez JOSM.</p>
+
+<p>Revenez vers le GT et choisissez JOSM. Si vous avez JOSM ouvert et que
+vous avez bien activé le contrôle à distance, la donnée OSM
+correspondant à votre dalle sera automatiquement chargée sous forme d’un
+calque dans JOSM.</p>
+
+<p>Vous pouvez maintenant éditer cette zone en suivant les instructions des
+onglets Description et Workflow du GT relatives à ce projet.</p>
+
+<p>Pour bien se coordonner avec les autres collaborateurs, une fois cette
+tâche achevée, retournez sur le site du GT pour ajouter d’éventuels
+commentaires à vos modifications dans la zone et signaler que cette
+tâche est terminée. Cliquez sur “Mark task as done” qui signifie que la
+tâche est complétée. Les autres collaborateurs sont ainsi en mesure de
+savoir que vous avez terminé cette dalle de la grille.</p>
+
+<p>Si vous n’êtes pas en mesure de compléter votre tâche (et de
+cartographier toute la dalle), retournez au GT et cliquez sur “Unlock
+it” pour que la tâche soit de nouveau disponible pour d’autres
+contributeurs.</p>
+
+<p>Si vous n’êtes pas en mesure de compléter votre tâche (et de
+cartographier toute la dalle), retournez au GT et cliquez sur “Unlock
+it” pour que la tâche soit de nouveau disponible pour d’autres
+contributeurs.<img src="/learnosm-sandbox/images/fr/0300-12-26-tasking-manager/image04.png" alt="image" /></p>
+
+<p>Si vous n’êtes pas en mesure de compléter votre tâche (et de
+cartographier toute la dalle), retournez au GT et cliquez sur “Unlock
+it” pour que la tâche soit de nouveau disponible pour d’autres
+contributeurs. Si la tâche à accomplir dépasse le temps que vous pouvez
+y consacrer, il est possible de la diviser par quatre en cliquant sur
+<img src="/learnosm-sandbox/images/fr/0300-12-26-tasking-manager/image05.png" alt="image" />.</p>
+
+<ul>
+  <li>Sitôt une tâche marquée comme achevée (“Task marked as done”), elle
+apparaît en couleur rouge dans la grille de l’interface
+cartographique indiquant par là que le travail a été réalisé.</li>
+  <li>Un contributeur plus avancé pourra alors procéder à une validation
+de votre travail en utilisant le GT. Il sélectionnera une dalle
+cartographiée de couleur rouge (en l’occurrence la vôtre), l’ouvrira
+dans JOSM où il utilisera des outils de validation. Une fois cela
+fait, il retournera dans le GT validera cette dalle en cliquant sur
+“Validez cette tâche” (“Validate Task”). La dalle revêtira alors une
+couleur verte indiquant à tous que le travail cartographique requis
+par le projet a bien été réalisé pour cette dalle.</li>
+</ul>
+
+<h2 id="rsum-">Résumé :</h2>
+
+<p>Le gestionnaire des tâches est très utile pour cartographier rapidement,
+à plusieurs et de façon coordonnée une zone d’intérêt tout en assurant
+l’exhaustivité et la qualité des données produites, en évitant des
+phénomènes de duplication.</p>
 
   
   

@@ -98,6 +98,15 @@
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
     {
       "label"    : "",
       "url"     : ""
@@ -108,6 +117,15 @@
 {
   "lang":"de",
   "chapters":[
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -229,6 +247,9 @@
 	
 	
 	
+	
+	
+	
     {
       "label"    : "Help improve our guides",
       "url"     : "/learnosm-sandbox/en/contribute/"
@@ -237,13 +258,13 @@
 	
 	
 	
-	
-	
-	
     {
       "label"    : "Contributing to LearnOSM",
       "url"     : "/learnosm-sandbox/en/contributing/"
     },
+	
+	
+	
 	
 	
 	
@@ -281,10 +302,16 @@
 	
 	
 	
+	
+	
+	
     {
       "label"    : "Detailed Editing",
       "url"     : "/learnosm-sandbox/en/editing/"
     },
+	
+	
+	
 	
 	
 	
@@ -305,19 +332,13 @@
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
     {
       "label"    : "Introduction",
       "url"     : "/learnosm-sandbox/en/beginner/introduction/"
     },
+	
+	
+	
 	
 	
 	
@@ -340,6 +361,9 @@
       "label"    : "Further Reading",
       "url"     : "/learnosm-sandbox/en/beginner/moving-forward/"
     },
+	
+	
+	
 	
 	
 	
@@ -377,13 +401,16 @@
 	
 	
 	
-	
-	
-	
     {
       "label"    : "Getting started on OpenStreetMap.org",
       "url"     : "/learnosm-sandbox/en/beginner/start-osm/"
     },
+	
+	
+	
+	
+	
+	
 	
 	
     {
@@ -396,6 +423,15 @@
 {
   "lang":"es",
   "chapters":[
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -517,9 +553,6 @@
 	
 	
 	
-	
-	
-	
     {
       "label"    : "Contribute",
       "url"     : "/learnosm-sandbox/fr/contribute/"
@@ -527,6 +560,17 @@
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+    {
+      "label"    : "Edition avancée",
+      "url"     : "/learnosm-sandbox/fr/intermediate/edit-in-detail-osm/"
+    },
 	
 	
 	
@@ -559,8 +603,10 @@
 	
 	
 	
-	
-	
+    {
+      "label"    : "Guide du débutant",
+      "url"     : "/learnosm-sandbox/fr/beginner/"
+    },
 	
 	
 	
@@ -576,10 +622,11 @@
 	
 	
 	
-    {
-      "label"    : "Guide du débutant",
-      "url"     : "/learnosm-sandbox/fr/beginner/"
-    },
+	
+	
+	
+	
+	
 	
 	
 	
@@ -588,9 +635,6 @@
       "label"    : "Introduction",
       "url"     : "/learnosm-sandbox/fr/beginner/introduction/"
     },
-	
-	
-	
 	
 	
 	
@@ -617,12 +661,20 @@
 	
 	
 	
+    {
+      "label"    : "Étude de terrain avec les Field Papers",
+      "url"     : "/learnosm-sandbox/fr/beginner/papers/"
+    },
+	
+	
+	
+	
 	
 	
 	
     {
-      "label"    : "Étude de terrain avec les Field Papers",
-      "url"     : "/learnosm-sandbox/fr/beginner/papers/"
+      "label"    : "Assurance qualité",
+      "url"     : "/learnosm-sandbox/fr/intermediate/quality-assurance/"
     },
 	
 	
@@ -645,6 +697,9 @@
 	
 	
 	
+	
+	
+	
     {
       "label"    : "Introduction à OpenStreetMap.org",
       "url"     : "/learnosm-sandbox/fr/beginner/start-osm/"
@@ -652,6 +707,11 @@
 	
 	
 	
+	
+    {
+      "label"    : "Gestionnaire des Tâches",
+      "url"     : "/learnosm-sandbox/fr/intermediate/tasking-manager/"
+    },
 	
 	
     {
@@ -664,6 +724,15 @@
 {
   "lang":"hr",
   "chapters":[
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -862,6 +931,15 @@
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
     {
       "label"    : "",
       "url"     : ""
@@ -966,6 +1044,15 @@
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
     {
       "label"    : "",
       "url"     : ""
@@ -976,6 +1063,15 @@
 {
   "lang":"pt",
   "chapters":[
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
